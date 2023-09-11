@@ -1,0 +1,35 @@
+[INFO][0][<module>] Linux derecho6 5.14.21-150400.24.18-default #1 SMP PREEMPT_DYNAMIC Thu Aug 4 14:17:48 UTC 2022 (e9f7bfc) x86_64 x86_64
+[INFO][0][<module>] /glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB (2.7)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/numpy (1.23.5)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/matplotlib (3.6.3)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/netCDF4 (1.6.2)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/cf_units (3.1.1)
+[INFO][0][<module>] /glade/u/home/rfisher/.local/lib/python3.9/site-packages/sympy (1.12)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/mpi4py (3.1.4)
+[INFO][0][<module>] 2023-09-11 12:50:27.068128
+[INFO][0][MakeComparable][LeafAreaIndex/MODIS][RTM_ens36_case_0] Spatial data was clipped from the reference:  before: [ 72 360 720] after: [ 72 360 711]
+[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][0][confront][LeafAreaIndex/MODIS][RTM_ens36_case_0] Success
+[INFO][0][MakeComparable][LeafAreaIndex/MODIS][RTM_ens36_case_1] Spatial data was clipped from the reference:  before: [ 72 360 720] after: [ 72 360 711]
+[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][0][confront][LeafAreaIndex/MODIS][RTM_ens36_case_1] Success
+[INFO][0][MakeComparable][LeafAreaIndex/MODIS][RTM_ens36_case_2] Spatial data was clipped from the reference:  before: [ 72 360 720] after: [ 72 360 711]
+[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][0][confront][LeafAreaIndex/MODIS][RTM_ens36_case_2] Success
+[INFO][0][MakeComparable][LeafAreaIndex/MODIS][RTM_ens36_case_3] Spatial data was clipped from the reference:  before: [ 72 360 720] after: [ 72 360 711]
+[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][0][confront][LeafAreaIndex/MODIS][RTM_ens36_case_3] Success
+[INFO][0][MakeComparable][LeafAreaIndex/MODIS][RTM_ens36_case_4] Spatial data was clipped from the reference:  before: [ 72 360 720] after: [ 72 360 711]
+[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][0][confront][LeafAreaIndex/MODIS][RTM_ens36_case_4] Success
+[INFO][0][modelPlots][LeafAreaIndex/MODIS][RTM_ens36_case_0] Success
+[INFO][0][modelPlots][LeafAreaIndex/MODIS][RTM_ens36_case_1] Success
+[INFO][0][modelPlots][LeafAreaIndex/MODIS][RTM_ens36_case_2] Success
+[INFO][0][modelPlots][LeafAreaIndex/MODIS][RTM_ens36_case_3] Success
+[INFO][0][modelPlots][LeafAreaIndex/MODIS][RTM_ens36_case_4] Success
+[INFO][0][<module>][total time] 928.3 s
