@@ -1,0 +1,48 @@
+[INFO][0][<module>] Linux dec2247 5.14.21-150400.24.46_12.0.73-cray_shasta_c #1 SMP Thu May 18 23:03:34 UTC 2023 (9c4698c) x86_64 x86_64
+[INFO][0][<module>] /glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB (2.7)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/numpy (1.23.5)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/matplotlib (3.6.3)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/netCDF4 (1.6.2)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/cf_units (3.1.1)
+[INFO][0][<module>] /glade/u/home/rfisher/.local/lib/python3.9/site-packages/sympy (1.12)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/mpi4py (3.1.4)
+[INFO][0][<module>] 2023-09-07 08:20:10.087850
+[INFO][0][MakeComparable][Evapotranspiration/GLEAM][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [384 360 720] after: [384 360 711]
+[DEBUG][0][WorkConfront][Evapotranspiration/GLEAM][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/1c8cfbc3-8358-4592-a86e-059dbf0afbc7/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/Evapotranspiration/GLEAM/GLEAM_RTM_ens37_case_0.nc'
+
+[INFO][0][MakeComparable][Evapotranspiration/GLEAM][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [384 360 720] after: [384 360 711]
+[DEBUG][0][WorkConfront][Evapotranspiration/GLEAM][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/1c8cfbc3-8358-4592-a86e-059dbf0afbc7/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/Evapotranspiration/GLEAM/GLEAM_RTM_ens37_case_1.nc'
+
+[INFO][0][MakeComparable][Evapotranspiration/GLEAM][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [384 360 720] after: [384 360 711]
+[DEBUG][0][WorkConfront][Evapotranspiration/GLEAM][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/1c8cfbc3-8358-4592-a86e-059dbf0afbc7/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/Evapotranspiration/GLEAM/GLEAM_RTM_ens37_case_2.nc'
+

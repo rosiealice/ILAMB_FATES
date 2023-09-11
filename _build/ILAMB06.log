@@ -1,0 +1,1880 @@
+[INFO][0][<module>] Linux dec0015 5.14.21-150400.24.46_12.0.73-cray_shasta_c #1 SMP Thu May 18 23:03:34 UTC 2023 (9c4698c) x86_64 x86_64
+[INFO][0][<module>] /glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB (2.7)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/numpy (1.23.5)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/matplotlib (3.6.3)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/netCDF4 (1.6.2)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/cf_units (3.1.1)
+[INFO][0][<module>] /glade/u/home/rfisher/.local/lib/python3.9/site-packages/sympy (1.12)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/mpi4py (3.1.4)
+[INFO][0][<module>] 2023-09-07 02:29:25.424072
+[INFO][0][MakeComparable][Biomass/GlobalCarbon][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 360 711]
+[DEBUG][0][WorkConfront][Biomass/GlobalCarbon][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/Biomass/GlobalCarbon/GlobalCarbon_RTM_ens37_case_1.nc'
+
+[INFO][0][MakeComparable][Biomass/GlobalCarbon][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 360 711]
+[DEBUG][0][WorkConfront][Biomass/GlobalCarbon][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/Biomass/GlobalCarbon/GlobalCarbon_RTM_ens37_case_2.nc'
+
+[INFO][0][MakeComparable][Biomass/NBCD2000][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 360 711]
+[DEBUG][0][WorkConfront][Biomass/NBCD2000][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/Biomass/NBCD2000/NBCD2000_RTM_ens37_case_0.nc'
+
+[INFO][0][MakeComparable][Biomass/NBCD2000][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 360 711]
+[DEBUG][0][WorkConfront][Biomass/NBCD2000][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/Biomass/NBCD2000/NBCD2000_RTM_ens37_case_1.nc'
+
+[INFO][0][MakeComparable][Biomass/NBCD2000][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 360 711]
+[DEBUG][0][WorkConfront][Biomass/NBCD2000][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/Biomass/NBCD2000/NBCD2000_RTM_ens37_case_2.nc'
+
+[INFO][0][MakeComparable][Biomass/USForest][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 360 711]
+[DEBUG][0][WorkConfront][Biomass/USForest][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/Biomass/USForest/USForest_RTM_ens37_case_0.nc'
+
+[INFO][0][MakeComparable][Biomass/USForest][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 360 711]
+[DEBUG][0][WorkConfront][Biomass/USForest][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/Biomass/USForest/USForest_RTM_ens37_case_1.nc'
+
+[INFO][0][MakeComparable][Biomass/USForest][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 360 711]
+[DEBUG][0][WorkConfront][Biomass/USForest][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/Biomass/USForest/USForest_RTM_ens37_case_2.nc'
+
+[INFO][0][MakeComparable][Biomass/Thurner][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 360 711]
+[DEBUG][0][WorkConfront][Biomass/Thurner][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/Biomass/Thurner/Thurner_RTM_ens37_case_0.nc'
+
+[INFO][0][MakeComparable][Biomass/Thurner][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 360 711]
+[DEBUG][0][WorkConfront][Biomass/Thurner][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/Biomass/Thurner/Thurner_RTM_ens37_case_1.nc'
+
+[INFO][0][MakeComparable][Biomass/Thurner][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 360 711]
+[DEBUG][0][WorkConfront][Biomass/Thurner][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/Biomass/Thurner/Thurner_RTM_ens37_case_2.nc'
+
+[INFO][0][MakeComparable][Biomass/ESACCI][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [  1 281 721] after: [  1 281 711]
+[INFO][0][MakeComparable][Biomass/ESACCI][RTM_ens37_case_0] Spatial data was clipped from the comparison:  before: [12 46 72] after: [12 36 72]
+[DEBUG][0][WorkConfront][Biomass/ESACCI][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/Biomass/ESACCI/ESACCI_RTM_ens37_case_0.nc'
+
+[INFO][0][MakeComparable][Biomass/ESACCI][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [  1 281 721] after: [  1 281 711]
+[INFO][0][MakeComparable][Biomass/ESACCI][RTM_ens37_case_1] Spatial data was clipped from the comparison:  before: [12 46 72] after: [12 36 72]
+[DEBUG][0][WorkConfront][Biomass/ESACCI][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/Biomass/ESACCI/ESACCI_RTM_ens37_case_1.nc'
+
+[INFO][0][MakeComparable][Biomass/ESACCI][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [  1 281 721] after: [  1 281 711]
+[INFO][0][MakeComparable][Biomass/ESACCI][RTM_ens37_case_2] Spatial data was clipped from the comparison:  before: [12 46 72] after: [12 36 72]
+[DEBUG][0][WorkConfront][Biomass/ESACCI][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/Biomass/ESACCI/ESACCI_RTM_ens37_case_2.nc'
+
+[DEBUG][0][WorkConfront][GrossPrimaryProductivity/FLUXNET2015][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/GrossPrimaryProductivity/FLUXNET2015/FLUXNET2015_RTM_ens37_case_0.nc'
+
+[DEBUG][0][WorkConfront][GrossPrimaryProductivity/FLUXNET2015][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/GrossPrimaryProductivity/FLUXNET2015/FLUXNET2015_RTM_ens37_case_1.nc'
+
+[DEBUG][0][WorkConfront][GrossPrimaryProductivity/FLUXNET2015][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/GrossPrimaryProductivity/FLUXNET2015/FLUXNET2015_RTM_ens37_case_2.nc'
+
+[INFO][0][MakeComparable][GrossPrimaryProductivity/FLUXCOM][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 360 711]
+[DEBUG][0][WorkConfront][GrossPrimaryProductivity/FLUXCOM][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/GrossPrimaryProductivity/FLUXCOM/FLUXCOM_RTM_ens37_case_0.nc'
+
+[INFO][0][MakeComparable][GrossPrimaryProductivity/FLUXCOM][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 360 711]
+[DEBUG][0][WorkConfront][GrossPrimaryProductivity/FLUXCOM][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/GrossPrimaryProductivity/FLUXCOM/FLUXCOM_RTM_ens37_case_1.nc'
+
+[INFO][0][MakeComparable][GrossPrimaryProductivity/FLUXCOM][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 360 711]
+[DEBUG][0][WorkConfront][GrossPrimaryProductivity/FLUXCOM][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/GrossPrimaryProductivity/FLUXCOM/FLUXCOM_RTM_ens37_case_2.nc'
+
+[INFO][0][MakeComparable][GrossPrimaryProductivity/WECANN][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [108 180 360] after: [108 180 356]
+[DEBUG][0][WorkConfront][GrossPrimaryProductivity/WECANN][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/GrossPrimaryProductivity/WECANN/WECANN_RTM_ens37_case_0.nc'
+
+[INFO][0][MakeComparable][GrossPrimaryProductivity/WECANN][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [108 180 360] after: [108 180 356]
+[DEBUG][0][WorkConfront][GrossPrimaryProductivity/WECANN][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/GrossPrimaryProductivity/WECANN/WECANN_RTM_ens37_case_1.nc'
+
+[INFO][0][MakeComparable][GrossPrimaryProductivity/WECANN][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [108 180 360] after: [108 180 356]
+[DEBUG][0][WorkConfront][GrossPrimaryProductivity/WECANN][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/GrossPrimaryProductivity/WECANN/WECANN_RTM_ens37_case_2.nc'
+
+[INFO][0][MakeComparable][LeafAreaIndex/AVHRR][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [348 360 720] after: [348 360 711]
+[DEBUG][0][WorkConfront][LeafAreaIndex/AVHRR][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/LeafAreaIndex/AVHRR/AVHRR_RTM_ens37_case_0.nc'
+
+[INFO][0][MakeComparable][LeafAreaIndex/AVHRR][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [348 360 720] after: [348 360 711]
+[DEBUG][0][WorkConfront][LeafAreaIndex/AVHRR][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/LeafAreaIndex/AVHRR/AVHRR_RTM_ens37_case_1.nc'
+
+[INFO][0][MakeComparable][LeafAreaIndex/AVHRR][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [348 360 720] after: [348 360 711]
+[DEBUG][0][WorkConfront][LeafAreaIndex/AVHRR][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/LeafAreaIndex/AVHRR/AVHRR_RTM_ens37_case_2.nc'
+
+[INFO][0][MakeComparable][LeafAreaIndex/AVH15C1][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [468 360 720] after: [468 360 711]
+[DEBUG][0][WorkConfront][LeafAreaIndex/AVH15C1][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/LeafAreaIndex/AVH15C1/AVH15C1_RTM_ens37_case_0.nc'
+
+[INFO][0][MakeComparable][LeafAreaIndex/AVH15C1][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [468 360 720] after: [468 360 711]
+[DEBUG][0][WorkConfront][LeafAreaIndex/AVH15C1][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/LeafAreaIndex/AVH15C1/AVH15C1_RTM_ens37_case_1.nc'
+
+[INFO][0][MakeComparable][LeafAreaIndex/AVH15C1][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [468 360 720] after: [468 360 711]
+[DEBUG][0][WorkConfront][LeafAreaIndex/AVH15C1][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/LeafAreaIndex/AVH15C1/AVH15C1_RTM_ens37_case_2.nc'
+
+[INFO][0][MakeComparable][LeafAreaIndex/MODIS][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [ 72 360 720] after: [ 72 360 711]
+[DEBUG][0][WorkConfront][LeafAreaIndex/MODIS][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/LeafAreaIndex/MODIS/MODIS_RTM_ens37_case_0.nc'
+
+[INFO][0][MakeComparable][LeafAreaIndex/MODIS][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [ 72 360 720] after: [ 72 360 711]
+[DEBUG][0][WorkConfront][LeafAreaIndex/MODIS][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/LeafAreaIndex/MODIS/MODIS_RTM_ens37_case_1.nc'
+
+[INFO][0][MakeComparable][LeafAreaIndex/MODIS][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [ 72 360 720] after: [ 72 360 711]
+[DEBUG][0][WorkConfront][LeafAreaIndex/MODIS][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/LeafAreaIndex/MODIS/MODIS_RTM_ens37_case_2.nc'
+
+[DEBUG][0][WorkConfront][NetEcosystemExchange/FLUXNET2015][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/NetEcosystemExchange/FLUXNET2015/FLUXNET2015_RTM_ens37_case_0.nc'
+
+[DEBUG][0][WorkConfront][NetEcosystemExchange/FLUXNET2015][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/NetEcosystemExchange/FLUXNET2015/FLUXNET2015_RTM_ens37_case_1.nc'
+
+[DEBUG][0][WorkConfront][NetEcosystemExchange/FLUXNET2015][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/NetEcosystemExchange/FLUXNET2015/FLUXNET2015_RTM_ens37_case_2.nc'
+
+[DEBUG][0][WorkConfront][EcosystemRespiration/FLUXNET2015][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/EcosystemRespiration/FLUXNET2015/FLUXNET2015_RTM_ens37_case_0.nc'
+
+[DEBUG][0][WorkConfront][EcosystemRespiration/FLUXNET2015][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/EcosystemRespiration/FLUXNET2015/FLUXNET2015_RTM_ens37_case_1.nc'
+
+[DEBUG][0][WorkConfront][EcosystemRespiration/FLUXNET2015][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/EcosystemRespiration/FLUXNET2015/FLUXNET2015_RTM_ens37_case_2.nc'
+
+[INFO][0][MakeComparable][EcosystemRespiration/FLUXCOM][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 360 711]
+[DEBUG][0][WorkConfront][EcosystemRespiration/FLUXCOM][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/EcosystemRespiration/FLUXCOM/FLUXCOM_RTM_ens37_case_0.nc'
+
+[INFO][0][MakeComparable][EcosystemRespiration/FLUXCOM][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 360 711]
+[DEBUG][0][WorkConfront][EcosystemRespiration/FLUXCOM][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/EcosystemRespiration/FLUXCOM/FLUXCOM_RTM_ens37_case_1.nc'
+
+[INFO][0][MakeComparable][EcosystemRespiration/FLUXCOM][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 360 711]
+[DEBUG][0][WorkConfront][EcosystemRespiration/FLUXCOM][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/EcosystemandCarbonCycle/EcosystemRespiration/FLUXCOM/FLUXCOM_RTM_ens37_case_2.nc'
+
+[INFO][0][MakeComparable][Evapotranspiration/GLEAMv3.3a][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [468 360 720] after: [468 360 711]
+[DEBUG][0][WorkConfront][Evapotranspiration/GLEAMv3.3a][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/Evapotranspiration/GLEAMv3.3a/GLEAMv3.3a_RTM_ens37_case_0.nc'
+
+[INFO][0][MakeComparable][Evapotranspiration/GLEAMv3.3a][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [468 360 720] after: [468 360 711]
+[DEBUG][0][WorkConfront][Evapotranspiration/GLEAMv3.3a][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2750, in __enter__
+    self.obs_dset = Dataset(self.obs_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/Evapotranspiration/GLEAMv3.3a/GLEAMv3.3a_Benchmark.nc'
+
+[INFO][0][MakeComparable][Evapotranspiration/GLEAMv3.3a][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [468 360 720] after: [468 360 711]
+[DEBUG][0][WorkConfront][Evapotranspiration/GLEAMv3.3a][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/Evapotranspiration/GLEAMv3.3a/GLEAMv3.3a_RTM_ens37_case_2.nc'
+
+[INFO][0][MakeComparable][Evapotranspiration/MODIS][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [168 360 720] after: [168 360 711]
+[DEBUG][0][WorkConfront][Evapotranspiration/MODIS][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/Evapotranspiration/MODIS/MODIS_RTM_ens37_case_0.nc'
+
+[INFO][0][MakeComparable][Evapotranspiration/MODIS][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [168 360 720] after: [168 360 711]
+[DEBUG][0][WorkConfront][Evapotranspiration/MODIS][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/Evapotranspiration/MODIS/MODIS_RTM_ens37_case_1.nc'
+
+[INFO][0][MakeComparable][Evapotranspiration/MODIS][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [168 360 720] after: [168 360 711]
+[DEBUG][0][WorkConfront][Evapotranspiration/MODIS][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/Evapotranspiration/MODIS/MODIS_RTM_ens37_case_2.nc'
+
+[INFO][0][MakeComparable][Evapotranspiration/MOD16A2][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [180 360 720] after: [180 360 711]
+[DEBUG][0][WorkConfront][Evapotranspiration/MOD16A2][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/Evapotranspiration/MOD16A2/MOD16A2_RTM_ens37_case_0.nc'
+
+[INFO][0][MakeComparable][Evapotranspiration/MOD16A2][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [180 360 720] after: [180 360 711]
+[DEBUG][0][WorkConfront][Evapotranspiration/MOD16A2][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/Evapotranspiration/MOD16A2/MOD16A2_RTM_ens37_case_1.nc'
+
+[INFO][0][MakeComparable][Evapotranspiration/MOD16A2][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [180 360 720] after: [180 360 711]
+[DEBUG][0][WorkConfront][Evapotranspiration/MOD16A2][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/Evapotranspiration/MOD16A2/MOD16A2_RTM_ens37_case_2.nc'
+
+[DEBUG][0][WorkConfront][LatentHeat/FLUXNET2015][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/LatentHeat/FLUXNET2015/FLUXNET2015_RTM_ens37_case_0.nc'
+
+[DEBUG][0][WorkConfront][LatentHeat/FLUXNET2015][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/LatentHeat/FLUXNET2015/FLUXNET2015_RTM_ens37_case_1.nc'
+
+[DEBUG][0][WorkConfront][LatentHeat/FLUXNET2015][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/LatentHeat/FLUXNET2015/FLUXNET2015_RTM_ens37_case_2.nc'
+
+[INFO][0][MakeComparable][LatentHeat/FLUXCOM][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [420 360 720] after: [420 360 711]
+[DEBUG][0][WorkConfront][LatentHeat/FLUXCOM][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/LatentHeat/FLUXCOM/FLUXCOM_RTM_ens37_case_0.nc'
+
+[INFO][0][MakeComparable][LatentHeat/FLUXCOM][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [420 360 720] after: [420 360 711]
+[DEBUG][0][WorkConfront][LatentHeat/FLUXCOM][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/LatentHeat/FLUXCOM/FLUXCOM_RTM_ens37_case_1.nc'
+
+[INFO][0][MakeComparable][LatentHeat/FLUXCOM][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [420 360 720] after: [420 360 711]
+[DEBUG][0][WorkConfront][LatentHeat/FLUXCOM][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/LatentHeat/FLUXCOM/FLUXCOM_RTM_ens37_case_2.nc'
+
+[INFO][0][MakeComparable][LatentHeat/DOLCE][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [120 360 720] after: [120 360 711]
+[DEBUG][0][WorkConfront][LatentHeat/DOLCE][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/LatentHeat/DOLCE/DOLCE_RTM_ens37_case_0.nc'
+
+[INFO][0][MakeComparable][LatentHeat/DOLCE][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [120 360 720] after: [120 360 711]
+[DEBUG][0][WorkConfront][LatentHeat/DOLCE][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/LatentHeat/DOLCE/DOLCE_RTM_ens37_case_1.nc'
+
+[INFO][0][MakeComparable][LatentHeat/DOLCE][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [120 360 720] after: [120 360 711]
+[DEBUG][0][WorkConfront][LatentHeat/DOLCE][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/LatentHeat/DOLCE/DOLCE_RTM_ens37_case_2.nc'
+
+[INFO][0][MakeComparable][LatentHeat/CLASS][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 360 711]
+[DEBUG][0][WorkConfront][LatentHeat/CLASS][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/LatentHeat/CLASS/CLASS_RTM_ens37_case_0.nc'
+
+[INFO][0][MakeComparable][LatentHeat/CLASS][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 360 711]
+[DEBUG][0][WorkConfront][LatentHeat/CLASS][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/LatentHeat/CLASS/CLASS_RTM_ens37_case_1.nc'
+
+[INFO][0][MakeComparable][LatentHeat/CLASS][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 360 711]
+[DEBUG][0][WorkConfront][LatentHeat/CLASS][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/LatentHeat/CLASS/CLASS_RTM_ens37_case_2.nc'
+
+[INFO][0][MakeComparable][LatentHeat/WECANN][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [108 180 360] after: [108 180 356]
+[DEBUG][0][WorkConfront][LatentHeat/WECANN][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/LatentHeat/WECANN/WECANN_RTM_ens37_case_0.nc'
+
+[INFO][0][MakeComparable][LatentHeat/WECANN][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [108 180 360] after: [108 180 356]
+[DEBUG][0][WorkConfront][LatentHeat/WECANN][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/LatentHeat/WECANN/WECANN_RTM_ens37_case_1.nc'
+
+[INFO][0][MakeComparable][LatentHeat/WECANN][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [108 180 360] after: [108 180 356]
+[DEBUG][0][WorkConfront][LatentHeat/WECANN][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/LatentHeat/WECANN/WECANN_RTM_ens37_case_2.nc'
+
+[DEBUG][0][WorkConfront][SensibleHeat/FLUXNET2015][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/SensibleHeat/FLUXNET2015/FLUXNET2015_RTM_ens37_case_0.nc'
+
+[DEBUG][0][WorkConfront][SensibleHeat/FLUXNET2015][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/SensibleHeat/FLUXNET2015/FLUXNET2015_RTM_ens37_case_1.nc'
+
+[DEBUG][0][WorkConfront][SensibleHeat/FLUXNET2015][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/SensibleHeat/FLUXNET2015/FLUXNET2015_RTM_ens37_case_2.nc'
+
+[INFO][0][MakeComparable][SensibleHeat/FLUXCOM][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [420 360 720] after: [420 360 711]
+[DEBUG][0][WorkConfront][SensibleHeat/FLUXCOM][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/SensibleHeat/FLUXCOM/FLUXCOM_RTM_ens37_case_0.nc'
+
+[INFO][0][MakeComparable][SensibleHeat/FLUXCOM][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [420 360 720] after: [420 360 711]
+[DEBUG][0][WorkConfront][SensibleHeat/FLUXCOM][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/SensibleHeat/FLUXCOM/FLUXCOM_RTM_ens37_case_1.nc'
+
+[INFO][0][MakeComparable][SensibleHeat/FLUXCOM][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [420 360 720] after: [420 360 711]
+[DEBUG][0][WorkConfront][SensibleHeat/FLUXCOM][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/SensibleHeat/FLUXCOM/FLUXCOM_RTM_ens37_case_2.nc'
+
+[INFO][0][MakeComparable][SensibleHeat/CLASS][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 360 711]
+[DEBUG][0][WorkConfront][SensibleHeat/CLASS][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/SensibleHeat/CLASS/CLASS_RTM_ens37_case_0.nc'
+
+[INFO][0][MakeComparable][SensibleHeat/CLASS][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 360 711]
+[DEBUG][0][WorkConfront][SensibleHeat/CLASS][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/SensibleHeat/CLASS/CLASS_RTM_ens37_case_1.nc'
+
+[INFO][0][MakeComparable][SensibleHeat/CLASS][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 360 711]
+[DEBUG][0][WorkConfront][SensibleHeat/CLASS][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/SensibleHeat/CLASS/CLASS_RTM_ens37_case_2.nc'
+
+[INFO][0][MakeComparable][SensibleHeat/WECANN][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [108 180 360] after: [108 180 356]
+[DEBUG][0][WorkConfront][SensibleHeat/WECANN][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/SensibleHeat/WECANN/WECANN_RTM_ens37_case_0.nc'
+
+[INFO][0][MakeComparable][SensibleHeat/WECANN][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [108 180 360] after: [108 180 356]
+[DEBUG][0][WorkConfront][SensibleHeat/WECANN][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/SensibleHeat/WECANN/WECANN_RTM_ens37_case_1.nc'
+
+[INFO][0][MakeComparable][SensibleHeat/WECANN][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [108 180 360] after: [108 180 356]
+[DEBUG][0][WorkConfront][SensibleHeat/WECANN][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/HydrologyCycle/SensibleHeat/WECANN/WECANN_RTM_ens37_case_2.nc'
+
+[DEBUG][0][WorkConfront][Albedo/CERES][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ConfAlbedo.py", line 161, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/Albedo/CERES/CERES_RTM_ens37_case_0.nc'
+
+[DEBUG][0][WorkConfront][Albedo/CERES][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ConfAlbedo.py", line 161, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/Albedo/CERES/CERES_RTM_ens37_case_1.nc'
+
+[DEBUG][0][WorkConfront][Albedo/CERES][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ConfAlbedo.py", line 161, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/Albedo/CERES/CERES_RTM_ens37_case_2.nc'
+
+[DEBUG][0][WorkConfront][Albedo/GEWEX.SRB][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ConfAlbedo.py", line 161, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/Albedo/GEWEX.SRB/GEWEX.SRB_RTM_ens37_case_0.nc'
+
+[DEBUG][0][WorkConfront][Albedo/GEWEX.SRB][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ConfAlbedo.py", line 161, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/Albedo/GEWEX.SRB/GEWEX.SRB_RTM_ens37_case_1.nc'
+
+[DEBUG][0][WorkConfront][Albedo/GEWEX.SRB][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ConfAlbedo.py", line 161, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/Albedo/GEWEX.SRB/GEWEX.SRB_RTM_ens37_case_2.nc'
+
+[INFO][0][MakeComparable][SurfaceUpwardSWRadiation/CERESed4.1][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [228 360 720] after: [228 360 711]
+[DEBUG][0][WorkConfront][SurfaceUpwardSWRadiation/CERESed4.1][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceUpwardSWRadiation/CERESed4.1/CERESed4.1_RTM_ens37_case_0.nc'
+
+[INFO][0][MakeComparable][SurfaceUpwardSWRadiation/CERESed4.1][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [228 360 720] after: [228 360 711]
+[DEBUG][0][WorkConfront][SurfaceUpwardSWRadiation/CERESed4.1][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceUpwardSWRadiation/CERESed4.1/CERESed4.1_RTM_ens37_case_1.nc'
+
+[INFO][0][MakeComparable][SurfaceUpwardSWRadiation/CERESed4.1][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [228 360 720] after: [228 360 711]
+[DEBUG][0][WorkConfront][SurfaceUpwardSWRadiation/CERESed4.1][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceUpwardSWRadiation/CERESed4.1/CERESed4.1_RTM_ens37_case_2.nc'
+
+[DEBUG][0][WorkConfront][SurfaceUpwardSWRadiation/FLUXNET2015][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceUpwardSWRadiation/FLUXNET2015/FLUXNET2015_RTM_ens37_case_0.nc'
+
+[DEBUG][0][WorkConfront][SurfaceUpwardSWRadiation/FLUXNET2015][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceUpwardSWRadiation/FLUXNET2015/FLUXNET2015_RTM_ens37_case_1.nc'
+
+[DEBUG][0][WorkConfront][SurfaceUpwardSWRadiation/FLUXNET2015][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceUpwardSWRadiation/FLUXNET2015/FLUXNET2015_RTM_ens37_case_2.nc'
+
+[INFO][0][MakeComparable][SurfaceUpwardSWRadiation/GEWEX.SRB][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 360 711]
+[DEBUG][0][WorkConfront][SurfaceUpwardSWRadiation/GEWEX.SRB][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceUpwardSWRadiation/GEWEX.SRB/GEWEX.SRB_RTM_ens37_case_0.nc'
+
+[INFO][0][MakeComparable][SurfaceUpwardSWRadiation/GEWEX.SRB][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 360 711]
+[DEBUG][0][WorkConfront][SurfaceUpwardSWRadiation/GEWEX.SRB][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceUpwardSWRadiation/GEWEX.SRB/GEWEX.SRB_RTM_ens37_case_1.nc'
+
+[INFO][0][MakeComparable][SurfaceUpwardSWRadiation/GEWEX.SRB][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 360 711]
+[DEBUG][0][WorkConfront][SurfaceUpwardSWRadiation/GEWEX.SRB][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceUpwardSWRadiation/GEWEX.SRB/GEWEX.SRB_RTM_ens37_case_2.nc'
+
+[DEBUG][0][WorkConfront][SurfaceUpwardSWRadiation/WRMC.BSRN][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceUpwardSWRadiation/WRMC.BSRN/WRMC.BSRN_RTM_ens37_case_0.nc'
+
+[DEBUG][0][WorkConfront][SurfaceUpwardSWRadiation/WRMC.BSRN][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceUpwardSWRadiation/WRMC.BSRN/WRMC.BSRN_RTM_ens37_case_1.nc'
+
+[DEBUG][0][WorkConfront][SurfaceUpwardSWRadiation/WRMC.BSRN][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceUpwardSWRadiation/WRMC.BSRN/WRMC.BSRN_RTM_ens37_case_2.nc'
+
+[INFO][0][MakeComparable][SurfaceNetSWRadiation/CERESed4.1][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [228 360 720] after: [228 360 711]
+[DEBUG][0][WorkConfront][SurfaceNetSWRadiation/CERESed4.1][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetSWRadiation/CERESed4.1/CERESed4.1_RTM_ens37_case_0.nc'
+
+[INFO][0][MakeComparable][SurfaceNetSWRadiation/CERESed4.1][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [228 360 720] after: [228 360 711]
+[DEBUG][0][WorkConfront][SurfaceNetSWRadiation/CERESed4.1][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetSWRadiation/CERESed4.1/CERESed4.1_RTM_ens37_case_1.nc'
+
+[INFO][0][MakeComparable][SurfaceNetSWRadiation/CERESed4.1][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [228 360 720] after: [228 360 711]
+[DEBUG][0][WorkConfront][SurfaceNetSWRadiation/CERESed4.1][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetSWRadiation/CERESed4.1/CERESed4.1_RTM_ens37_case_2.nc'
+
+[DEBUG][0][WorkConfront][SurfaceNetSWRadiation/FLUXNET2015][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetSWRadiation/FLUXNET2015/FLUXNET2015_RTM_ens37_case_0.nc'
+
+[DEBUG][0][WorkConfront][SurfaceNetSWRadiation/FLUXNET2015][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetSWRadiation/FLUXNET2015/FLUXNET2015_RTM_ens37_case_1.nc'
+
+[DEBUG][0][WorkConfront][SurfaceNetSWRadiation/FLUXNET2015][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetSWRadiation/FLUXNET2015/FLUXNET2015_RTM_ens37_case_2.nc'
+
+[INFO][0][MakeComparable][SurfaceNetSWRadiation/GEWEX.SRB][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 360 711]
+[DEBUG][0][WorkConfront][SurfaceNetSWRadiation/GEWEX.SRB][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetSWRadiation/GEWEX.SRB/GEWEX.SRB_RTM_ens37_case_0.nc'
+
+[INFO][0][MakeComparable][SurfaceNetSWRadiation/GEWEX.SRB][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 360 711]
+[DEBUG][0][WorkConfront][SurfaceNetSWRadiation/GEWEX.SRB][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetSWRadiation/GEWEX.SRB/GEWEX.SRB_RTM_ens37_case_1.nc'
+
+[INFO][0][MakeComparable][SurfaceNetSWRadiation/GEWEX.SRB][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 360 711]
+[DEBUG][0][WorkConfront][SurfaceNetSWRadiation/GEWEX.SRB][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetSWRadiation/GEWEX.SRB/GEWEX.SRB_RTM_ens37_case_2.nc'
+
+[DEBUG][0][WorkConfront][SurfaceNetSWRadiation/WRMC.BSRN][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetSWRadiation/WRMC.BSRN/WRMC.BSRN_RTM_ens37_case_0.nc'
+
+[DEBUG][0][WorkConfront][SurfaceNetSWRadiation/WRMC.BSRN][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetSWRadiation/WRMC.BSRN/WRMC.BSRN_RTM_ens37_case_1.nc'
+
+[DEBUG][0][WorkConfront][SurfaceNetSWRadiation/WRMC.BSRN][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetSWRadiation/WRMC.BSRN/WRMC.BSRN_RTM_ens37_case_2.nc'
+
+[INFO][0][MakeComparable][SurfaceUpwardLWRadiation/CERESed4.1][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [228 360 720] after: [228 360 711]
+[DEBUG][0][WorkConfront][SurfaceUpwardLWRadiation/CERESed4.1][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceUpwardLWRadiation/CERESed4.1/CERESed4.1_RTM_ens37_case_0.nc'
+
+[INFO][0][MakeComparable][SurfaceUpwardLWRadiation/CERESed4.1][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [228 360 720] after: [228 360 711]
+[DEBUG][0][WorkConfront][SurfaceUpwardLWRadiation/CERESed4.1][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceUpwardLWRadiation/CERESed4.1/CERESed4.1_RTM_ens37_case_1.nc'
+
+[INFO][0][MakeComparable][SurfaceUpwardLWRadiation/CERESed4.1][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [228 360 720] after: [228 360 711]
+[DEBUG][0][WorkConfront][SurfaceUpwardLWRadiation/CERESed4.1][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceUpwardLWRadiation/CERESed4.1/CERESed4.1_RTM_ens37_case_2.nc'
+
+[DEBUG][0][WorkConfront][SurfaceUpwardLWRadiation/FLUXNET2015][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceUpwardLWRadiation/FLUXNET2015/FLUXNET2015_RTM_ens37_case_0.nc'
+
+[DEBUG][0][WorkConfront][SurfaceUpwardLWRadiation/FLUXNET2015][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceUpwardLWRadiation/FLUXNET2015/FLUXNET2015_RTM_ens37_case_1.nc'
+
+[DEBUG][0][WorkConfront][SurfaceUpwardLWRadiation/FLUXNET2015][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceUpwardLWRadiation/FLUXNET2015/FLUXNET2015_RTM_ens37_case_2.nc'
+
+[INFO][0][MakeComparable][SurfaceUpwardLWRadiation/GEWEX.SRB][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 360 711]
+[DEBUG][0][WorkConfront][SurfaceUpwardLWRadiation/GEWEX.SRB][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceUpwardLWRadiation/GEWEX.SRB/GEWEX.SRB_RTM_ens37_case_0.nc'
+
+[INFO][0][MakeComparable][SurfaceUpwardLWRadiation/GEWEX.SRB][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 360 711]
+[INFO][0][AnalysisMeanStateSpace][rlus] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][rlus] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceUpwardLWRadiation/GEWEX.SRB][RTM_ens37_case_1] Success
+[INFO][0][MakeComparable][SurfaceUpwardLWRadiation/GEWEX.SRB][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 360 711]
+[DEBUG][0][WorkConfront][SurfaceUpwardLWRadiation/GEWEX.SRB][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceUpwardLWRadiation/GEWEX.SRB/GEWEX.SRB_RTM_ens37_case_2.nc'
+
+[DEBUG][0][WorkConfront][SurfaceUpwardLWRadiation/WRMC.BSRN][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceUpwardLWRadiation/WRMC.BSRN/WRMC.BSRN_RTM_ens37_case_0.nc'
+
+[DEBUG][0][WorkConfront][SurfaceUpwardLWRadiation/WRMC.BSRN][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceUpwardLWRadiation/WRMC.BSRN/WRMC.BSRN_RTM_ens37_case_1.nc'
+
+[DEBUG][0][WorkConfront][SurfaceUpwardLWRadiation/WRMC.BSRN][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceUpwardLWRadiation/WRMC.BSRN/WRMC.BSRN_RTM_ens37_case_2.nc'
+
+[INFO][0][MakeComparable][SurfaceNetLWRadiation/CERESed4.1][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [228 360 720] after: [228 360 711]
+[DEBUG][0][WorkConfront][SurfaceNetLWRadiation/CERESed4.1][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetLWRadiation/CERESed4.1/CERESed4.1_RTM_ens37_case_0.nc'
+
+[INFO][0][MakeComparable][SurfaceNetLWRadiation/CERESed4.1][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [228 360 720] after: [228 360 711]
+[DEBUG][0][WorkConfront][SurfaceNetLWRadiation/CERESed4.1][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetLWRadiation/CERESed4.1/CERESed4.1_RTM_ens37_case_1.nc'
+
+[INFO][0][MakeComparable][SurfaceNetLWRadiation/CERESed4.1][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [228 360 720] after: [228 360 711]
+[DEBUG][0][WorkConfront][SurfaceNetLWRadiation/CERESed4.1][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetLWRadiation/CERESed4.1/CERESed4.1_RTM_ens37_case_2.nc'
+
+[DEBUG][0][WorkConfront][SurfaceNetLWRadiation/FLUXNET2015][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetLWRadiation/FLUXNET2015/FLUXNET2015_RTM_ens37_case_0.nc'
+
+[DEBUG][0][WorkConfront][SurfaceNetLWRadiation/FLUXNET2015][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetLWRadiation/FLUXNET2015/FLUXNET2015_RTM_ens37_case_1.nc'
+
+[DEBUG][0][WorkConfront][SurfaceNetLWRadiation/FLUXNET2015][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetLWRadiation/FLUXNET2015/FLUXNET2015_RTM_ens37_case_2.nc'
+
+[INFO][0][MakeComparable][SurfaceNetLWRadiation/GEWEX.SRB][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 360 711]
+[DEBUG][0][WorkConfront][SurfaceNetLWRadiation/GEWEX.SRB][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetLWRadiation/GEWEX.SRB/GEWEX.SRB_RTM_ens37_case_0.nc'
+
+[INFO][0][MakeComparable][SurfaceNetLWRadiation/GEWEX.SRB][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 360 711]
+[DEBUG][0][WorkConfront][SurfaceNetLWRadiation/GEWEX.SRB][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetLWRadiation/GEWEX.SRB/GEWEX.SRB_RTM_ens37_case_1.nc'
+
+[INFO][0][MakeComparable][SurfaceNetLWRadiation/GEWEX.SRB][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 360 711]
+[DEBUG][0][WorkConfront][SurfaceNetLWRadiation/GEWEX.SRB][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetLWRadiation/GEWEX.SRB/GEWEX.SRB_RTM_ens37_case_2.nc'
+
+[DEBUG][0][WorkConfront][SurfaceNetLWRadiation/WRMC.BSRN][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetLWRadiation/WRMC.BSRN/WRMC.BSRN_RTM_ens37_case_0.nc'
+
+[DEBUG][0][WorkConfront][SurfaceNetLWRadiation/WRMC.BSRN][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetLWRadiation/WRMC.BSRN/WRMC.BSRN_RTM_ens37_case_1.nc'
+
+[DEBUG][0][WorkConfront][SurfaceNetLWRadiation/WRMC.BSRN][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetLWRadiation/WRMC.BSRN/WRMC.BSRN_RTM_ens37_case_2.nc'
+
+[INFO][0][MakeComparable][SurfaceNetRadiation/CERESed4.1][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [228 360 720] after: [228 360 711]
+[DEBUG][0][WorkConfront][SurfaceNetRadiation/CERESed4.1][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetRadiation/CERESed4.1/CERESed4.1_RTM_ens37_case_0.nc'
+
+[INFO][0][MakeComparable][SurfaceNetRadiation/CERESed4.1][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [228 360 720] after: [228 360 711]
+[DEBUG][0][WorkConfront][SurfaceNetRadiation/CERESed4.1][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetRadiation/CERESed4.1/CERESed4.1_RTM_ens37_case_1.nc'
+
+[INFO][0][MakeComparable][SurfaceNetRadiation/CERESed4.1][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [228 360 720] after: [228 360 711]
+[DEBUG][0][WorkConfront][SurfaceNetRadiation/CERESed4.1][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetRadiation/CERESed4.1/CERESed4.1_RTM_ens37_case_2.nc'
+
+[INFO][0][AnalysisMeanStateSites][rns] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSites][rns] RMSE scored using Collier2018
+[INFO][0][confront][SurfaceNetRadiation/FLUXNET2015][RTM_ens37_case_0] Success
+[DEBUG][0][WorkConfront][SurfaceNetRadiation/FLUXNET2015][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetRadiation/FLUXNET2015/FLUXNET2015_RTM_ens37_case_1.nc'
+
+[DEBUG][0][WorkConfront][SurfaceNetRadiation/FLUXNET2015][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetRadiation/FLUXNET2015/FLUXNET2015_RTM_ens37_case_2.nc'
+
+[INFO][0][MakeComparable][SurfaceNetRadiation/GEWEX.SRB][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 360 711]
+[DEBUG][0][WorkConfront][SurfaceNetRadiation/GEWEX.SRB][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetRadiation/GEWEX.SRB/GEWEX.SRB_RTM_ens37_case_0.nc'
+
+[INFO][0][MakeComparable][SurfaceNetRadiation/GEWEX.SRB][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 360 711]
+[DEBUG][0][WorkConfront][SurfaceNetRadiation/GEWEX.SRB][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetRadiation/GEWEX.SRB/GEWEX.SRB_RTM_ens37_case_1.nc'
+
+[INFO][0][MakeComparable][SurfaceNetRadiation/GEWEX.SRB][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [288 360 720] after: [288 360 711]
+[DEBUG][0][WorkConfront][SurfaceNetRadiation/GEWEX.SRB][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetRadiation/GEWEX.SRB/GEWEX.SRB_RTM_ens37_case_2.nc'
+
+[DEBUG][0][WorkConfront][SurfaceNetRadiation/WRMC.BSRN][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetRadiation/WRMC.BSRN/WRMC.BSRN_RTM_ens37_case_0.nc'
+
+[DEBUG][0][WorkConfront][SurfaceNetRadiation/WRMC.BSRN][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetRadiation/WRMC.BSRN/WRMC.BSRN_RTM_ens37_case_1.nc'
+
+[DEBUG][0][WorkConfront][SurfaceNetRadiation/WRMC.BSRN][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetRadiation/WRMC.BSRN/WRMC.BSRN_RTM_ens37_case_2.nc'
+
+[INFO][0][MakeComparable][SurfaceNetRadiation/CLASS][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 360 711]
+[DEBUG][0][WorkConfront][SurfaceNetRadiation/CLASS][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetRadiation/CLASS/CLASS_RTM_ens37_case_0.nc'
+
+[INFO][0][MakeComparable][SurfaceNetRadiation/CLASS][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 360 711]
+[DEBUG][0][WorkConfront][SurfaceNetRadiation/CLASS][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetRadiation/CLASS/CLASS_RTM_ens37_case_1.nc'
+
+[INFO][0][MakeComparable][SurfaceNetRadiation/CLASS][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 360 711]
+[DEBUG][0][WorkConfront][SurfaceNetRadiation/CLASS][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/SurfaceNetRadiation/CLASS/CLASS_RTM_ens37_case_2.nc'
+
+[INFO][0][MakeComparable][GroundHeatFlux/CLASS][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 360 711]
+[DEBUG][0][WorkConfront][GroundHeatFlux/CLASS][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/GroundHeatFlux/CLASS/CLASS_RTM_ens37_case_0.nc'
+
+[INFO][0][MakeComparable][GroundHeatFlux/CLASS][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 360 711]
+[DEBUG][0][WorkConfront][GroundHeatFlux/CLASS][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/GroundHeatFlux/CLASS/CLASS_RTM_ens37_case_1.nc'
+
+[INFO][0][MakeComparable][GroundHeatFlux/CLASS][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [ 84 360 720] after: [ 84 360 711]
+[DEBUG][0][WorkConfront][GroundHeatFlux/CLASS][RTM_ens37_case_2]
+Traceback (most recent call last):
+  File "/var/run/palsd/fcb0f8c0-2212-4e9c-a8c5-a1674d87372b/files/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 435, in confront
+    with il.FileContextManager(self.master, mod_file, obs_file) as fcm:
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2748, in __enter__
+    self.mod_dset = Dataset(self.mod_results, mode="w")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+PermissionError: [Errno 13] Permission denied: b'./_build/RadiationandEnergyCycle/GroundHeatFlux/CLASS/CLASS_RTM_ens37_case_2.nc'
+
