@@ -165,14 +165,12 @@
         if(PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint"){
           document.getElementById("Benchmark_legend").style.display = 'none';
           document.getElementById("RTM_ens36_case_0_legend").style.display = 'none';
-          document.getElementById("RTM_ens36_case_1_legend").style.display = 'none';
           document.getElementById("RTM_ens36_case_2_legend").style.display = 'none';
           document.getElementById("RTM_ens36_case_3_legend").style.display = 'none';
           document.getElementById("RTM_ens36_case_4_legend").style.display = 'none';
         }else{
           document.getElementById("Benchmark_legend").style.display = 'inline';
           document.getElementById("RTM_ens36_case_0_legend").style.display = 'inline';
-          document.getElementById("RTM_ens36_case_1_legend").style.display = 'inline';
           document.getElementById("RTM_ens36_case_2_legend").style.display = 'inline';
           document.getElementById("RTM_ens36_case_3_legend").style.display = 'inline';
           document.getElementById("RTM_ens36_case_4_legend").style.display = 'inline';
@@ -181,8 +179,6 @@
         document.getElementById('Benchmark_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('RTM_ens36_case_0').src = 'RTM_ens36_case_0_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('RTM_ens36_case_0_legend').src = 'legend_' + PNAME + '.png';
-        document.getElementById('RTM_ens36_case_1').src = 'RTM_ens36_case_1_' + RNAME + '_' + PNAME + '.png';
-        document.getElementById('RTM_ens36_case_1_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('RTM_ens36_case_2').src = 'RTM_ens36_case_2_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('RTM_ens36_case_2_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('RTM_ens36_case_3').src = 'RTM_ens36_case_3_' + RNAME + '_' + PNAME + '.png';
@@ -260,7 +256,6 @@
       <select id="MeanStateModel">
         <option value='Benchmark'>Benchmark</option>
         <option value='RTM_ens36_case_0' selected="selected">RTM_ens36_case_0</option>
-        <option value='RTM_ens36_case_1'>RTM_ens36_case_1</option>
         <option value='RTM_ens36_case_2'>RTM_ens36_case_2</option>
         <option value='RTM_ens36_case_3'>RTM_ens36_case_3</option>
         <option value='RTM_ens36_case_4'>RTM_ens36_case_4</option>
@@ -312,97 +307,78 @@
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">RTM_ens36_case_0</td>
                <td onclick="highlightRowMeanState(this)"><a href="MODIS_RTM_ens36_case_0.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">0.351</td>
-               <td onclick="highlightRowMeanState(this)">0.356</td>
+               <td onclick="highlightRowMeanState(this)">0.877</td>
+               <td onclick="highlightRowMeanState(this)">0.924</td>
                <td onclick="highlightRowMeanState(this)">1.35</td>
-               <td onclick="highlightRowMeanState(this)">0.328</td>
+               <td onclick="highlightRowMeanState(this)">0.685</td>
                <td onclick="highlightRowMeanState(this)">2.06</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">-0.975</td>
-               <td onclick="highlightRowMeanState(this)">1.10</td>
-               <td onclick="highlightRowMeanState(this)">2.77</td>
+               <td onclick="highlightRowMeanState(this)">-0.401</td>
+               <td onclick="highlightRowMeanState(this)">0.829</td>
+               <td onclick="highlightRowMeanState(this)">2.42</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.101</td>
-               <td onclick="highlightRowMeanState(this)">0.373</td>
-               <td onclick="highlightRowMeanState(this)">0.488</td>
-               <td onclick="highlightRowMeanState(this)">0.340</td>
-               <td onclick="highlightRowMeanState(this)">0.335</td>
-             </tr>
-             <tr>
-               <td onclick="highlightRowMeanState(this)" class="row-header">RTM_ens36_case_1</td>
-               <td onclick="highlightRowMeanState(this)"><a href="MODIS_RTM_ens36_case_1.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">0.294</td>
-               <td onclick="highlightRowMeanState(this)">0.299</td>
-               <td onclick="highlightRowMeanState(this)">1.35</td>
-               <td onclick="highlightRowMeanState(this)">0.270</td>
-               <td onclick="highlightRowMeanState(this)">2.06</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">-1.04</td>
-               <td onclick="highlightRowMeanState(this)">1.13</td>
-               <td onclick="highlightRowMeanState(this)">2.74</td>
-               <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.0896</td>
-               <td onclick="highlightRowMeanState(this)">0.385</td>
-               <td onclick="highlightRowMeanState(this)">0.488</td>
-               <td onclick="highlightRowMeanState(this)">0.265</td>
-               <td onclick="highlightRowMeanState(this)">0.323</td>
+               <td onclick="highlightRowMeanState(this)">0.188</td>
+               <td onclick="highlightRowMeanState(this)">0.395</td>
+               <td onclick="highlightRowMeanState(this)">0.603</td>
+               <td onclick="highlightRowMeanState(this)">0.842</td>
+               <td onclick="highlightRowMeanState(this)">0.485</td>
              </tr>
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">RTM_ens36_case_2</td>
                <td onclick="highlightRowMeanState(this)"><a href="MODIS_RTM_ens36_case_2.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">0.223</td>
-               <td onclick="highlightRowMeanState(this)">0.223</td>
+               <td onclick="highlightRowMeanState(this)">0.482</td>
+               <td onclick="highlightRowMeanState(this)">0.492</td>
                <td onclick="highlightRowMeanState(this)">1.35</td>
-               <td onclick="highlightRowMeanState(this)">0.220</td>
+               <td onclick="highlightRowMeanState(this)">0.439</td>
                <td onclick="highlightRowMeanState(this)">2.06</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">-1.11</td>
-               <td onclick="highlightRowMeanState(this)">1.22</td>
-               <td onclick="highlightRowMeanState(this)">3.13</td>
+               <td onclick="highlightRowMeanState(this)">-0.832</td>
+               <td onclick="highlightRowMeanState(this)">1.06</td>
+               <td onclick="highlightRowMeanState(this)">3.00</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.0808</td>
-               <td onclick="highlightRowMeanState(this)">0.362</td>
-               <td onclick="highlightRowMeanState(this)">0.460</td>
-               <td onclick="highlightRowMeanState(this)">0.179</td>
-               <td onclick="highlightRowMeanState(this)">0.289</td>
+               <td onclick="highlightRowMeanState(this)">0.122</td>
+               <td onclick="highlightRowMeanState(this)">0.365</td>
+               <td onclick="highlightRowMeanState(this)">0.479</td>
+               <td onclick="highlightRowMeanState(this)">0.544</td>
+               <td onclick="highlightRowMeanState(this)">0.375</td>
              </tr>
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">RTM_ens36_case_3</td>
                <td onclick="highlightRowMeanState(this)"><a href="MODIS_RTM_ens36_case_3.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">0.342</td>
-               <td onclick="highlightRowMeanState(this)">0.347</td>
+               <td onclick="highlightRowMeanState(this)">0.831</td>
+               <td onclick="highlightRowMeanState(this)">0.873</td>
                <td onclick="highlightRowMeanState(this)">1.35</td>
-               <td onclick="highlightRowMeanState(this)">0.324</td>
+               <td onclick="highlightRowMeanState(this)">0.662</td>
                <td onclick="highlightRowMeanState(this)">2.06</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">-0.984</td>
-               <td onclick="highlightRowMeanState(this)">1.11</td>
-               <td onclick="highlightRowMeanState(this)">2.80</td>
+               <td onclick="highlightRowMeanState(this)">-0.450</td>
+               <td onclick="highlightRowMeanState(this)">0.857</td>
+               <td onclick="highlightRowMeanState(this)">2.59</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.0984</td>
-               <td onclick="highlightRowMeanState(this)">0.369</td>
-               <td onclick="highlightRowMeanState(this)">0.484</td>
-               <td onclick="highlightRowMeanState(this)">0.337</td>
-               <td onclick="highlightRowMeanState(this)">0.331</td>
+               <td onclick="highlightRowMeanState(this)">0.177</td>
+               <td onclick="highlightRowMeanState(this)">0.386</td>
+               <td onclick="highlightRowMeanState(this)">0.586</td>
+               <td onclick="highlightRowMeanState(this)">0.830</td>
+               <td onclick="highlightRowMeanState(this)">0.473</td>
              </tr>
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">RTM_ens36_case_4</td>
                <td onclick="highlightRowMeanState(this)"><a href="MODIS_RTM_ens36_case_4.nc" download>[-]</a></td>
-               <td onclick="highlightRowMeanState(this)">0.359</td>
-               <td onclick="highlightRowMeanState(this)">0.366</td>
+               <td onclick="highlightRowMeanState(this)">0.926</td>
+               <td onclick="highlightRowMeanState(this)">0.977</td>
                <td onclick="highlightRowMeanState(this)">1.35</td>
-               <td onclick="highlightRowMeanState(this)">0.333</td>
+               <td onclick="highlightRowMeanState(this)">0.718</td>
                <td onclick="highlightRowMeanState(this)">2.06</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">-0.966</td>
-               <td onclick="highlightRowMeanState(this)">1.09</td>
-               <td onclick="highlightRowMeanState(this)">2.77</td>
+               <td onclick="highlightRowMeanState(this)">-0.347</td>
+               <td onclick="highlightRowMeanState(this)">0.817</td>
+               <td onclick="highlightRowMeanState(this)">2.27</td>
                <td onclick="highlightRowMeanState(this)" class="divider"></td>
-               <td onclick="highlightRowMeanState(this)">0.103</td>
-               <td onclick="highlightRowMeanState(this)">0.376</td>
+               <td onclick="highlightRowMeanState(this)">0.192</td>
+               <td onclick="highlightRowMeanState(this)">0.397</td>
+               <td onclick="highlightRowMeanState(this)">0.619</td>
+               <td onclick="highlightRowMeanState(this)">0.840</td>
                <td onclick="highlightRowMeanState(this)">0.489</td>
-               <td onclick="highlightRowMeanState(this)">0.340</td>
-               <td onclick="highlightRowMeanState(this)">0.337</td>
              </tr>
           </tbody>
         </table>
@@ -563,13 +539,6 @@
           <center>RTM_ens36_case_0</center>
           <img src="" id="RTM_ens36_case_0" alt="Data not available" ></img>
           <center><img src="legend_RTM_ens36_case_0.png" id="RTM_ens36_case_0_legend"  alt="Data not available" ></img></center>
-          </div>
-        </div>
-        <div class="container" id="RTM_ens36_case_1_div">
-          <div class="child">
-          <center>RTM_ens36_case_1</center>
-          <img src="" id="RTM_ens36_case_1" alt="Data not available" ></img>
-          <center><img src="legend_RTM_ens36_case_1.png" id="RTM_ens36_case_1_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
         <div class="container" id="RTM_ens36_case_2_div">

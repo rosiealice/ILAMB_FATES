@@ -1,4 +1,4 @@
-[INFO][0][<module>] Linux derecho2 5.14.21-150400.24.18-default #1 SMP PREEMPT_DYNAMIC Thu Aug 4 14:17:48 UTC 2022 (e9f7bfc) x86_64 x86_64
+[INFO][0][<module>] Linux dec2433 5.14.21-150400.24.46_12.0.73-cray_shasta_c #1 SMP Thu May 18 23:03:34 UTC 2023 (9c4698c) x86_64 x86_64
 [INFO][0][<module>] /glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB (2.7)
 [INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/numpy (1.23.5)
 [INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/matplotlib (3.6.3)
@@ -6,65 +6,95 @@
 [INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/cf_units (3.1.1)
 [INFO][0][<module>] /glade/u/home/rfisher/.local/lib/python3.9/site-packages/sympy (1.12)
 [INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/mpi4py (3.1.4)
-[INFO][0][<module>] 2023-09-11 07:00:40.549793
-[INFO][0][MakeComparable][GrossPrimaryProductivity/GBAF][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [324 360 720] after: [324 360 711]
+[INFO][0][<module>] 2023-09-12 05:50:11.576207
+[INFO][0][MakeComparable][GrossPrimaryProductivity/GBAF][RTM_ens36_case_0] Spatial data was clipped from the reference:  before: [324 360 720] after: [324 360 711]
+[INFO][1][MakeComparable][GrossPrimaryProductivity/GBAF][RTM_ens36_case_3] Spatial data was clipped from the reference:  before: [324 360 720] after: [324 360 711]
+[INFO][7][MakeComparable][LeafAreaIndex/MODIS][RTM_ens36_case_3] Spatial data was clipped from the reference:  before: [ 72 360 720] after: [ 72 360 711]
+[INFO][5][MakeComparable][LeafAreaIndex/AVHRR][RTM_ens36_case_3] Spatial data was clipped from the reference:  before: [348 360 720] after: [348 360 711]
+[INFO][6][MakeComparable][LeafAreaIndex/MODIS][RTM_ens36_case_0] Spatial data was clipped from the reference:  before: [ 72 360 720] after: [ 72 360 711]
+[INFO][4][MakeComparable][LeafAreaIndex/AVHRR][RTM_ens36_case_0] Spatial data was clipped from the reference:  before: [348 360 720] after: [348 360 711]
+[INFO][2][MakeComparable][Evapotranspiration/MODIS][RTM_ens36_case_0] Spatial data was clipped from the reference:  before: [168 360 720] after: [168 360 711]
+[INFO][3][MakeComparable][Evapotranspiration/MODIS][RTM_ens36_case_3] Spatial data was clipped from the reference:  before: [168 360 720] after: [168 360 711]
 [INFO][0][AnalysisMeanStateSpace][FPSN] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][FPSN] Bias scored using Collier2018
+[INFO][7][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][FPSN] RMSE scored using Collier2018
-[INFO][0][confront][GrossPrimaryProductivity/GBAF][RTM_ens37_case_0] Success
-[INFO][0][MakeComparable][GrossPrimaryProductivity/GBAF][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [324 360 720] after: [324 360 711]
+[INFO][1][AnalysisMeanStateSpace][FPSN] RMSE scored using Collier2018
+[INFO][0][confront][GrossPrimaryProductivity/GBAF][RTM_ens36_case_0] Success
+[INFO][1][confront][GrossPrimaryProductivity/GBAF][RTM_ens36_case_3] Success
+[INFO][6][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][7][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][4][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][7][confront][LeafAreaIndex/MODIS][RTM_ens36_case_3] Success
+[INFO][5][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][5][confront][LeafAreaIndex/AVHRR][RTM_ens36_case_3] Success
+[INFO][6][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][1][MakeComparable][GrossPrimaryProductivity/GBAF][RTM_ens36_case_4] Spatial data was clipped from the reference:  before: [324 360 720] after: [324 360 711]
+[INFO][6][confront][LeafAreaIndex/MODIS][RTM_ens36_case_0] Success
+[INFO][4][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][4][confront][LeafAreaIndex/AVHRR][RTM_ens36_case_0] Success
+[INFO][0][MakeComparable][GrossPrimaryProductivity/GBAF][RTM_ens36_case_2] Spatial data was clipped from the reference:  before: [324 360 720] after: [324 360 711]
+[INFO][2][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][7][MakeComparable][LeafAreaIndex/MODIS][RTM_ens36_case_4] Spatial data was clipped from the reference:  before: [ 72 360 720] after: [ 72 360 711]
+[INFO][5][MakeComparable][LeafAreaIndex/AVHRR][RTM_ens36_case_4] Spatial data was clipped from the reference:  before: [348 360 720] after: [348 360 711]
+[INFO][3][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][2][confront][Evapotranspiration/MODIS][RTM_ens36_case_0] Success
+[INFO][3][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][3][confront][Evapotranspiration/MODIS][RTM_ens36_case_3] Success
+[INFO][4][MakeComparable][LeafAreaIndex/AVHRR][RTM_ens36_case_2] Spatial data was clipped from the reference:  before: [348 360 720] after: [348 360 711]
+[INFO][6][MakeComparable][LeafAreaIndex/MODIS][RTM_ens36_case_2] Spatial data was clipped from the reference:  before: [ 72 360 720] after: [ 72 360 711]
+[INFO][1][AnalysisMeanStateSpace][FPSN] Bias scored using Collier2018
+[INFO][3][MakeComparable][Evapotranspiration/MODIS][RTM_ens36_case_4] Spatial data was clipped from the reference:  before: [168 360 720] after: [168 360 711]
+[INFO][1][AnalysisMeanStateSpace][FPSN] RMSE scored using Collier2018
+[INFO][1][confront][GrossPrimaryProductivity/GBAF][RTM_ens36_case_4] Success
+[INFO][7][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
 [INFO][0][AnalysisMeanStateSpace][FPSN] Bias scored using Collier2018
+[INFO][2][MakeComparable][Evapotranspiration/MODIS][RTM_ens36_case_2] Spatial data was clipped from the reference:  before: [168 360 720] after: [168 360 711]
+[INFO][7][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][7][confront][LeafAreaIndex/MODIS][RTM_ens36_case_4] Success
+[INFO][5][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][5][confront][LeafAreaIndex/AVHRR][RTM_ens36_case_4] Success
 [INFO][0][AnalysisMeanStateSpace][FPSN] RMSE scored using Collier2018
-[INFO][0][confront][GrossPrimaryProductivity/GBAF][RTM_ens37_case_1] Success
-[INFO][0][MakeComparable][GrossPrimaryProductivity/GBAF][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [324 360 720] after: [324 360 711]
-[INFO][0][AnalysisMeanStateSpace][FPSN] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][FPSN] RMSE scored using Collier2018
-[INFO][0][confront][GrossPrimaryProductivity/GBAF][RTM_ens37_case_2] Success
-[INFO][0][MakeComparable][Evapotranspiration/MODIS][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [168 360 720] after: [168 360 711]
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/MODIS][RTM_ens37_case_0] Success
-[INFO][0][MakeComparable][Evapotranspiration/MODIS][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [168 360 720] after: [168 360 711]
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/MODIS][RTM_ens37_case_1] Success
-[INFO][0][MakeComparable][Evapotranspiration/MODIS][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [168 360 720] after: [168 360 711]
-[INFO][0][AnalysisMeanStateSpace][et] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
-[INFO][0][confront][Evapotranspiration/MODIS][RTM_ens37_case_2] Success
-[INFO][0][MakeComparable][LeafAreaIndex/AVHRR][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [348 360 720] after: [348 360 711]
-[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
-[INFO][0][confront][LeafAreaIndex/AVHRR][RTM_ens37_case_0] Success
-[INFO][0][MakeComparable][LeafAreaIndex/AVHRR][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [348 360 720] after: [348 360 711]
-[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
-[INFO][0][confront][LeafAreaIndex/AVHRR][RTM_ens37_case_1] Success
-[INFO][0][MakeComparable][LeafAreaIndex/AVHRR][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [348 360 720] after: [348 360 711]
-[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
-[INFO][0][confront][LeafAreaIndex/AVHRR][RTM_ens37_case_2] Success
-[INFO][0][MakeComparable][LeafAreaIndex/MODIS][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [ 72 360 720] after: [ 72 360 711]
-[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
-[INFO][0][confront][LeafAreaIndex/MODIS][RTM_ens37_case_0] Success
-[INFO][0][MakeComparable][LeafAreaIndex/MODIS][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [ 72 360 720] after: [ 72 360 711]
-[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
-[INFO][0][confront][LeafAreaIndex/MODIS][RTM_ens37_case_1] Success
-[INFO][0][MakeComparable][LeafAreaIndex/MODIS][RTM_ens37_case_2] Spatial data was clipped from the reference:  before: [ 72 360 720] after: [ 72 360 711]
-[INFO][0][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
-[INFO][0][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
-[INFO][0][confront][LeafAreaIndex/MODIS][RTM_ens37_case_2] Success
-[INFO][0][modelPlots][GrossPrimaryProductivity/GBAF][RTM_ens37_case_0] Success
-[INFO][0][modelPlots][GrossPrimaryProductivity/GBAF][RTM_ens37_case_1] Success
-[INFO][0][modelPlots][GrossPrimaryProductivity/GBAF][RTM_ens37_case_2] Success
-[INFO][0][modelPlots][Evapotranspiration/MODIS][RTM_ens37_case_0] Success
-[INFO][0][modelPlots][Evapotranspiration/MODIS][RTM_ens37_case_1] Success
-[INFO][0][modelPlots][Evapotranspiration/MODIS][RTM_ens37_case_2] Success
-[INFO][0][modelPlots][LeafAreaIndex/AVHRR][RTM_ens37_case_0] Success
-[INFO][0][modelPlots][LeafAreaIndex/AVHRR][RTM_ens37_case_1] Success
-[INFO][0][modelPlots][LeafAreaIndex/AVHRR][RTM_ens37_case_2] Success
-[INFO][0][modelPlots][LeafAreaIndex/MODIS][RTM_ens37_case_0] Success
-[INFO][0][modelPlots][LeafAreaIndex/MODIS][RTM_ens37_case_1] Success
-[INFO][0][modelPlots][LeafAreaIndex/MODIS][RTM_ens37_case_2] Success
-[INFO][0][<module>][total time] 2523.2 s
+[INFO][0][confront][GrossPrimaryProductivity/GBAF][RTM_ens36_case_2] Success
+[INFO][4][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][6][AnalysisMeanStateSpace][lai] Bias scored using Collier2018
+[INFO][4][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][4][confront][LeafAreaIndex/AVHRR][RTM_ens36_case_2] Success
+[INFO][6][AnalysisMeanStateSpace][lai] RMSE scored using Collier2018
+[INFO][6][confront][LeafAreaIndex/MODIS][RTM_ens36_case_2] Success
+[INFO][3][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][3][confront][Evapotranspiration/MODIS][RTM_ens36_case_4] Success
+[INFO][2][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][2][confront][Evapotranspiration/MODIS][RTM_ens36_case_2] Success
+[INFO][3][modelPlots][Evapotranspiration/MODIS][RTM_ens36_case_3] Success
+[INFO][5][modelPlots][LeafAreaIndex/AVHRR][RTM_ens36_case_3] Success
+[INFO][7][modelPlots][LeafAreaIndex/MODIS][RTM_ens36_case_3] Success
+[INFO][1][modelPlots][GrossPrimaryProductivity/GBAF][RTM_ens36_case_3] Success
+[INFO][2][modelPlots][Evapotranspiration/MODIS][RTM_ens36_case_0] Success
+[INFO][4][modelPlots][LeafAreaIndex/AVHRR][RTM_ens36_case_0] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/GBAF][RTM_ens36_case_0] Success
+[INFO][6][modelPlots][LeafAreaIndex/MODIS][RTM_ens36_case_0] Success
+[INFO][3][modelPlots][Evapotranspiration/MODIS][RTM_ens36_case_4] Success
+[INFO][5][modelPlots][LeafAreaIndex/AVHRR][RTM_ens36_case_4] Success
+[INFO][7][modelPlots][LeafAreaIndex/MODIS][RTM_ens36_case_4] Success
+[INFO][1][modelPlots][GrossPrimaryProductivity/GBAF][RTM_ens36_case_4] Success
+[INFO][4][modelPlots][LeafAreaIndex/AVHRR][RTM_ens36_case_2] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/GBAF][RTM_ens36_case_2] Success
+[INFO][2][modelPlots][Evapotranspiration/MODIS][RTM_ens36_case_2] Success
+[INFO][6][modelPlots][LeafAreaIndex/MODIS][RTM_ens36_case_2] Success
+[INFO][3][<module>][process time] 78.9 s
+[INFO][0][<module>][process time] 63.2 s
+[INFO][1][<module>][process time] 57.8 s
+[INFO][7][<module>][process time] 60.8 s
+[INFO][5][<module>][process time] 61.2 s
+[INFO][6][<module>][process time] 70.1 s
+[INFO][4][<module>][process time] 69.5 s
+[INFO][2][<module>][process time] 82.6 s
+[INFO][0][<module>][total time] 119.7 s
+[INFO][0][<module>][process balance] 1.43
+[INFO][0][<module>][parallel efficiency] 57%
