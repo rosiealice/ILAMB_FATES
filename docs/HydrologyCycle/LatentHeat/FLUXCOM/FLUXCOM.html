@@ -167,11 +167,19 @@
           document.getElementById("RTM_ens36_case_0_legend").style.display = 'none';
           document.getElementById("RTM_ens36_case_3_legend").style.display = 'none';
           document.getElementById("RTM_ens36_case_4_legend").style.display = 'none';
+          document.getElementById("RTM_ens38_case_0_legend").style.display = 'none';
+          document.getElementById("RTM_ens38_case_2_legend").style.display = 'none';
+          document.getElementById("RTM_ens38_case_3_legend").style.display = 'none';
+          document.getElementById("RTM_ens38_case_4_legend").style.display = 'none';
         }else{
           document.getElementById("Benchmark_legend").style.display = 'inline';
           document.getElementById("RTM_ens36_case_0_legend").style.display = 'inline';
           document.getElementById("RTM_ens36_case_3_legend").style.display = 'inline';
           document.getElementById("RTM_ens36_case_4_legend").style.display = 'inline';
+          document.getElementById("RTM_ens38_case_0_legend").style.display = 'inline';
+          document.getElementById("RTM_ens38_case_2_legend").style.display = 'inline';
+          document.getElementById("RTM_ens38_case_3_legend").style.display = 'inline';
+          document.getElementById("RTM_ens38_case_4_legend").style.display = 'inline';
         }
         document.getElementById('Benchmark').src = 'Benchmark_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('Benchmark_legend').src = 'legend_' + PNAME + '.png';
@@ -181,6 +189,14 @@
         document.getElementById('RTM_ens36_case_3_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('RTM_ens36_case_4').src = 'RTM_ens36_case_4_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('RTM_ens36_case_4_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('RTM_ens38_case_0').src = 'RTM_ens38_case_0_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('RTM_ens38_case_0_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('RTM_ens38_case_2').src = 'RTM_ens38_case_2_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('RTM_ens38_case_2_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('RTM_ens38_case_3').src = 'RTM_ens38_case_3_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('RTM_ens38_case_3_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('RTM_ens38_case_4').src = 'RTM_ens38_case_4_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('RTM_ens38_case_4_legend').src = 'legend_' + PNAME + '.png';
       }
 
       $(document).on('pageshow', '[data-role="page"]', function(){
@@ -254,6 +270,10 @@
         <option value='RTM_ens36_case_0' selected="selected">RTM_ens36_case_0</option>
         <option value='RTM_ens36_case_3'>RTM_ens36_case_3</option>
         <option value='RTM_ens36_case_4'>RTM_ens36_case_4</option>
+        <option value='RTM_ens38_case_0'>RTM_ens38_case_0</option>
+        <option value='RTM_ens38_case_2'>RTM_ens38_case_2</option>
+        <option value='RTM_ens38_case_3'>RTM_ens38_case_3</option>
+        <option value='RTM_ens38_case_4'>RTM_ens38_case_4</option>
       </select>
       </div>
         <center>
@@ -355,6 +375,82 @@
                <td onclick="highlightRowMeanState(this)">0.859</td>
                <td onclick="highlightRowMeanState(this)">0.964</td>
                <td onclick="highlightRowMeanState(this)">0.700</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">RTM_ens38_case_0</td>
+               <td onclick="highlightRowMeanState(this)"><a href="FLUXCOM_RTM_ens38_case_0.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">30.6</td>
+               <td onclick="highlightRowMeanState(this)">36.0</td>
+               <td onclick="highlightRowMeanState(this)">48.8</td>
+               <td onclick="highlightRowMeanState(this)">17.6</td>
+               <td onclick="highlightRowMeanState(this)">64.9</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-12.0</td>
+               <td onclick="highlightRowMeanState(this)">18.6</td>
+               <td onclick="highlightRowMeanState(this)">0.886</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.509</td>
+               <td onclick="highlightRowMeanState(this)">0.593</td>
+               <td onclick="highlightRowMeanState(this)">0.861</td>
+               <td onclick="highlightRowMeanState(this)">0.966</td>
+               <td onclick="highlightRowMeanState(this)">0.704</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">RTM_ens38_case_2</td>
+               <td onclick="highlightRowMeanState(this)"><a href="FLUXCOM_RTM_ens38_case_2.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">30.7</td>
+               <td onclick="highlightRowMeanState(this)">36.2</td>
+               <td onclick="highlightRowMeanState(this)">48.8</td>
+               <td onclick="highlightRowMeanState(this)">17.6</td>
+               <td onclick="highlightRowMeanState(this)">64.9</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-11.8</td>
+               <td onclick="highlightRowMeanState(this)">18.5</td>
+               <td onclick="highlightRowMeanState(this)">0.892</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.511</td>
+               <td onclick="highlightRowMeanState(this)">0.593</td>
+               <td onclick="highlightRowMeanState(this)">0.860</td>
+               <td onclick="highlightRowMeanState(this)">0.966</td>
+               <td onclick="highlightRowMeanState(this)">0.704</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">RTM_ens38_case_3</td>
+               <td onclick="highlightRowMeanState(this)"><a href="FLUXCOM_RTM_ens38_case_3.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">31.0</td>
+               <td onclick="highlightRowMeanState(this)">36.6</td>
+               <td onclick="highlightRowMeanState(this)">48.8</td>
+               <td onclick="highlightRowMeanState(this)">17.7</td>
+               <td onclick="highlightRowMeanState(this)">64.9</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-11.5</td>
+               <td onclick="highlightRowMeanState(this)">18.2</td>
+               <td onclick="highlightRowMeanState(this)">0.879</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.518</td>
+               <td onclick="highlightRowMeanState(this)">0.595</td>
+               <td onclick="highlightRowMeanState(this)">0.864</td>
+               <td onclick="highlightRowMeanState(this)">0.968</td>
+               <td onclick="highlightRowMeanState(this)">0.708</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">RTM_ens38_case_4</td>
+               <td onclick="highlightRowMeanState(this)"><a href="FLUXCOM_RTM_ens38_case_4.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">29.8</td>
+               <td onclick="highlightRowMeanState(this)">35.0</td>
+               <td onclick="highlightRowMeanState(this)">48.8</td>
+               <td onclick="highlightRowMeanState(this)">17.3</td>
+               <td onclick="highlightRowMeanState(this)">64.9</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-12.9</td>
+               <td onclick="highlightRowMeanState(this)">19.4</td>
+               <td onclick="highlightRowMeanState(this)">0.883</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.491</td>
+               <td onclick="highlightRowMeanState(this)">0.589</td>
+               <td onclick="highlightRowMeanState(this)">0.860</td>
+               <td onclick="highlightRowMeanState(this)">0.961</td>
+               <td onclick="highlightRowMeanState(this)">0.698</td>
              </tr>
           </tbody>
         </table>
@@ -529,6 +625,34 @@
           <center>RTM_ens36_case_4</center>
           <img src="" id="RTM_ens36_case_4" alt="Data not available" ></img>
           <center><img src="legend_RTM_ens36_case_4.png" id="RTM_ens36_case_4_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="RTM_ens38_case_0_div">
+          <div class="child">
+          <center>RTM_ens38_case_0</center>
+          <img src="" id="RTM_ens38_case_0" alt="Data not available" ></img>
+          <center><img src="legend_RTM_ens38_case_0.png" id="RTM_ens38_case_0_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="RTM_ens38_case_2_div">
+          <div class="child">
+          <center>RTM_ens38_case_2</center>
+          <img src="" id="RTM_ens38_case_2" alt="Data not available" ></img>
+          <center><img src="legend_RTM_ens38_case_2.png" id="RTM_ens38_case_2_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="RTM_ens38_case_3_div">
+          <div class="child">
+          <center>RTM_ens38_case_3</center>
+          <img src="" id="RTM_ens38_case_3" alt="Data not available" ></img>
+          <center><img src="legend_RTM_ens38_case_3.png" id="RTM_ens38_case_3_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="RTM_ens38_case_4_div">
+          <div class="child">
+          <center>RTM_ens38_case_4</center>
+          <img src="" id="RTM_ens38_case_4" alt="Data not available" ></img>
+          <center><img src="legend_RTM_ens38_case_4.png" id="RTM_ens38_case_4_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
     </div>
