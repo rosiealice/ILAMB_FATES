@@ -164,6 +164,7 @@
         }
         if(PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint"){
           document.getElementById("Benchmark_legend").style.display = 'none';
+          document.getElementById("ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist_legend").style.display = 'none';
           document.getElementById("RTM_ens38_case_0_legend").style.display = 'none';
           document.getElementById("RTM_ens38_case_1_legend").style.display = 'none';
           document.getElementById("RTM_ens38_case_2_legend").style.display = 'none';
@@ -171,6 +172,7 @@
           document.getElementById("RTM_ens38_case_4_legend").style.display = 'none';
         }else{
           document.getElementById("Benchmark_legend").style.display = 'inline';
+          document.getElementById("ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist_legend").style.display = 'inline';
           document.getElementById("RTM_ens38_case_0_legend").style.display = 'inline';
           document.getElementById("RTM_ens38_case_1_legend").style.display = 'inline';
           document.getElementById("RTM_ens38_case_2_legend").style.display = 'inline';
@@ -179,6 +181,8 @@
         }
         document.getElementById('Benchmark').src = 'Benchmark_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('Benchmark_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist').src = 'ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('RTM_ens38_case_0').src = 'RTM_ens38_case_0_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('RTM_ens38_case_0_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('RTM_ens38_case_1').src = 'RTM_ens38_case_1_' + RNAME + '_' + PNAME + '.png';
@@ -259,7 +263,8 @@
       <div style="display:none">
       <select id="MeanStateModel">
         <option value='Benchmark'>Benchmark</option>
-        <option value='RTM_ens38_case_0' selected="selected">RTM_ens38_case_0</option>
+        <option value='ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist' selected="selected">ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist</option>
+        <option value='RTM_ens38_case_0'>RTM_ens38_case_0</option>
         <option value='RTM_ens38_case_1'>RTM_ens38_case_1</option>
         <option value='RTM_ens38_case_2'>RTM_ens38_case_2</option>
         <option value='RTM_ens38_case_3'>RTM_ens38_case_3</option>
@@ -308,6 +313,25 @@
                <td></td>
                <td></td>
                <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist</td>
+               <td onclick="highlightRowMeanState(this)"><a href="MODIS_ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">1.17</td>
+               <td onclick="highlightRowMeanState(this)">1.49</td>
+               <td onclick="highlightRowMeanState(this)">1.56</td>
+               <td onclick="highlightRowMeanState(this)">0.322</td>
+               <td onclick="highlightRowMeanState(this)">2.67</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-0.0466</td>
+               <td onclick="highlightRowMeanState(this)">0.683</td>
+               <td onclick="highlightRowMeanState(this)">1.41</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.567</td>
+               <td onclick="highlightRowMeanState(this)">0.522</td>
+               <td onclick="highlightRowMeanState(this)">0.782</td>
+               <td onclick="highlightRowMeanState(this)">0.968</td>
+               <td onclick="highlightRowMeanState(this)">0.672</td>
              </tr>
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">RTM_ens38_case_0</td>
@@ -556,6 +580,13 @@
           <center>Benchmark</center>
           <img src="" id="Benchmark" alt="Data not available" ></img>
           <center><img src="legend_Benchmark.png" id="Benchmark_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist_div">
+          <div class="child">
+          <center>ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist</center>
+          <img src="" id="ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist" alt="Data not available" ></img>
+          <center><img src="legend_ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist.png" id="ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
         <div class="container" id="RTM_ens38_case_0_div">
