@@ -48,6 +48,7 @@
           document.getElementById('cycle').src =  MNAME + '_' + RNAME + '_cycle.png'
           document.getElementById('dtcycle').src =  MNAME + '_' + RNAME + '_dtcycle.png'
           document.getElementById('spaceint').src =  MNAME + '_' + RNAME + '_spaceint.png'
+          document.getElementById('compcycle').src =  RNAME + '_compcycle.png'
           document.getElementById('legend_compcycle').src =  'legend_compcycle.png'
         }
 
@@ -161,13 +162,17 @@
         }
         if(PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint"){
           document.getElementById("Benchmark_legend").style.display = 'none';
+          document.getElementById("ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist_legend").style.display = 'none';
           document.getElementById("RTM_ens38_case_3_legend").style.display = 'none';
         }else{
           document.getElementById("Benchmark_legend").style.display = 'inline';
+          document.getElementById("ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist_legend").style.display = 'inline';
           document.getElementById("RTM_ens38_case_3_legend").style.display = 'inline';
         }
         document.getElementById('Benchmark').src = 'Benchmark_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('Benchmark_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist').src = 'ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('RTM_ens38_case_3').src = 'RTM_ens38_case_3_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('RTM_ens38_case_3_legend').src = 'legend_' + PNAME + '.png';
       }
@@ -240,7 +245,8 @@
       <div style="display:none">
       <select id="MeanStateModel">
         <option value='Benchmark'>Benchmark</option>
-        <option value='RTM_ens38_case_3' selected="selected">RTM_ens38_case_3</option>
+        <option value='ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist' selected="selected">ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist</option>
+        <option value='RTM_ens38_case_3'>RTM_ens38_case_3</option>
       </select>
       </div>
         <center>
@@ -275,6 +281,20 @@
                <td></td>
                <td></td>
                <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist</td>
+               <td onclick="highlightRowMeanState(this)"><a href="FLUXNET2015_ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">2.75</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.0593</td>
+               <td onclick="highlightRowMeanState(this)">1.83</td>
+               <td onclick="highlightRowMeanState(this)">0.903</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.580</td>
+               <td onclick="highlightRowMeanState(this)">0.439</td>
+               <td onclick="highlightRowMeanState(this)">0.896</td>
+               <td onclick="highlightRowMeanState(this)">0.589</td>
              </tr>
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">RTM_ens38_case_3</td>
@@ -390,6 +410,12 @@
           <img src="" id="dtcycle" alt="Data not available" ></img>
           </div>
         </div>
+        <div class="container" id="compcycle_div">
+          <div class="child">
+          <center>ANNUAL&nbsp;CYCLE</center>
+          <img src="" id="compcycle" alt="Data not available" ></img>
+          </div>
+        </div>
         </div>
     </div>
     <div data-role="page" id="AllModels">
@@ -424,6 +450,13 @@
           <center>Benchmark</center>
           <img src="" id="Benchmark" alt="Data not available" ></img>
           <center><img src="legend_Benchmark.png" id="Benchmark_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist_div">
+          <div class="child">
+          <center>ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist</center>
+          <img src="" id="ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist" alt="Data not available" ></img>
+          <center><img src="legend_ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist.png" id="ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
         <div class="container" id="RTM_ens38_case_3_div">
