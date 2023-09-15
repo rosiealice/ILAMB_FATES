@@ -1,0 +1,14 @@
+/glade/u/home/rfisher/.bashrc: line 11: bind: warning: line editing not enabled
+/glade/u/home/rfisher/.bashrc: line 13: bind: warning: line editing not enabled
+Warning: Permanently added the ECDSA host key for IP address '10.14.4.206' to the list of known hosts.
+pbs_attach: process 164440 attached to job: 1349141.desched1
+/glade/u/home/rfisher/.bashrc: line 11: bind: warning: line editing not enabled
+/glade/u/home/rfisher/.bashrc: line 13: bind: warning: line editing not enabled
+application called MPI_Abort(MPI_COMM_WORLD, 0) - process 0
+application called MPI_Abort(MPI_COMM_WORLD, 0) - process 1
+application called MPI_Abort(MPI_COMM_WORLD, 0) - process 2
+application called MPI_Abort(MPI_COMM_WORLD, 0) - process 3
+application called MPI_Abort(MPI_COMM_WORLD, 0) - process 4
+application called MPI_Abort(MPI_COMM_WORLD, 0) - process 5
+application called MPI_Abort(MPI_COMM_WORLD, 0) - process 6
+application called MPI_Abort(MPI_COMM_WORLD, 0) - process 7

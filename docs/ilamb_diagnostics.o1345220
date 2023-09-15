@@ -1,0 +1,42 @@
+/glade/u/home/rfisher/.bashrc: line 11: bind: warning: line editing not enabled
+/glade/u/home/rfisher/.bashrc: line 13: bind: warning: line editing not enabled
+pbs_attach: process 100613 attached to job: 1345220.desched1
+/glade/u/home/rfisher/.bashrc: line 11: bind: warning: line editing not enabled
+/glade/u/home/rfisher/.bashrc: line 13: bind: warning: line editing not enabled
+
+Setting up model results from /glade/u/home/rfisher/fates-global-cal/ilamb_scripts/model_setup_files/model_setup_090623_RTMens36_shift
+
+                                 RTM_ens36_case_0
+                                 RTM_ens36_case_2
+                                 RTM_ens36_case_3
+                                 RTM_ens36_case_4
+
+Parsing config file /glade/u/home/rfisher/fates-global-cal/ilamb_scripts/config_files/ilamb_CLMFATES_simple.cfg...
+
+                    GrossPrimaryProductivity/GBAF[92m Initialized[0m
+                         Evapotranspiration/MODIS[92m Initialized[0m
+
+Running model-confrontation pairs...
+
+                    GrossPrimaryProductivity/GBAF RTM_ens36_case_4     [92mCompleted[0m  0:00:28
+                    GrossPrimaryProductivity/GBAF RTM_ens36_case_2     [92mCompleted[0m  0:00:29
+                    GrossPrimaryProductivity/GBAF RTM_ens36_case_0     [92mCompleted[0m  0:00:29
+
+Finishing post-processing which requires collectives...
+
+                         Evapotranspiration/MODIS RTM_ens36_case_3     [92mCompleted[0m  0:00:04
+                         Evapotranspiration/MODIS RTM_ens36_case_4     [92mCompleted[0m  0:00:04
+                         Evapotranspiration/MODIS RTM_ens36_case_2     [92mCompleted[0m  0:00:04
+                    GrossPrimaryProductivity/GBAF RTM_ens36_case_2     [92mCompleted[0m  0:00:04
+                    GrossPrimaryProductivity/GBAF RTM_ens36_case_4     [92mCompleted[0m  0:00:04
+                    GrossPrimaryProductivity/GBAF RTM_ens36_case_3     [92mCompleted[0m  0:00:04
+                         Evapotranspiration/MODIS RTM_ens36_case_0     [92mCompleted[0m  0:00:05
+                    GrossPrimaryProductivity/GBAF RTM_ens36_case_0     [92mCompleted[0m  0:00:05
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/.local/bin/ilamb-run", line 1111, in <module>
+    S.harvestInformation(M)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Scoreboard.py", line 939, in harvestInformation
+    HarvestScalarDatabase(self.build_dir)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Post.py", line 1428, in HarvestScalarDatabase
+    category = info[0]
+IndexError: string index out of range

@@ -1,0 +1,64 @@
+/glade/u/home/rfisher/.bashrc: line 11: bind: warning: line editing not enabled
+/glade/u/home/rfisher/.bashrc: line 13: bind: warning: line editing not enabled
+pbs_attach: process 172258 attached to job: 1345223.desched1
+/glade/u/home/rfisher/.bashrc: line 11: bind: warning: line editing not enabled
+/glade/u/home/rfisher/.bashrc: line 13: bind: warning: line editing not enabled
+
+Setting up model results from /glade/u/home/rfisher/fates-global-cal/ilamb_scripts/model_setup_files/model_setup_090623_RTMens36_shift
+
+                                 RTM_ens36_case_0
+                                 RTM_ens36_case_2
+                                 RTM_ens36_case_3
+                                 RTM_ens36_case_4
+
+Parsing config file /glade/u/home/rfisher/fates-global-cal/ilamb_scripts/config_files/ilamb_CLMFATES_nocomp_minimal.cfg...
+
+                    GrossPrimaryProductivity/GBAF[92m Initialized[0m
+                         Evapotranspiration/MODIS[92m Initialized[0m
+                              LeafAreaIndex/AVHRR[92m Initialized[0m
+                              LeafAreaIndex/MODIS[92m Initialized[0m
+
+Running model-confrontation pairs...
+
+                    GrossPrimaryProductivity/GBAF RTM_ens36_case_0     [92mCompleted[0m  0:00:26
+                    GrossPrimaryProductivity/GBAF RTM_ens36_case_3     [92mCompleted[0m  0:00:26
+                              LeafAreaIndex/MODIS RTM_ens36_case_3     [92mCompleted[0m  0:00:27
+                              LeafAreaIndex/AVHRR RTM_ens36_case_3     [92mCompleted[0m  0:00:28
+                              LeafAreaIndex/MODIS RTM_ens36_case_0     [92mCompleted[0m  0:00:29
+                              LeafAreaIndex/AVHRR RTM_ens36_case_0     [92mCompleted[0m  0:00:30
+QVEGE+QVEGT+QSOIL
+                         Evapotranspiration/MODIS RTM_ens36_case_0     [92mCompleted[0m  0:00:35
+QVEGE+QVEGT+QSOIL
+                         Evapotranspiration/MODIS RTM_ens36_case_3     [92mCompleted[0m  0:00:37
+                    GrossPrimaryProductivity/GBAF RTM_ens36_case_4     [92mCompleted[0m  0:00:24
+                              LeafAreaIndex/MODIS RTM_ens36_case_4     [92mCompleted[0m  0:00:26
+                              LeafAreaIndex/AVHRR RTM_ens36_case_4     [92mCompleted[0m  0:00:26
+                    GrossPrimaryProductivity/GBAF RTM_ens36_case_2     [92mCompleted[0m  0:00:29
+                              LeafAreaIndex/AVHRR RTM_ens36_case_2     [92mCompleted[0m  0:00:31
+                              LeafAreaIndex/MODIS RTM_ens36_case_2     [92mCompleted[0m  0:00:32
+QVEGE+QVEGT+QSOIL
+                         Evapotranspiration/MODIS RTM_ens36_case_4     [92mCompleted[0m  0:00:35
+QVEGE+QVEGT+QSOIL
+                         Evapotranspiration/MODIS RTM_ens36_case_2     [92mCompleted[0m  0:00:39
+
+Finishing post-processing which requires collectives...
+
+                         Evapotranspiration/MODIS RTM_ens36_case_3     [92mCompleted[0m  0:00:04
+                              LeafAreaIndex/AVHRR RTM_ens36_case_3     [92mCompleted[0m  0:00:04
+                              LeafAreaIndex/MODIS RTM_ens36_case_3     [92mCompleted[0m  0:00:04
+                    GrossPrimaryProductivity/GBAF RTM_ens36_case_3     [92mCompleted[0m  0:00:04
+                         Evapotranspiration/MODIS RTM_ens36_case_0     [92mCompleted[0m  0:00:05
+                              LeafAreaIndex/AVHRR RTM_ens36_case_0     [92mCompleted[0m  0:00:05
+                    GrossPrimaryProductivity/GBAF RTM_ens36_case_0     [92mCompleted[0m  0:00:05
+                              LeafAreaIndex/MODIS RTM_ens36_case_0     [92mCompleted[0m  0:00:05
+                         Evapotranspiration/MODIS RTM_ens36_case_4     [92mCompleted[0m  0:00:03
+                              LeafAreaIndex/AVHRR RTM_ens36_case_4     [92mCompleted[0m  0:00:03
+                              LeafAreaIndex/MODIS RTM_ens36_case_4     [92mCompleted[0m  0:00:04
+                    GrossPrimaryProductivity/GBAF RTM_ens36_case_4     [92mCompleted[0m  0:00:03
+                              LeafAreaIndex/AVHRR RTM_ens36_case_2     [92mCompleted[0m  0:00:04
+                    GrossPrimaryProductivity/GBAF RTM_ens36_case_2     [92mCompleted[0m  0:00:04
+                         Evapotranspiration/MODIS RTM_ens36_case_2     [92mCompleted[0m  0:00:04
+                              LeafAreaIndex/MODIS RTM_ens36_case_2     [92mCompleted[0m  0:00:04
+
+Completed in  0:02:00
+

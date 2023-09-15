@@ -1,0 +1,752 @@
+/glade/u/home/rfisher/.bashrc: line 11: bind: warning: line editing not enabled
+/glade/u/home/rfisher/.bashrc: line 13: bind: warning: line editing not enabled
+pbs_attach: process 92931 attached to job: 1349314.desched1
+/glade/u/home/rfisher/.bashrc: line 11: bind: warning: line editing not enabled
+/glade/u/home/rfisher/.bashrc: line 13: bind: warning: line editing not enabled
+
+Setting up model results from /glade/u/home/rfisher/fates-global-cal/ilamb_scripts/model_setup_files/model_setup_090623_RTMens38_shift
+
+                                 RTM_ens38_case_0
+                                 RTM_ens38_case_1
+                                 RTM_ens38_case_2
+                                 RTM_ens38_case_3
+                                 RTM_ens38_case_4
+
+Parsing config file /glade/u/home/rfisher/fates-global-cal/ilamb_scripts/config_files/clm_fates_RCmodes_nospinup.cfg...
+
+                                 Biomass/Tropical[92m Initialized[0m
+                             Biomass/GlobalCarbon[92m Initialized[0m
+                                 Biomass/NBCD2000[92m Initialized[0m
+                                 Biomass/USForest[92m Initialized[0m
+                                  Biomass/Thurner[92m Initialized[0m
+                                   Biomass/ESACCI[92m Initialized[0m
+             GrossPrimaryProductivity/FLUXNET2015[92m Initialized[0m
+                 GrossPrimaryProductivity/FLUXCOM[92m Initialized[0m
+                  GrossPrimaryProductivity/WECANN[92m Initialized[0m
+                              LeafAreaIndex/AVHRR[92m Initialized[0m
+                            LeafAreaIndex/AVH15C1[92m Initialized[0m
+                              LeafAreaIndex/MODIS[92m Initialized[0m
+                 NetEcosystemExchange/FLUXNET2015[92m Initialized[0m
+                 EcosystemRespiration/FLUXNET2015[92m Initialized[0m
+                     EcosystemRespiration/FLUXCOM[92m Initialized[0m
+                    Evapotranspiration/GLEAMv3.3a[92m Initialized[0m
+                         Evapotranspiration/MODIS[92m Initialized[0m
+                       Evapotranspiration/MOD16A2[92m Initialized[0m
+                           LatentHeat/FLUXNET2015[92m Initialized[0m
+                               LatentHeat/FLUXCOM[92m Initialized[0m
+                                 LatentHeat/DOLCE[92m Initialized[0m
+                                 LatentHeat/CLASS[92m Initialized[0m
+                                LatentHeat/WECANN[92m Initialized[0m
+                         SensibleHeat/FLUXNET2015[92m Initialized[0m
+                             SensibleHeat/FLUXCOM[92m Initialized[0m
+                               SensibleHeat/CLASS[92m Initialized[0m
+                              SensibleHeat/WECANN[92m Initialized[0m
+                                     Albedo/CERES[92m Initialized[0m
+                                 Albedo/GEWEX.SRB[92m Initialized[0m
+              SurfaceUpwardSWRadiation/CERESed4.1[92m Initialized[0m
+             SurfaceUpwardSWRadiation/FLUXNET2015[92m Initialized[0m
+               SurfaceUpwardSWRadiation/GEWEX.SRB[92m Initialized[0m
+               SurfaceUpwardSWRadiation/WRMC.BSRN[92m Initialized[0m
+                 SurfaceNetSWRadiation/CERESed4.1[92m Initialized[0m
+                SurfaceNetSWRadiation/FLUXNET2015[92m Initialized[0m
+                  SurfaceNetSWRadiation/GEWEX.SRB[92m Initialized[0m
+                  SurfaceNetSWRadiation/WRMC.BSRN[92m Initialized[0m
+              SurfaceUpwardLWRadiation/CERESed4.1[92m Initialized[0m
+             SurfaceUpwardLWRadiation/FLUXNET2015[92m Initialized[0m
+               SurfaceUpwardLWRadiation/GEWEX.SRB[92m Initialized[0m
+               SurfaceUpwardLWRadiation/WRMC.BSRN[92m Initialized[0m
+                 SurfaceNetLWRadiation/CERESed4.1[92m Initialized[0m
+                SurfaceNetLWRadiation/FLUXNET2015[92m Initialized[0m
+                  SurfaceNetLWRadiation/GEWEX.SRB[92m Initialized[0m
+                  SurfaceNetLWRadiation/WRMC.BSRN[92m Initialized[0m
+                   SurfaceNetRadiation/CERESed4.1[92m Initialized[0m
+                  SurfaceNetRadiation/FLUXNET2015[92m Initialized[0m
+                    SurfaceNetRadiation/GEWEX.SRB[92m Initialized[0m
+                    SurfaceNetRadiation/WRMC.BSRN[92m Initialized[0m
+                        SurfaceNetRadiation/CLASS[92m Initialized[0m
+                             GroundHeatFlux/CLASS[92m Initialized[0m
+
+Running model-confrontation pairs...
+
+             SurfaceUpwardLWRadiation/FLUXNET2015 RTM_ens38_case_1     [92mCompleted[0m  0:00:05
+FLDS-FIRE
+                  SurfaceNetLWRadiation/WRMC.BSRN RTM_ens38_case_3     [92mCompleted[0m  0:00:09
+             SurfaceUpwardLWRadiation/FLUXNET2015 RTM_ens38_case_2     [92mCompleted[0m  0:00:04
+FATES_GPP * FATES_FRACTION
+             GrossPrimaryProductivity/FLUXNET2015 RTM_ens38_case_2     [92mCompleted[0m  0:00:10
+FATES_NEP * FATES_FRACTION
+                 NetEcosystemExchange/FLUXNET2015 RTM_ens38_case_4     [92mCompleted[0m  0:00:10
+             SurfaceUpwardLWRadiation/FLUXNET2015 RTM_ens38_case_3     [92mCompleted[0m  0:00:03
+FATES_VEGC * FATES_FRACTION
+                                 Biomass/Tropical RTM_ens38_case_0     [92mCompleted[0m  0:00:13
+             SurfaceUpwardLWRadiation/FLUXNET2015 RTM_ens38_case_4     [92mCompleted[0m  0:00:03
+FATES_GPP * FATES_FRACTION
+             GrossPrimaryProductivity/FLUXNET2015 RTM_ens38_case_3     [92mCompleted[0m  0:00:07
+FLDS-FIRE
+                  SurfaceNetLWRadiation/WRMC.BSRN RTM_ens38_case_4     [92mCompleted[0m  0:00:09
+(FATES_AUTORESP*FATES_FRACTION)+HR
+                 EcosystemRespiration/FLUXNET2015 RTM_ens38_case_0     [92mCompleted[0m  0:00:08
+FATES_GPP * FATES_FRACTION
+             GrossPrimaryProductivity/FLUXNET2015 RTM_ens38_case_4     [92mCompleted[0m  0:00:03
+(FATES_AUTORESP*FATES_FRACTION)+HR
+                 EcosystemRespiration/FLUXNET2015 RTM_ens38_case_1     [92mCompleted[0m  0:00:05
+FATES_VEGC * FATES_FRACTION
+                                 Biomass/Tropical RTM_ens38_case_1     [92mCompleted[0m  0:00:11
+                               SensibleHeat/CLASS RTM_ens38_case_3     [92mCompleted[0m  0:00:25
+               SurfaceUpwardSWRadiation/GEWEX.SRB RTM_ens38_case_4     [92mCompleted[0m  0:00:26
+                               LatentHeat/FLUXCOM RTM_ens38_case_1     [92mCompleted[0m  0:00:28
+               SurfaceUpwardSWRadiation/WRMC.BSRN RTM_ens38_case_0     [92mCompleted[0m  0:00:05
+               SurfaceUpwardSWRadiation/WRMC.BSRN RTM_ens38_case_1     [92mCompleted[0m  0:00:06
+(FATES_AUTORESP*FATES_FRACTION)+HR
+                 EcosystemRespiration/FLUXNET2015 RTM_ens38_case_2     [92mCompleted[0m  0:00:13
+FATES_VEGC * FATES_FRACTION
+                                 Biomass/Tropical RTM_ens38_case_2     [92mCompleted[0m  0:00:14
+               SurfaceUpwardLWRadiation/GEWEX.SRB RTM_ens38_case_0     [92mCompleted[0m  0:00:24
+               SurfaceUpwardSWRadiation/WRMC.BSRN RTM_ens38_case_2     [92mCompleted[0m  0:00:05
+FATES_GPP * FATES_FRACTION
+                 GrossPrimaryProductivity/FLUXCOM RTM_ens38_case_0     [92mCompleted[0m  0:00:25
+               SurfaceUpwardSWRadiation/WRMC.BSRN RTM_ens38_case_3     [92mCompleted[0m  0:00:05
+                               SensibleHeat/CLASS RTM_ens38_case_4     [92mCompleted[0m  0:00:22
+FATES_VEGC * FATES_FRACTION
+                                 Biomass/Tropical RTM_ens38_case_3     [92mCompleted[0m  0:00:13
+(FATES_AUTORESP*FATES_FRACTION)+HR
+                 EcosystemRespiration/FLUXNET2015 RTM_ens38_case_3     [92mCompleted[0m  0:00:14
+               SurfaceUpwardSWRadiation/WRMC.BSRN RTM_ens38_case_4     [92mCompleted[0m  0:00:06
+FLDS-FIRE+FSDS-FSR
+                   SurfaceNetRadiation/CERESed4.1 RTM_ens38_case_0     [92mCompleted[0m  0:00:36
+                              SensibleHeat/WECANN RTM_ens38_case_0     [92mCompleted[0m  0:00:07
+                               LatentHeat/FLUXCOM RTM_ens38_case_2     [92mCompleted[0m  0:00:28
+(FATES_AUTORESP*FATES_FRACTION)+HR
+                 EcosystemRespiration/FLUXNET2015 RTM_ens38_case_4     [92mCompleted[0m  0:00:09
+FATES_VEGC * FATES_FRACTION
+                                 Biomass/Tropical RTM_ens38_case_4     [92mCompleted[0m  0:00:10
+                              SensibleHeat/WECANN RTM_ens38_case_1     [92mCompleted[0m  0:00:08
+               SurfaceUpwardLWRadiation/GEWEX.SRB RTM_ens38_case_1     [92mCompleted[0m  0:00:24
+FATES_VEGC * FATES_FRACTION
+                             Biomass/GlobalCarbon RTM_ens38_case_0     [92mCompleted[0m  0:00:07
+FATES_GPP * FATES_FRACTION
+                 GrossPrimaryProductivity/FLUXCOM RTM_ens38_case_1     [92mCompleted[0m  0:00:26
+FATES_VEGC * FATES_FRACTION
+                             Biomass/GlobalCarbon RTM_ens38_case_1     [92mCompleted[0m  0:00:06
+                              SensibleHeat/WECANN RTM_ens38_case_2     [92mCompleted[0m  0:00:12
+                 SurfaceNetSWRadiation/CERESed4.1 RTM_ens38_case_0     [92mCompleted[0m  0:00:23
+FATES_VEGC * FATES_FRACTION
+                             Biomass/GlobalCarbon RTM_ens38_case_2     [92mCompleted[0m  0:00:08
+                               LatentHeat/FLUXCOM RTM_ens38_case_3     [92mCompleted[0m  0:00:28
+                              SensibleHeat/WECANN RTM_ens38_case_3     [92mCompleted[0m  0:00:11
+(FATES_AUTORESP*FATES_FRACTION)+HR
+                     EcosystemRespiration/FLUXCOM RTM_ens38_case_0     [92mCompleted[0m  0:00:26
+               SurfaceUpwardLWRadiation/GEWEX.SRB RTM_ens38_case_2     [92mCompleted[0m  0:00:26
+FLDS-FIRE+FSDS-FSR
+                   SurfaceNetRadiation/CERESed4.1 RTM_ens38_case_1     [92mCompleted[0m  0:00:38
+FATES_VEGC * FATES_FRACTION
+                             Biomass/GlobalCarbon RTM_ens38_case_3     [92mCompleted[0m  0:00:10
+                              SensibleHeat/WECANN RTM_ens38_case_4     [92mCompleted[0m  0:00:10
+                 SurfaceNetSWRadiation/CERESed4.1 RTM_ens38_case_1     [92mCompleted[0m  0:00:23
+FATES_GPP * FATES_FRACTION
+                 GrossPrimaryProductivity/FLUXCOM RTM_ens38_case_2     [92mCompleted[0m  0:00:30
+FATES_VEGC * FATES_FRACTION
+                             Biomass/GlobalCarbon RTM_ens38_case_4     [92mCompleted[0m  0:00:11
+                               LatentHeat/FLUXCOM RTM_ens38_case_4     [92mCompleted[0m  0:00:28
+(FATES_AUTORESP*FATES_FRACTION)+HR
+                     EcosystemRespiration/FLUXCOM RTM_ens38_case_1     [92mCompleted[0m  0:00:26
+FATES_VEGC * FATES_FRACTION
+                                 Biomass/NBCD2000 RTM_ens38_case_0     [92mCompleted[0m  0:00:10
+               SurfaceUpwardLWRadiation/GEWEX.SRB RTM_ens38_case_3     [92mCompleted[0m  0:00:25
+                 SurfaceNetSWRadiation/CERESed4.1 RTM_ens38_case_2     [92mCompleted[0m  0:00:24
+                                     Albedo/CERES RTM_ens38_case_0     [92mCompleted[0m  0:00:31
+FATES_VEGC * FATES_FRACTION
+                                 Biomass/NBCD2000 RTM_ens38_case_1     [92mCompleted[0m  0:00:14
+FATES_GPP * FATES_FRACTION
+                 GrossPrimaryProductivity/FLUXCOM RTM_ens38_case_3     [92mCompleted[0m  0:00:29
+FLDS-FIRE+FSDS-FSR
+                   SurfaceNetRadiation/CERESed4.1 RTM_ens38_case_2     [92mCompleted[0m  0:00:40
+FATES_VEGC * FATES_FRACTION
+                                 Biomass/NBCD2000 RTM_ens38_case_2     [92mCompleted[0m  0:00:08
+                                 LatentHeat/DOLCE RTM_ens38_case_0     [92mCompleted[0m  0:00:27
+(FATES_AUTORESP*FATES_FRACTION)+HR
+                     EcosystemRespiration/FLUXCOM RTM_ens38_case_2     [92mCompleted[0m  0:00:27
+               SurfaceUpwardLWRadiation/GEWEX.SRB RTM_ens38_case_4     [92mCompleted[0m  0:00:26
+FATES_VEGC * FATES_FRACTION
+                                 Biomass/NBCD2000 RTM_ens38_case_3     [92mCompleted[0m  0:00:08
+               SurfaceUpwardLWRadiation/WRMC.BSRN RTM_ens38_case_0     [92mCompleted[0m  0:00:06
+                 SurfaceNetSWRadiation/CERESed4.1 RTM_ens38_case_3     [92mCompleted[0m  0:00:25
+               SurfaceUpwardLWRadiation/WRMC.BSRN RTM_ens38_case_1     [92mCompleted[0m  0:00:02
+FATES_VEGC * FATES_FRACTION
+                                 Biomass/NBCD2000 RTM_ens38_case_4     [92mCompleted[0m  0:00:08
+               SurfaceUpwardLWRadiation/WRMC.BSRN RTM_ens38_case_2     [92mCompleted[0m  0:00:07
+                                     Albedo/CERES RTM_ens38_case_1     [92mCompleted[0m  0:00:31
+               SurfaceUpwardLWRadiation/WRMC.BSRN RTM_ens38_case_3     [92mCompleted[0m  0:00:03
+FATES_GPP * FATES_FRACTION
+                 GrossPrimaryProductivity/FLUXCOM RTM_ens38_case_4     [92mCompleted[0m  0:00:31
+               SurfaceUpwardLWRadiation/WRMC.BSRN RTM_ens38_case_4     [92mCompleted[0m  0:00:03
+FATES_VEGC * FATES_FRACTION
+                                 Biomass/USForest RTM_ens38_case_0     [92mCompleted[0m  0:00:11
+                                 LatentHeat/DOLCE RTM_ens38_case_1     [92mCompleted[0m  0:00:27
+(FATES_AUTORESP*FATES_FRACTION)+HR
+                     EcosystemRespiration/FLUXCOM RTM_ens38_case_3     [92mCompleted[0m  0:00:26
+FATES_GPP * FATES_FRACTION
+                  GrossPrimaryProductivity/WECANN RTM_ens38_case_0     [92mCompleted[0m  0:00:08
+                 SurfaceNetSWRadiation/CERESed4.1 RTM_ens38_case_4     [92mCompleted[0m  0:00:24
+FLDS-FIRE+FSDS-FSR
+                   SurfaceNetRadiation/CERESed4.1 RTM_ens38_case_3     [92mCompleted[0m  0:00:42
+FATES_VEGC * FATES_FRACTION
+                                 Biomass/USForest RTM_ens38_case_1     [92mCompleted[0m  0:00:13
+                SurfaceNetSWRadiation/FLUXNET2015 RTM_ens38_case_0     [92mCompleted[0m  0:00:03
+                SurfaceNetSWRadiation/FLUXNET2015 RTM_ens38_case_1     [92mCompleted[0m  0:00:02
+FATES_GPP * FATES_FRACTION
+                  GrossPrimaryProductivity/WECANN RTM_ens38_case_1     [92mCompleted[0m  0:00:10
+                SurfaceNetSWRadiation/FLUXNET2015 RTM_ens38_case_2     [92mCompleted[0m  0:00:02
+FATES_VEGC * FATES_FRACTION
+                                 Biomass/USForest RTM_ens38_case_2     [92mCompleted[0m  0:00:08
+                SurfaceNetSWRadiation/FLUXNET2015 RTM_ens38_case_3     [92mCompleted[0m  0:00:07
+FATES_GPP * FATES_FRACTION
+                  GrossPrimaryProductivity/WECANN RTM_ens38_case_2     [92mCompleted[0m  0:00:08
+                SurfaceNetSWRadiation/FLUXNET2015 RTM_ens38_case_4     [92mCompleted[0m  0:00:02
+                                     Albedo/CERES RTM_ens38_case_2     [92mCompleted[0m  0:00:31
+FLDS-FIRE
+                 SurfaceNetLWRadiation/CERESed4.1 RTM_ens38_case_0     [92mCompleted[0m  0:00:30
+FATES_VEGC * FATES_FRACTION
+                                 Biomass/USForest RTM_ens38_case_3     [92mCompleted[0m  0:00:10
+                                 LatentHeat/DOLCE RTM_ens38_case_2     [92mCompleted[0m  0:00:28
+(FATES_AUTORESP*FATES_FRACTION)+HR
+                     EcosystemRespiration/FLUXCOM RTM_ens38_case_4     [92mCompleted[0m  0:00:29
+FATES_GPP * FATES_FRACTION
+                  GrossPrimaryProductivity/WECANN RTM_ens38_case_3     [92mCompleted[0m  0:00:10
+FATES_VEGC * FATES_FRACTION
+                                 Biomass/USForest RTM_ens38_case_4     [92mCompleted[0m  0:00:06
+FATES_GPP * FATES_FRACTION
+                  GrossPrimaryProductivity/WECANN RTM_ens38_case_4     [92mCompleted[0m  0:00:07
+FATES_VEGC * FATES_FRACTION
+                                  Biomass/Thurner RTM_ens38_case_0     [92mCompleted[0m  0:00:09
+FLDS-FIRE+FSDS-FSR
+                   SurfaceNetRadiation/CERESed4.1 RTM_ens38_case_4     [92mCompleted[0m  0:00:40
+                  SurfaceNetSWRadiation/GEWEX.SRB RTM_ens38_case_0     [92mCompleted[0m  0:00:27
+FATES_VEGC * FATES_FRACTION
+                                  Biomass/Thurner RTM_ens38_case_1     [92mCompleted[0m  0:00:07
+                                 LatentHeat/DOLCE RTM_ens38_case_3     [92mCompleted[0m  0:00:26
+                                     Albedo/CERES RTM_ens38_case_3     [92mCompleted[0m  0:00:31
+FLDS-FIRE+FSDS-FSR
+                  SurfaceNetRadiation/FLUXNET2015 RTM_ens38_case_0     [92mCompleted[0m  0:00:11
+FLDS-FIRE
+                 SurfaceNetLWRadiation/CERESed4.1 RTM_ens38_case_1     [92mCompleted[0m  0:00:33
+FATES_VEGC * FATES_FRACTION
+                                  Biomass/Thurner RTM_ens38_case_2     [92mCompleted[0m  0:00:16
+                              LeafAreaIndex/AVHRR RTM_ens38_case_0     [92mCompleted[0m  0:00:32
+                  SurfaceNetSWRadiation/GEWEX.SRB RTM_ens38_case_1     [92mCompleted[0m  0:00:24
+FLDS-FIRE+FSDS-FSR
+                  SurfaceNetRadiation/FLUXNET2015 RTM_ens38_case_1     [92mCompleted[0m  0:00:15
+QVEGE+QVEGT+QSOIL
+                    Evapotranspiration/GLEAMv3.3a RTM_ens38_case_0     [92mCompleted[0m  0:00:47
+FATES_VEGC * FATES_FRACTION
+                                  Biomass/Thurner RTM_ens38_case_3     [92mCompleted[0m  0:00:13
+FLDS-FIRE+FSDS-FSR
+                  SurfaceNetRadiation/FLUXNET2015 RTM_ens38_case_2     [92mCompleted[0m  0:00:10
+                                     Albedo/CERES RTM_ens38_case_4     [92mCompleted[0m  0:00:32
+                                 LatentHeat/DOLCE RTM_ens38_case_4     [92mCompleted[0m  0:00:32
+FLDS-FIRE
+                 SurfaceNetLWRadiation/CERESed4.1 RTM_ens38_case_2     [92mCompleted[0m  0:00:29
+FATES_VEGC * FATES_FRACTION
+                                  Biomass/Thurner RTM_ens38_case_4     [92mCompleted[0m  0:00:13
+FLDS-FIRE+FSDS-FSR
+                  SurfaceNetRadiation/FLUXNET2015 RTM_ens38_case_3     [92mCompleted[0m  0:00:12
+                  SurfaceNetSWRadiation/GEWEX.SRB RTM_ens38_case_2     [92mCompleted[0m  0:00:23
+                              LeafAreaIndex/AVHRR RTM_ens38_case_1     [92mCompleted[0m  0:00:30
+                                 LatentHeat/CLASS RTM_ens38_case_0     [92mCompleted[0m  0:00:27
+                                 Albedo/GEWEX.SRB RTM_ens38_case_0     [92mCompleted[0m  0:00:28
+FLDS-FIRE+FSDS-FSR
+                  SurfaceNetRadiation/FLUXNET2015 RTM_ens38_case_4     [92mCompleted[0m  0:00:18
+FLDS-FIRE
+                 SurfaceNetLWRadiation/CERESed4.1 RTM_ens38_case_3     [92mCompleted[0m  0:00:26
+QVEGE+QVEGT+QSOIL
+                    Evapotranspiration/GLEAMv3.3a RTM_ens38_case_1     [92mCompleted[0m  0:00:41
+                  SurfaceNetSWRadiation/GEWEX.SRB RTM_ens38_case_3     [92mCompleted[0m  0:00:22
+FATES_VEGC * FATES_FRACTION
+                                   Biomass/ESACCI RTM_ens38_case_0     [91mFloatingPointError[0m
+FATES_VEGC * FATES_FRACTION
+                                   Biomass/ESACCI RTM_ens38_case_1     [91mFloatingPointError[0m
+FATES_VEGC * FATES_FRACTION
+                                   Biomass/ESACCI RTM_ens38_case_2     [91mFloatingPointError[0m
+FATES_VEGC * FATES_FRACTION
+                                   Biomass/ESACCI RTM_ens38_case_3     [91mFloatingPointError[0m
+FATES_VEGC * FATES_FRACTION
+                                   Biomass/ESACCI RTM_ens38_case_4     [91mFloatingPointError[0m
+FATES_GPP * FATES_FRACTION
+             GrossPrimaryProductivity/FLUXNET2015 RTM_ens38_case_0     [92mCompleted[0m  0:00:07
+FATES_GPP * FATES_FRACTION
+             GrossPrimaryProductivity/FLUXNET2015 RTM_ens38_case_1     [92mCompleted[0m  0:00:03
+                              LeafAreaIndex/AVHRR RTM_ens38_case_2     [92mCompleted[0m  0:00:32
+                                 LatentHeat/CLASS RTM_ens38_case_1     [92mCompleted[0m  0:00:26
+                  SurfaceNetSWRadiation/GEWEX.SRB RTM_ens38_case_4     [92mCompleted[0m  0:00:22
+                                 Albedo/GEWEX.SRB RTM_ens38_case_1     [92mCompleted[0m  0:00:28
+                  SurfaceNetSWRadiation/WRMC.BSRN RTM_ens38_case_0     [92mCompleted[0m  0:00:01
+FLDS-FIRE
+                 SurfaceNetLWRadiation/CERESed4.1 RTM_ens38_case_4     [92mCompleted[0m  0:00:28
+                  SurfaceNetSWRadiation/WRMC.BSRN RTM_ens38_case_1     [92mCompleted[0m  0:00:03
+FLDS-FIRE
+                SurfaceNetLWRadiation/FLUXNET2015 RTM_ens38_case_0     [92mCompleted[0m  0:00:02
+FLDS-FIRE+FSDS-FSR
+                    SurfaceNetRadiation/GEWEX.SRB RTM_ens38_case_0     [92mCompleted[0m  0:00:32
+                  SurfaceNetSWRadiation/WRMC.BSRN RTM_ens38_case_2     [92mCompleted[0m  0:00:02
+FLDS-FIRE
+                SurfaceNetLWRadiation/FLUXNET2015 RTM_ens38_case_1     [92mCompleted[0m  0:00:04
+                  SurfaceNetSWRadiation/WRMC.BSRN RTM_ens38_case_3     [92mCompleted[0m  0:00:04
+FLDS-FIRE
+                SurfaceNetLWRadiation/FLUXNET2015 RTM_ens38_case_2     [92mCompleted[0m  0:00:05
+                  SurfaceNetSWRadiation/WRMC.BSRN RTM_ens38_case_4     [92mCompleted[0m  0:00:06
+FLDS-FIRE
+                SurfaceNetLWRadiation/FLUXNET2015 RTM_ens38_case_3     [92mCompleted[0m  0:00:07
+                                 LatentHeat/CLASS RTM_ens38_case_2     [92mCompleted[0m  0:00:23
+FLDS-FIRE
+                SurfaceNetLWRadiation/FLUXNET2015 RTM_ens38_case_4     [92mCompleted[0m  0:00:08
+                              LeafAreaIndex/AVHRR RTM_ens38_case_3     [92mCompleted[0m  0:00:38
+QVEGE+QVEGT+QSOIL
+                    Evapotranspiration/GLEAMv3.3a RTM_ens38_case_2     [92mCompleted[0m  0:00:53
+                                 Albedo/GEWEX.SRB RTM_ens38_case_2     [92mCompleted[0m  0:00:31
+FLDS-FIRE+FSDS-FSR
+                    SurfaceNetRadiation/GEWEX.SRB RTM_ens38_case_1     [92mCompleted[0m  0:00:29
+                                 LatentHeat/CLASS RTM_ens38_case_3     [92mCompleted[0m  0:00:21
+              SurfaceUpwardLWRadiation/CERESed4.1 RTM_ens38_case_0     [92mCompleted[0m  0:00:28
+FLDS-FIRE
+                  SurfaceNetLWRadiation/GEWEX.SRB RTM_ens38_case_0     [92mCompleted[0m  0:00:29
+                              LeafAreaIndex/AVHRR RTM_ens38_case_4     [92mCompleted[0m  0:00:31
+                                 Albedo/GEWEX.SRB RTM_ens38_case_3     [92mCompleted[0m  0:00:30
+                                 LatentHeat/CLASS RTM_ens38_case_4     [92mCompleted[0m  0:00:21
+QVEGE+QVEGT+QSOIL
+                    Evapotranspiration/GLEAMv3.3a RTM_ens38_case_3     [92mCompleted[0m  0:00:38
+              SurfaceUpwardLWRadiation/CERESed4.1 RTM_ens38_case_1     [92mCompleted[0m  0:00:27
+FLDS-FIRE+FSDS-FSR
+                    SurfaceNetRadiation/GEWEX.SRB RTM_ens38_case_2     [92mCompleted[0m  0:00:37
+                                LatentHeat/WECANN RTM_ens38_case_0     [92mCompleted[0m  0:00:11
+                                LatentHeat/WECANN RTM_ens38_case_1     [92mCompleted[0m  0:00:11
+FLDS-FIRE
+                  SurfaceNetLWRadiation/GEWEX.SRB RTM_ens38_case_1     [92mCompleted[0m  0:00:28
+                                 Albedo/GEWEX.SRB RTM_ens38_case_4     [92mCompleted[0m  0:00:31
+                            LeafAreaIndex/AVH15C1 RTM_ens38_case_0     [92mCompleted[0m  0:00:33
+                                LatentHeat/WECANN RTM_ens38_case_2     [92mCompleted[0m  0:00:09
+              SurfaceUpwardLWRadiation/CERESed4.1 RTM_ens38_case_2     [92mCompleted[0m  0:00:26
+                                LatentHeat/WECANN RTM_ens38_case_3     [92mCompleted[0m  0:00:07
+FLDS-FIRE+FSDS-FSR
+                    SurfaceNetRadiation/GEWEX.SRB RTM_ens38_case_3     [92mCompleted[0m  0:00:36
+                                LatentHeat/WECANN RTM_ens38_case_4     [92mCompleted[0m  0:00:11
+QVEGE+QVEGT+QSOIL
+                    Evapotranspiration/GLEAMv3.3a RTM_ens38_case_4     [92mCompleted[0m  0:00:44
+FLDS-FIRE
+                  SurfaceNetLWRadiation/GEWEX.SRB RTM_ens38_case_2     [92mCompleted[0m  0:00:29
+                         SensibleHeat/FLUXNET2015 RTM_ens38_case_0     [92mCompleted[0m  0:00:03
+              SurfaceUpwardSWRadiation/CERESed4.1 RTM_ens38_case_0     [92mCompleted[0m  0:00:27
+                         SensibleHeat/FLUXNET2015 RTM_ens38_case_1     [92mCompleted[0m  0:00:05
+              SurfaceUpwardLWRadiation/CERESed4.1 RTM_ens38_case_3     [92mCompleted[0m  0:00:24
+                         SensibleHeat/FLUXNET2015 RTM_ens38_case_2     [92mCompleted[0m  0:00:07
+                            LeafAreaIndex/AVH15C1 RTM_ens38_case_1     [92mCompleted[0m  0:00:35
+                         SensibleHeat/FLUXNET2015 RTM_ens38_case_3     [92mCompleted[0m  0:00:02
+                         SensibleHeat/FLUXNET2015 RTM_ens38_case_4     [92mCompleted[0m  0:00:04
+FLDS-FIRE+FSDS-FSR
+                    SurfaceNetRadiation/GEWEX.SRB RTM_ens38_case_4     [92mCompleted[0m  0:00:31
+              SurfaceUpwardLWRadiation/CERESed4.1 RTM_ens38_case_4     [92mCompleted[0m  0:00:23
+             SurfaceUpwardLWRadiation/FLUXNET2015 RTM_ens38_case_0     [92mCompleted[0m  0:00:01
+              SurfaceUpwardSWRadiation/CERESed4.1 RTM_ens38_case_1     [92mCompleted[0m  0:00:26
+FLDS-FIRE
+                  SurfaceNetLWRadiation/GEWEX.SRB RTM_ens38_case_3     [92mCompleted[0m  0:00:32
+FLDS-FIRE+FSDS-FSR
+                    SurfaceNetRadiation/WRMC.BSRN RTM_ens38_case_0     [92mCompleted[0m  0:00:13
+                             SensibleHeat/FLUXCOM RTM_ens38_case_0     [92mCompleted[0m  0:00:28
+                            LeafAreaIndex/AVH15C1 RTM_ens38_case_2     [92mCompleted[0m  0:00:34
+QVEGE+QVEGT+QSOIL
+                         Evapotranspiration/MODIS RTM_ens38_case_0     [92mCompleted[0m  0:00:52
+FLDS-FIRE+FSDS-FSR
+                    SurfaceNetRadiation/WRMC.BSRN RTM_ens38_case_1     [92mCompleted[0m  0:00:15
+              SurfaceUpwardSWRadiation/CERESed4.1 RTM_ens38_case_2     [92mCompleted[0m  0:00:26
+FLDS-FIRE
+                  SurfaceNetLWRadiation/GEWEX.SRB RTM_ens38_case_4     [92mCompleted[0m  0:00:32
+FLDS-FIRE+FSDS-FSR
+                    SurfaceNetRadiation/WRMC.BSRN RTM_ens38_case_2     [92mCompleted[0m  0:00:15
+                             SensibleHeat/FLUXCOM RTM_ens38_case_1     [92mCompleted[0m  0:00:24
+FLDS-FIRE
+                  SurfaceNetLWRadiation/WRMC.BSRN RTM_ens38_case_0     [92mCompleted[0m  0:00:09
+FLDS-FIRE+FSDS-FSR
+                    SurfaceNetRadiation/WRMC.BSRN RTM_ens38_case_3     [92mCompleted[0m  0:00:08
+FLDS-FIRE
+                  SurfaceNetLWRadiation/WRMC.BSRN RTM_ens38_case_1     [92mCompleted[0m  0:00:09
+              SurfaceUpwardSWRadiation/CERESed4.1 RTM_ens38_case_3     [92mCompleted[0m  0:00:25
+                            LeafAreaIndex/AVH15C1 RTM_ens38_case_3     [92mCompleted[0m  0:00:35
+FLDS-FIRE
+                  SurfaceNetLWRadiation/WRMC.BSRN RTM_ens38_case_2     [92mCompleted[0m  0:00:06
+FLDS-FIRE+FSDS-FSR
+                    SurfaceNetRadiation/WRMC.BSRN RTM_ens38_case_4     [92mCompleted[0m  0:00:15
+QVEGE+QVEGT+QSOIL
+                         Evapotranspiration/MODIS RTM_ens38_case_1     [92mCompleted[0m  0:00:39
+                             SensibleHeat/FLUXCOM RTM_ens38_case_2     [92mCompleted[0m  0:00:28
+              SurfaceUpwardSWRadiation/CERESed4.1 RTM_ens38_case_4     [92mCompleted[0m  0:00:25
+             SurfaceUpwardSWRadiation/FLUXNET2015 RTM_ens38_case_0     [92mCompleted[0m  0:00:02
+                            LeafAreaIndex/AVH15C1 RTM_ens38_case_4     [92mCompleted[0m  0:00:30
+             SurfaceUpwardSWRadiation/FLUXNET2015 RTM_ens38_case_1     [92mCompleted[0m  0:00:06
+FLDS-FIRE+FSDS-FSR
+                        SurfaceNetRadiation/CLASS RTM_ens38_case_0     [92mCompleted[0m  0:00:34
+             SurfaceUpwardSWRadiation/FLUXNET2015 RTM_ens38_case_2     [92mCompleted[0m  0:00:08
+                             SensibleHeat/FLUXCOM RTM_ens38_case_3     [92mCompleted[0m  0:00:29
+QVEGE+QVEGT+QSOIL
+                         Evapotranspiration/MODIS RTM_ens38_case_2     [92mCompleted[0m  0:00:39
+             SurfaceUpwardSWRadiation/FLUXNET2015 RTM_ens38_case_3     [92mCompleted[0m  0:00:06
+             SurfaceUpwardSWRadiation/FLUXNET2015 RTM_ens38_case_4     [92mCompleted[0m  0:00:06
+                              LeafAreaIndex/MODIS RTM_ens38_case_0     [92mCompleted[0m  0:00:29
+FLDS-FIRE+FSDS-FSR
+                        SurfaceNetRadiation/CLASS RTM_ens38_case_1     [92mCompleted[0m  0:00:30
+                             SensibleHeat/FLUXCOM RTM_ens38_case_4     [92mCompleted[0m  0:00:27
+               SurfaceUpwardSWRadiation/GEWEX.SRB RTM_ens38_case_0     [92mCompleted[0m  0:00:26
+                              LeafAreaIndex/MODIS RTM_ens38_case_1     [92mCompleted[0m  0:00:28
+QVEGE+QVEGT+QSOIL
+                         Evapotranspiration/MODIS RTM_ens38_case_3     [92mCompleted[0m  0:00:42
+                               SensibleHeat/CLASS RTM_ens38_case_0     [92mCompleted[0m  0:00:23
+FLDS-FIRE+FSDS-FSR
+                        SurfaceNetRadiation/CLASS RTM_ens38_case_2     [92mCompleted[0m  0:00:35
+               SurfaceUpwardSWRadiation/GEWEX.SRB RTM_ens38_case_1     [92mCompleted[0m  0:00:27
+                              LeafAreaIndex/MODIS RTM_ens38_case_2     [92mCompleted[0m  0:00:29
+                               SensibleHeat/CLASS RTM_ens38_case_1     [92mCompleted[0m  0:00:22
+               SurfaceUpwardSWRadiation/GEWEX.SRB RTM_ens38_case_2     [92mCompleted[0m  0:00:22
+                               SensibleHeat/CLASS RTM_ens38_case_2     [92mCompleted[0m  0:00:21
+FLDS-FIRE+FSDS-FSR
+                        SurfaceNetRadiation/CLASS RTM_ens38_case_3     [92mCompleted[0m  0:00:35
+QVEGE+QVEGT+QSOIL
+                         Evapotranspiration/MODIS RTM_ens38_case_4     [92mCompleted[0m  0:00:54
+                              LeafAreaIndex/MODIS RTM_ens38_case_3     [92mCompleted[0m  0:00:27
+               SurfaceUpwardSWRadiation/GEWEX.SRB RTM_ens38_case_3     [92mCompleted[0m  0:00:22
+                              LeafAreaIndex/MODIS RTM_ens38_case_4     [92mCompleted[0m  0:00:27
+FLDS-FIRE+FSDS-FSR
+                        SurfaceNetRadiation/CLASS RTM_ens38_case_4     [92mCompleted[0m  0:00:33
+FATES_NEP * FATES_FRACTION
+                 NetEcosystemExchange/FLUXNET2015 RTM_ens38_case_0     [92mCompleted[0m  0:00:04
+FATES_NEP * FATES_FRACTION
+                 NetEcosystemExchange/FLUXNET2015 RTM_ens38_case_1     [92mCompleted[0m  0:00:10
+QVEGE+QVEGT+QSOIL
+                       Evapotranspiration/MOD16A2 RTM_ens38_case_0     [92mCompleted[0m  0:00:47
+                             GroundHeatFlux/CLASS RTM_ens38_case_0     [92mCompleted[0m  0:00:22
+FATES_NEP * FATES_FRACTION
+                 NetEcosystemExchange/FLUXNET2015 RTM_ens38_case_2     [92mCompleted[0m  0:00:12
+FATES_NEP * FATES_FRACTION
+                 NetEcosystemExchange/FLUXNET2015 RTM_ens38_case_3     [92mCompleted[0m  0:00:11
+                             GroundHeatFlux/CLASS RTM_ens38_case_1     [92mCompleted[0m  0:00:21
+QVEGE+QVEGT+QSOIL
+                       Evapotranspiration/MOD16A2 RTM_ens38_case_1     [92mCompleted[0m  0:00:40
+                             GroundHeatFlux/CLASS RTM_ens38_case_2     [92mCompleted[0m  0:00:22
+                             GroundHeatFlux/CLASS RTM_ens38_case_3     [92mCompleted[0m  0:00:21
+QVEGE+QVEGT+QSOIL
+                       Evapotranspiration/MOD16A2 RTM_ens38_case_2     [92mCompleted[0m  0:00:38
+                             GroundHeatFlux/CLASS RTM_ens38_case_4     [92mCompleted[0m  0:00:26
+QVEGE+QVEGT+QSOIL
+                       Evapotranspiration/MOD16A2 RTM_ens38_case_3     [92mCompleted[0m  0:00:42
+QVEGE+QVEGT+QSOIL
+                       Evapotranspiration/MOD16A2 RTM_ens38_case_4     [92mCompleted[0m  0:00:43
+                           LatentHeat/FLUXNET2015 RTM_ens38_case_0     [92mCompleted[0m  0:00:07
+                           LatentHeat/FLUXNET2015 RTM_ens38_case_1     [92mCompleted[0m  0:00:07
+                           LatentHeat/FLUXNET2015 RTM_ens38_case_2     [92mCompleted[0m  0:00:06
+                           LatentHeat/FLUXNET2015 RTM_ens38_case_3     [92mCompleted[0m  0:00:03
+                           LatentHeat/FLUXNET2015 RTM_ens38_case_4     [92mCompleted[0m  0:00:02
+                               LatentHeat/FLUXCOM RTM_ens38_case_0     [92mCompleted[0m  0:00:26
+
+Finishing post-processing which requires collectives...
+
+/glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/cartopy/mpl/geoaxes.py:1700: UserWarning: No data for colormapping provided via 'c'. Parameters 'cmap' will be ignored
+  result = super().scatter(*args, **kwargs)
+/glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/cartopy/mpl/geoaxes.py:1700: UserWarning: No data for colormapping provided via 'c'. Parameters 'cmap' will be ignored
+  result = super().scatter(*args, **kwargs)
+/glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/cartopy/mpl/geoaxes.py:1700: UserWarning: No data for colormapping provided via 'c'. Parameters 'cmap' will be ignored
+  result = super().scatter(*args, **kwargs)
+/glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/cartopy/mpl/geoaxes.py:1700: UserWarning: No data for colormapping provided via 'c'. Parameters 'cmap' will be ignored
+  result = super().scatter(*args, **kwargs)
+/glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/cartopy/mpl/geoaxes.py:1700: UserWarning: No data for colormapping provided via 'c'. Parameters 'cmap' will be ignored
+  result = super().scatter(*args, **kwargs)
+/glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/cartopy/mpl/geoaxes.py:1700: UserWarning: No data for colormapping provided via 'c'. Parameters 'cmap' will be ignored
+  result = super().scatter(*args, **kwargs)
+/glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/cartopy/mpl/geoaxes.py:1700: UserWarning: No data for colormapping provided via 'c'. Parameters 'cmap' will be ignored
+  result = super().scatter(*args, **kwargs)
+/glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/cartopy/mpl/geoaxes.py:1700: UserWarning: No data for colormapping provided via 'c'. Parameters 'cmap' will be ignored
+  result = super().scatter(*args, **kwargs)
+                 NetEcosystemExchange/FLUXNET2015 RTM_ens38_case_4     [92mCompleted[0m  0:00:03
+                  SurfaceNetLWRadiation/WRMC.BSRN RTM_ens38_case_3     [92mCompleted[0m  0:00:03
+             SurfaceUpwardLWRadiation/FLUXNET2015 RTM_ens38_case_1     [92mCompleted[0m  0:00:03
+             GrossPrimaryProductivity/FLUXNET2015 RTM_ens38_case_2     [92mCompleted[0m  0:00:04
+                  SurfaceNetLWRadiation/WRMC.BSRN RTM_ens38_case_4     [92mCompleted[0m  0:00:02
+                               SensibleHeat/CLASS RTM_ens38_case_3     [92mCompleted[0m  0:00:05
+                 EcosystemRespiration/FLUXNET2015 RTM_ens38_case_0     [92mCompleted[0m  0:00:02
+                                 Biomass/Tropical RTM_ens38_case_0     [92mCompleted[0m  0:00:05
+                               LatentHeat/FLUXCOM RTM_ens38_case_1     [92mCompleted[0m  0:00:05
+               SurfaceUpwardSWRadiation/GEWEX.SRB RTM_ens38_case_4     [92mCompleted[0m  0:00:05
+/glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/cartopy/mpl/geoaxes.py:1700: UserWarning: No data for colormapping provided via 'c'. Parameters 'cmap' will be ignored
+  result = super().scatter(*args, **kwargs)
+             SurfaceUpwardLWRadiation/FLUXNET2015 RTM_ens38_case_2     [92mCompleted[0m  0:00:02
+             GrossPrimaryProductivity/FLUXNET2015 RTM_ens38_case_3     [92mCompleted[0m  0:00:02
+                 EcosystemRespiration/FLUXNET2015 RTM_ens38_case_1     [92mCompleted[0m  0:00:02
+               SurfaceUpwardSWRadiation/WRMC.BSRN RTM_ens38_case_0     [92mCompleted[0m  0:00:04
+                                 Biomass/Tropical RTM_ens38_case_1     [92mCompleted[0m  0:00:04
+             SurfaceUpwardLWRadiation/FLUXNET2015 RTM_ens38_case_3     [92mCompleted[0m  0:00:04
+             GrossPrimaryProductivity/FLUXNET2015 RTM_ens38_case_4     [92mCompleted[0m  0:00:04
+                               SensibleHeat/CLASS RTM_ens38_case_4     [92mCompleted[0m  0:00:05
+                 EcosystemRespiration/FLUXNET2015 RTM_ens38_case_2     [92mCompleted[0m  0:00:04
+                   SurfaceNetRadiation/CERESed4.1 RTM_ens38_case_0     [92mCompleted[0m  0:00:06
+               SurfaceUpwardSWRadiation/WRMC.BSRN RTM_ens38_case_1     [92mCompleted[0m  0:00:02
+                                 Biomass/Tropical RTM_ens38_case_2     [92mCompleted[0m  0:00:04
+                               LatentHeat/FLUXCOM RTM_ens38_case_2     [92mCompleted[0m  0:00:08
+             SurfaceUpwardLWRadiation/FLUXNET2015 RTM_ens38_case_4     [92mCompleted[0m  0:00:04
+               SurfaceUpwardSWRadiation/WRMC.BSRN RTM_ens38_case_2     [92mCompleted[0m  0:00:03
+                 EcosystemRespiration/FLUXNET2015 RTM_ens38_case_3     [92mCompleted[0m  0:00:03
+                              SensibleHeat/WECANN RTM_ens38_case_0     [92mCompleted[0m  0:00:04
+                 GrossPrimaryProductivity/FLUXCOM RTM_ens38_case_0     [92mCompleted[0m  0:00:05
+                                 Biomass/Tropical RTM_ens38_case_3     [92mCompleted[0m  0:00:03
+               SurfaceUpwardSWRadiation/WRMC.BSRN RTM_ens38_case_3     [92mCompleted[0m  0:00:03
+                   SurfaceNetRadiation/CERESed4.1 RTM_ens38_case_1     [92mCompleted[0m  0:00:06
+                 EcosystemRespiration/FLUXNET2015 RTM_ens38_case_4     [92mCompleted[0m  0:00:04
+                              SensibleHeat/WECANN RTM_ens38_case_1     [92mCompleted[0m  0:00:04
+               SurfaceUpwardLWRadiation/GEWEX.SRB RTM_ens38_case_0     [92mCompleted[0m  0:00:05
+                               LatentHeat/FLUXCOM RTM_ens38_case_3     [92mCompleted[0m  0:00:06
+                 GrossPrimaryProductivity/FLUXCOM RTM_ens38_case_1     [92mCompleted[0m  0:00:05
+               SurfaceUpwardSWRadiation/WRMC.BSRN RTM_ens38_case_4     [92mCompleted[0m  0:00:02
+                                 Biomass/Tropical RTM_ens38_case_4     [92mCompleted[0m  0:00:04
+                              SensibleHeat/WECANN RTM_ens38_case_2     [92mCompleted[0m  0:00:04
+                             Biomass/GlobalCarbon RTM_ens38_case_0     [92mCompleted[0m  0:00:02
+                     EcosystemRespiration/FLUXCOM RTM_ens38_case_0     [92mCompleted[0m  0:00:05
+               SurfaceUpwardLWRadiation/GEWEX.SRB RTM_ens38_case_1     [92mCompleted[0m  0:00:04
+                   SurfaceNetRadiation/CERESed4.1 RTM_ens38_case_2     [92mCompleted[0m  0:00:06
+                               LatentHeat/FLUXCOM RTM_ens38_case_4     [92mCompleted[0m  0:00:05
+                             Biomass/GlobalCarbon RTM_ens38_case_1     [92mCompleted[0m  0:00:02
+                 SurfaceNetSWRadiation/CERESed4.1 RTM_ens38_case_0     [92mCompleted[0m  0:00:05
+                              SensibleHeat/WECANN RTM_ens38_case_3     [92mCompleted[0m  0:00:03
+                 GrossPrimaryProductivity/FLUXCOM RTM_ens38_case_2     [92mCompleted[0m  0:00:06
+                             Biomass/GlobalCarbon RTM_ens38_case_2     [92mCompleted[0m  0:00:02
+                     EcosystemRespiration/FLUXCOM RTM_ens38_case_1     [92mCompleted[0m  0:00:05
+                             Biomass/GlobalCarbon RTM_ens38_case_3     [92mCompleted[0m  0:00:02
+               SurfaceUpwardLWRadiation/GEWEX.SRB RTM_ens38_case_2     [92mCompleted[0m  0:00:05
+                   SurfaceNetRadiation/CERESed4.1 RTM_ens38_case_3     [92mCompleted[0m  0:00:05
+                              SensibleHeat/WECANN RTM_ens38_case_4     [92mCompleted[0m  0:00:04
+                             Biomass/GlobalCarbon RTM_ens38_case_4     [92mCompleted[0m  0:00:02
+                                 LatentHeat/DOLCE RTM_ens38_case_0     [92mCompleted[0m  0:00:06
+                 SurfaceNetSWRadiation/CERESed4.1 RTM_ens38_case_1     [92mCompleted[0m  0:00:05
+                 GrossPrimaryProductivity/FLUXCOM RTM_ens38_case_3     [92mCompleted[0m  0:00:06
+                     EcosystemRespiration/FLUXCOM RTM_ens38_case_2     [92mCompleted[0m  0:00:04
+               SurfaceUpwardLWRadiation/GEWEX.SRB RTM_ens38_case_3     [92mCompleted[0m  0:00:04
+                   SurfaceNetRadiation/CERESed4.1 RTM_ens38_case_4     [92mCompleted[0m  0:00:04
+/glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/cartopy/mpl/geoaxes.py:1700: UserWarning: No data for colormapping provided via 'c'. Parameters 'cmap' will be ignored
+  result = super().scatter(*args, **kwargs)
+                                 Biomass/NBCD2000 RTM_ens38_case_0     [92mCompleted[0m  0:00:04
+                                     Albedo/CERES RTM_ens38_case_0     [92mCompleted[0m  0:00:04
+                 SurfaceNetSWRadiation/CERESed4.1 RTM_ens38_case_2     [92mCompleted[0m  0:00:04
+                                 LatentHeat/DOLCE RTM_ens38_case_1     [92mCompleted[0m  0:00:04
+                  SurfaceNetRadiation/FLUXNET2015 RTM_ens38_case_0     [92mCompleted[0m  0:00:02
+                 GrossPrimaryProductivity/FLUXCOM RTM_ens38_case_4     [92mCompleted[0m  0:00:04
+                     EcosystemRespiration/FLUXCOM RTM_ens38_case_3     [92mCompleted[0m  0:00:04
+                                 Biomass/NBCD2000 RTM_ens38_case_1     [92mCompleted[0m  0:00:04
+                  SurfaceNetRadiation/FLUXNET2015 RTM_ens38_case_1     [92mCompleted[0m  0:00:02
+               SurfaceUpwardLWRadiation/GEWEX.SRB RTM_ens38_case_4     [92mCompleted[0m  0:00:04
+/glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/cartopy/mpl/geoaxes.py:1700: UserWarning: No data for colormapping provided via 'c'. Parameters 'cmap' will be ignored
+  result = super().scatter(*args, **kwargs)
+                                     Albedo/CERES RTM_ens38_case_1     [92mCompleted[0m  0:00:04
+                  GrossPrimaryProductivity/WECANN RTM_ens38_case_0     [92mCompleted[0m  0:00:03
+                                 LatentHeat/DOLCE RTM_ens38_case_2     [92mCompleted[0m  0:00:04
+                 SurfaceNetSWRadiation/CERESed4.1 RTM_ens38_case_3     [92mCompleted[0m  0:00:05
+               SurfaceUpwardLWRadiation/WRMC.BSRN RTM_ens38_case_0     [92mCompleted[0m  0:00:02
+                  SurfaceNetRadiation/FLUXNET2015 RTM_ens38_case_2     [92mCompleted[0m  0:00:02
+                  GrossPrimaryProductivity/WECANN RTM_ens38_case_1     [92mCompleted[0m  0:00:03
+                                 Biomass/NBCD2000 RTM_ens38_case_2     [92mCompleted[0m  0:00:04
+               SurfaceUpwardLWRadiation/WRMC.BSRN RTM_ens38_case_1     [92mCompleted[0m  0:00:02
+                     EcosystemRespiration/FLUXCOM RTM_ens38_case_4     [92mCompleted[0m  0:00:05
+                  SurfaceNetRadiation/FLUXNET2015 RTM_ens38_case_3     [92mCompleted[0m  0:00:02
+                                     Albedo/CERES RTM_ens38_case_2     [92mCompleted[0m  0:00:04
+                                 LatentHeat/DOLCE RTM_ens38_case_3     [92mCompleted[0m  0:00:04
+               SurfaceUpwardLWRadiation/WRMC.BSRN RTM_ens38_case_2     [92mCompleted[0m  0:00:02
+                 SurfaceNetSWRadiation/CERESed4.1 RTM_ens38_case_4     [92mCompleted[0m  0:00:04
+/glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/cartopy/mpl/geoaxes.py:1700: UserWarning: No data for colormapping provided via 'c'. Parameters 'cmap' will be ignored
+  result = super().scatter(*args, **kwargs)
+                  SurfaceNetRadiation/FLUXNET2015 RTM_ens38_case_4     [92mCompleted[0m  0:00:02
+                  GrossPrimaryProductivity/WECANN RTM_ens38_case_2     [92mCompleted[0m  0:00:03
+                SurfaceNetSWRadiation/FLUXNET2015 RTM_ens38_case_0     [92mCompleted[0m  0:00:02
+               SurfaceUpwardLWRadiation/WRMC.BSRN RTM_ens38_case_3     [92mCompleted[0m  0:00:02
+                                 Biomass/NBCD2000 RTM_ens38_case_3     [92mCompleted[0m  0:00:04
+                    Evapotranspiration/GLEAMv3.3a RTM_ens38_case_0     [92mCompleted[0m  0:00:04
+                                     Albedo/CERES RTM_ens38_case_3     [92mCompleted[0m  0:00:04
+                  GrossPrimaryProductivity/WECANN RTM_ens38_case_3     [92mCompleted[0m  0:00:03
+               SurfaceUpwardLWRadiation/WRMC.BSRN RTM_ens38_case_4     [92mCompleted[0m  0:00:03
+                SurfaceNetSWRadiation/FLUXNET2015 RTM_ens38_case_1     [92mCompleted[0m  0:00:03
+                                 LatentHeat/DOLCE RTM_ens38_case_4     [92mCompleted[0m  0:00:05
+                    SurfaceNetRadiation/GEWEX.SRB RTM_ens38_case_0     [92mCompleted[0m  0:00:04
+                                 Biomass/NBCD2000 RTM_ens38_case_4     [92mCompleted[0m  0:00:04
+                    Evapotranspiration/GLEAMv3.3a RTM_ens38_case_1     [92mCompleted[0m  0:00:05
+                SurfaceNetSWRadiation/FLUXNET2015 RTM_ens38_case_2     [92mCompleted[0m  0:00:02
+                  GrossPrimaryProductivity/WECANN RTM_ens38_case_4     [92mCompleted[0m  0:00:03
+                SurfaceNetSWRadiation/FLUXNET2015 RTM_ens38_case_3     [92mCompleted[0m  0:00:02
+                                 LatentHeat/CLASS RTM_ens38_case_0     [92mCompleted[0m  0:00:04
+                                     Albedo/CERES RTM_ens38_case_4     [92mCompleted[0m  0:00:06
+                 SurfaceNetLWRadiation/CERESed4.1 RTM_ens38_case_0     [92mCompleted[0m  0:00:05
+                    SurfaceNetRadiation/GEWEX.SRB RTM_ens38_case_1     [92mCompleted[0m  0:00:05
+                                 Biomass/USForest RTM_ens38_case_0     [92mCompleted[0m  0:00:04
+                SurfaceNetSWRadiation/FLUXNET2015 RTM_ens38_case_4     [92mCompleted[0m  0:00:02
+                    Evapotranspiration/GLEAMv3.3a RTM_ens38_case_2     [92mCompleted[0m  0:00:04
+                              LeafAreaIndex/AVHRR RTM_ens38_case_0     [92mCompleted[0m  0:00:04
+                                 LatentHeat/CLASS RTM_ens38_case_1     [92mCompleted[0m  0:00:04
+                 SurfaceNetLWRadiation/CERESed4.1 RTM_ens38_case_1     [92mCompleted[0m  0:00:04
+                                 Albedo/GEWEX.SRB RTM_ens38_case_0     [92mCompleted[0m  0:00:04
+                    SurfaceNetRadiation/GEWEX.SRB RTM_ens38_case_2     [92mCompleted[0m  0:00:04
+                                 Biomass/USForest RTM_ens38_case_1     [92mCompleted[0m  0:00:04
+                  SurfaceNetSWRadiation/GEWEX.SRB RTM_ens38_case_0     [92mCompleted[0m  0:00:05
+                    Evapotranspiration/GLEAMv3.3a RTM_ens38_case_3     [92mCompleted[0m  0:00:05
+                              LeafAreaIndex/AVHRR RTM_ens38_case_1     [92mCompleted[0m  0:00:04
+                                 LatentHeat/CLASS RTM_ens38_case_2     [92mCompleted[0m  0:00:04
+                                 Biomass/USForest RTM_ens38_case_2     [92mCompleted[0m  0:00:04
+                    SurfaceNetRadiation/GEWEX.SRB RTM_ens38_case_3     [92mCompleted[0m  0:00:04
+                 SurfaceNetLWRadiation/CERESed4.1 RTM_ens38_case_2     [92mCompleted[0m  0:00:04
+                                 Albedo/GEWEX.SRB RTM_ens38_case_1     [92mCompleted[0m  0:00:05
+                              LeafAreaIndex/AVHRR RTM_ens38_case_2     [92mCompleted[0m  0:00:04
+                    Evapotranspiration/GLEAMv3.3a RTM_ens38_case_4     [92mCompleted[0m  0:00:04
+                  SurfaceNetSWRadiation/GEWEX.SRB RTM_ens38_case_1     [92mCompleted[0m  0:00:04
+                                 Biomass/USForest RTM_ens38_case_3     [92mCompleted[0m  0:00:04
+                                 LatentHeat/CLASS RTM_ens38_case_3     [92mCompleted[0m  0:00:05
+                 SurfaceNetLWRadiation/CERESed4.1 RTM_ens38_case_3     [92mCompleted[0m  0:00:05
+                                 Albedo/GEWEX.SRB RTM_ens38_case_2     [92mCompleted[0m  0:00:04
+                    SurfaceNetRadiation/GEWEX.SRB RTM_ens38_case_4     [92mCompleted[0m  0:00:05
+/glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/cartopy/mpl/geoaxes.py:1700: UserWarning: No data for colormapping provided via 'c'. Parameters 'cmap' will be ignored
+  result = super().scatter(*args, **kwargs)
+                  SurfaceNetSWRadiation/GEWEX.SRB RTM_ens38_case_2     [92mCompleted[0m  0:00:04
+                              LeafAreaIndex/AVHRR RTM_ens38_case_3     [92mCompleted[0m  0:00:04
+                         Evapotranspiration/MODIS RTM_ens38_case_0     [92mCompleted[0m  0:00:05
+                    SurfaceNetRadiation/WRMC.BSRN RTM_ens38_case_0     [92mCompleted[0m  0:00:02
+                                 Biomass/USForest RTM_ens38_case_4     [92mCompleted[0m  0:00:04
+                                 LatentHeat/CLASS RTM_ens38_case_4     [92mCompleted[0m  0:00:05
+                                  Biomass/Thurner RTM_ens38_case_0     [92mCompleted[0m  0:00:02
+                    SurfaceNetRadiation/WRMC.BSRN RTM_ens38_case_1     [92mCompleted[0m  0:00:03
+                 SurfaceNetLWRadiation/CERESed4.1 RTM_ens38_case_4     [92mCompleted[0m  0:00:05
+/glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/cartopy/mpl/geoaxes.py:1700: UserWarning: No data for colormapping provided via 'c'. Parameters 'cmap' will be ignored
+  result = super().scatter(*args, **kwargs)
+                                 Albedo/GEWEX.SRB RTM_ens38_case_3     [92mCompleted[0m  0:00:05
+                              LeafAreaIndex/AVHRR RTM_ens38_case_4     [92mCompleted[0m  0:00:05
+                         Evapotranspiration/MODIS RTM_ens38_case_1     [92mCompleted[0m  0:00:05
+                                  Biomass/Thurner RTM_ens38_case_1     [92mCompleted[0m  0:00:02
+                  SurfaceNetSWRadiation/GEWEX.SRB RTM_ens38_case_3     [92mCompleted[0m  0:00:05
+                SurfaceNetLWRadiation/FLUXNET2015 RTM_ens38_case_0     [92mCompleted[0m  0:00:02
+                                LatentHeat/WECANN RTM_ens38_case_0     [92mCompleted[0m  0:00:03
+                    SurfaceNetRadiation/WRMC.BSRN RTM_ens38_case_2     [92mCompleted[0m  0:00:02
+                                  Biomass/Thurner RTM_ens38_case_2     [92mCompleted[0m  0:00:02
+                SurfaceNetLWRadiation/FLUXNET2015 RTM_ens38_case_1     [92mCompleted[0m  0:00:02
+                                 Albedo/GEWEX.SRB RTM_ens38_case_4     [92mCompleted[0m  0:00:04
+                    SurfaceNetRadiation/WRMC.BSRN RTM_ens38_case_3     [92mCompleted[0m  0:00:02
+                                LatentHeat/WECANN RTM_ens38_case_1     [92mCompleted[0m  0:00:03
+                                  Biomass/Thurner RTM_ens38_case_3     [92mCompleted[0m  0:00:02
+                            LeafAreaIndex/AVH15C1 RTM_ens38_case_0     [92mCompleted[0m  0:00:04
+                  SurfaceNetSWRadiation/GEWEX.SRB RTM_ens38_case_4     [92mCompleted[0m  0:00:05
+/glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/cartopy/mpl/geoaxes.py:1700: UserWarning: No data for colormapping provided via 'c'. Parameters 'cmap' will be ignored
+  result = super().scatter(*args, **kwargs)
+                         Evapotranspiration/MODIS RTM_ens38_case_2     [92mCompleted[0m  0:00:05
+                SurfaceNetLWRadiation/FLUXNET2015 RTM_ens38_case_2     [92mCompleted[0m  0:00:03
+                                  Biomass/Thurner RTM_ens38_case_4     [92mCompleted[0m  0:00:01
+                                   Biomass/ESACCI RTM_ens38_case_0     [92mCompleted[0m  0:00:01
+                                   Biomass/ESACCI RTM_ens38_case_1     [92mCompleted[0m  0:00:01
+                                   Biomass/ESACCI RTM_ens38_case_2     [92mCompleted[0m  0:00:01
+                                   Biomass/ESACCI RTM_ens38_case_3     [92mCompleted[0m  0:00:01
+                                   Biomass/ESACCI RTM_ens38_case_4     [92mCompleted[0m  0:00:01
+/glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/cartopy/mpl/geoaxes.py:1700: UserWarning: No data for colormapping provided via 'c'. Parameters 'cmap' will be ignored
+  result = super().scatter(*args, **kwargs)
+                    SurfaceNetRadiation/WRMC.BSRN RTM_ens38_case_4     [92mCompleted[0m  0:00:02
+             GrossPrimaryProductivity/FLUXNET2015 RTM_ens38_case_0     [92mCompleted[0m  0:00:02
+                                LatentHeat/WECANN RTM_ens38_case_2     [92mCompleted[0m  0:00:04
+                  SurfaceNetSWRadiation/WRMC.BSRN RTM_ens38_case_0     [92mCompleted[0m  0:00:02
+                SurfaceNetLWRadiation/FLUXNET2015 RTM_ens38_case_3     [92mCompleted[0m  0:00:02
+              SurfaceUpwardSWRadiation/CERESed4.1 RTM_ens38_case_0     [92mCompleted[0m  0:00:05
+             GrossPrimaryProductivity/FLUXNET2015 RTM_ens38_case_1     [92mCompleted[0m  0:00:02
+                            LeafAreaIndex/AVH15C1 RTM_ens38_case_1     [92mCompleted[0m  0:00:05
+                  SurfaceNetSWRadiation/WRMC.BSRN RTM_ens38_case_1     [92mCompleted[0m  0:00:02
+                SurfaceNetLWRadiation/FLUXNET2015 RTM_ens38_case_4     [92mCompleted[0m  0:00:02
+                         Evapotranspiration/MODIS RTM_ens38_case_3     [92mCompleted[0m  0:00:04
+                        SurfaceNetRadiation/CLASS RTM_ens38_case_0     [92mCompleted[0m  0:00:04
+                                LatentHeat/WECANN RTM_ens38_case_3     [92mCompleted[0m  0:00:02
+                  SurfaceNetSWRadiation/WRMC.BSRN RTM_ens38_case_2     [92mCompleted[0m  0:00:02
+              SurfaceUpwardSWRadiation/CERESed4.1 RTM_ens38_case_1     [92mCompleted[0m  0:00:04
+                                LatentHeat/WECANN RTM_ens38_case_4     [92mCompleted[0m  0:00:03
+/glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/cartopy/mpl/geoaxes.py:1700: UserWarning: No data for colormapping provided via 'c'. Parameters 'cmap' will be ignored
+  result = super().scatter(*args, **kwargs)
+                  SurfaceNetSWRadiation/WRMC.BSRN RTM_ens38_case_3     [92mCompleted[0m  0:00:03
+                            LeafAreaIndex/AVH15C1 RTM_ens38_case_2     [92mCompleted[0m  0:00:04
+                  SurfaceNetLWRadiation/GEWEX.SRB RTM_ens38_case_0     [92mCompleted[0m  0:00:04
+                        SurfaceNetRadiation/CLASS RTM_ens38_case_1     [92mCompleted[0m  0:00:04
+                         Evapotranspiration/MODIS RTM_ens38_case_4     [92mCompleted[0m  0:00:04
+                         SensibleHeat/FLUXNET2015 RTM_ens38_case_0     [92mCompleted[0m  0:00:02
+                  SurfaceNetSWRadiation/WRMC.BSRN RTM_ens38_case_4     [92mCompleted[0m  0:00:02
+                         SensibleHeat/FLUXNET2015 RTM_ens38_case_1     [92mCompleted[0m  0:00:02
+              SurfaceUpwardSWRadiation/CERESed4.1 RTM_ens38_case_2     [92mCompleted[0m  0:00:04
+                         SensibleHeat/FLUXNET2015 RTM_ens38_case_2     [92mCompleted[0m  0:00:02
+                  SurfaceNetLWRadiation/GEWEX.SRB RTM_ens38_case_1     [92mCompleted[0m  0:00:04
+                            LeafAreaIndex/AVH15C1 RTM_ens38_case_3     [92mCompleted[0m  0:00:04
+                        SurfaceNetRadiation/CLASS RTM_ens38_case_2     [92mCompleted[0m  0:00:05
+                       Evapotranspiration/MOD16A2 RTM_ens38_case_0     [92mCompleted[0m  0:00:04
+                         SensibleHeat/FLUXNET2015 RTM_ens38_case_3     [92mCompleted[0m  0:00:02
+              SurfaceUpwardLWRadiation/CERESed4.1 RTM_ens38_case_0     [92mCompleted[0m  0:00:05
+              SurfaceUpwardSWRadiation/CERESed4.1 RTM_ens38_case_3     [92mCompleted[0m  0:00:04
+                         SensibleHeat/FLUXNET2015 RTM_ens38_case_4     [92mCompleted[0m  0:00:02
+                       Evapotranspiration/MOD16A2 RTM_ens38_case_1     [92mCompleted[0m  0:00:04
+                            LeafAreaIndex/AVH15C1 RTM_ens38_case_4     [92mCompleted[0m  0:00:05
+                  SurfaceNetLWRadiation/GEWEX.SRB RTM_ens38_case_2     [92mCompleted[0m  0:00:05
+                        SurfaceNetRadiation/CLASS RTM_ens38_case_3     [92mCompleted[0m  0:00:05
+              SurfaceUpwardLWRadiation/CERESed4.1 RTM_ens38_case_1     [92mCompleted[0m  0:00:04
+              SurfaceUpwardSWRadiation/CERESed4.1 RTM_ens38_case_4     [92mCompleted[0m  0:00:04
+/glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/cartopy/mpl/geoaxes.py:1700: UserWarning: No data for colormapping provided via 'c'. Parameters 'cmap' will be ignored
+  result = super().scatter(*args, **kwargs)
+                             SensibleHeat/FLUXCOM RTM_ens38_case_0     [92mCompleted[0m  0:00:04
+             SurfaceUpwardSWRadiation/FLUXNET2015 RTM_ens38_case_0     [92mCompleted[0m  0:00:02
+                       Evapotranspiration/MOD16A2 RTM_ens38_case_2     [92mCompleted[0m  0:00:04
+                              LeafAreaIndex/MODIS RTM_ens38_case_0     [92mCompleted[0m  0:00:05
+                        SurfaceNetRadiation/CLASS RTM_ens38_case_4     [92mCompleted[0m  0:00:05
+                  SurfaceNetLWRadiation/GEWEX.SRB RTM_ens38_case_3     [92mCompleted[0m  0:00:05
+              SurfaceUpwardLWRadiation/CERESed4.1 RTM_ens38_case_2     [92mCompleted[0m  0:00:04
+             SurfaceUpwardSWRadiation/FLUXNET2015 RTM_ens38_case_1     [92mCompleted[0m  0:00:02
+             SurfaceUpwardSWRadiation/FLUXNET2015 RTM_ens38_case_2     [92mCompleted[0m  0:00:02
+                             SensibleHeat/FLUXCOM RTM_ens38_case_1     [92mCompleted[0m  0:00:04
+                       Evapotranspiration/MOD16A2 RTM_ens38_case_3     [92mCompleted[0m  0:00:04
+                             GroundHeatFlux/CLASS RTM_ens38_case_0     [92mCompleted[0m  0:00:04
+                              LeafAreaIndex/MODIS RTM_ens38_case_1     [92mCompleted[0m  0:00:04
+             SurfaceUpwardSWRadiation/FLUXNET2015 RTM_ens38_case_3     [92mCompleted[0m  0:00:02
+                  SurfaceNetLWRadiation/GEWEX.SRB RTM_ens38_case_4     [92mCompleted[0m  0:00:04
+/glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/cartopy/mpl/geoaxes.py:1700: UserWarning: No data for colormapping provided via 'c'. Parameters 'cmap' will be ignored
+  result = super().scatter(*args, **kwargs)
+              SurfaceUpwardLWRadiation/CERESed4.1 RTM_ens38_case_3     [92mCompleted[0m  0:00:04
+             SurfaceUpwardSWRadiation/FLUXNET2015 RTM_ens38_case_4     [92mCompleted[0m  0:00:02
+                  SurfaceNetLWRadiation/WRMC.BSRN RTM_ens38_case_0     [92mCompleted[0m  0:00:02
+                       Evapotranspiration/MOD16A2 RTM_ens38_case_4     [92mCompleted[0m  0:00:04
+/glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/cartopy/mpl/geoaxes.py:1700: UserWarning: No data for colormapping provided via 'c'. Parameters 'cmap' will be ignored
+  result = super().scatter(*args, **kwargs)
+                             SensibleHeat/FLUXCOM RTM_ens38_case_2     [92mCompleted[0m  0:00:05
+                              LeafAreaIndex/MODIS RTM_ens38_case_2     [92mCompleted[0m  0:00:04
+                             GroundHeatFlux/CLASS RTM_ens38_case_1     [92mCompleted[0m  0:00:05
+                  SurfaceNetLWRadiation/WRMC.BSRN RTM_ens38_case_1     [92mCompleted[0m  0:00:02
+                           LatentHeat/FLUXNET2015 RTM_ens38_case_0     [92mCompleted[0m  0:00:02
+              SurfaceUpwardLWRadiation/CERESed4.1 RTM_ens38_case_4     [92mCompleted[0m  0:00:05
+/glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/cartopy/mpl/geoaxes.py:1700: UserWarning: No data for colormapping provided via 'c'. Parameters 'cmap' will be ignored
+  result = super().scatter(*args, **kwargs)
+               SurfaceUpwardSWRadiation/GEWEX.SRB RTM_ens38_case_0     [92mCompleted[0m  0:00:05
+             SurfaceUpwardLWRadiation/FLUXNET2015 RTM_ens38_case_0     [92mCompleted[0m  0:00:02
+                  SurfaceNetLWRadiation/WRMC.BSRN RTM_ens38_case_2     [92mCompleted[0m  0:00:02
+                           LatentHeat/FLUXNET2015 RTM_ens38_case_1     [92mCompleted[0m  0:00:02
+                             SensibleHeat/FLUXCOM RTM_ens38_case_3     [92mCompleted[0m  0:00:04
+                              LeafAreaIndex/MODIS RTM_ens38_case_3     [92mCompleted[0m  0:00:05
+                             GroundHeatFlux/CLASS RTM_ens38_case_2     [92mCompleted[0m  0:00:04
+                           LatentHeat/FLUXNET2015 RTM_ens38_case_2     [92mCompleted[0m  0:00:02
+                           LatentHeat/FLUXNET2015 RTM_ens38_case_3     [92mCompleted[0m  0:00:02
+               SurfaceUpwardSWRadiation/GEWEX.SRB RTM_ens38_case_1     [92mCompleted[0m  0:00:04
+                             SensibleHeat/FLUXCOM RTM_ens38_case_4     [92mCompleted[0m  0:00:04
+                           LatentHeat/FLUXNET2015 RTM_ens38_case_4     [92mCompleted[0m  0:00:02
+                              LeafAreaIndex/MODIS RTM_ens38_case_4     [92mCompleted[0m  0:00:04
+/glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/cartopy/mpl/geoaxes.py:1700: UserWarning: No data for colormapping provided via 'c'. Parameters 'cmap' will be ignored
+  result = super().scatter(*args, **kwargs)
+                             GroundHeatFlux/CLASS RTM_ens38_case_3     [92mCompleted[0m  0:00:04
+                 NetEcosystemExchange/FLUXNET2015 RTM_ens38_case_0     [92mCompleted[0m  0:00:02
+               SurfaceUpwardSWRadiation/GEWEX.SRB RTM_ens38_case_2     [92mCompleted[0m  0:00:04
+                               LatentHeat/FLUXCOM RTM_ens38_case_0     [92mCompleted[0m  0:00:03
+                               SensibleHeat/CLASS RTM_ens38_case_0     [92mCompleted[0m  0:00:04
+                 NetEcosystemExchange/FLUXNET2015 RTM_ens38_case_1     [92mCompleted[0m  0:00:02
+                             GroundHeatFlux/CLASS RTM_ens38_case_4     [92mCompleted[0m  0:00:05
+                 NetEcosystemExchange/FLUXNET2015 RTM_ens38_case_2     [92mCompleted[0m  0:00:02
+               SurfaceUpwardSWRadiation/GEWEX.SRB RTM_ens38_case_3     [92mCompleted[0m  0:00:04
+                               SensibleHeat/CLASS RTM_ens38_case_1     [92mCompleted[0m  0:00:04
+                 NetEcosystemExchange/FLUXNET2015 RTM_ens38_case_3     [92mCompleted[0m  0:00:02
+                               SensibleHeat/CLASS RTM_ens38_case_2     [92mCompleted[0m  0:00:04
+
+Errors occurred in the run, please consult /glade/u/home/rfisher/fates-global-cal/ilamb_scripts/builddir/ILAMB01.log for more detailed information
+
+Completed in  0:19:23
+
