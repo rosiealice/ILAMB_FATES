@@ -154,13 +154,17 @@
         }
         if(0){
           document.getElementById("Benchmark_legend").style.display = 'none';
+          document.getElementById("ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist_legend").style.display = 'none';
           document.getElementById("RTM_ens38_case_3_legend").style.display = 'none';
         }else{
           document.getElementById("Benchmark_legend").style.display = 'inline';
+          document.getElementById("ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist_legend").style.display = 'inline';
           document.getElementById("RTM_ens38_case_3_legend").style.display = 'inline';
         }
         document.getElementById('Benchmark').src = 'Benchmark_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('Benchmark_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist').src = 'ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('RTM_ens38_case_3').src = 'RTM_ens38_case_3_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('RTM_ens38_case_3_legend').src = 'legend_' + PNAME + '.png';
       }
@@ -233,7 +237,8 @@
       <div style="display:none">
       <select id="MeanStateModel">
         <option value='Benchmark'>Benchmark</option>
-        <option value='RTM_ens38_case_3' selected="selected">RTM_ens38_case_3</option>
+        <option value='ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist' selected="selected">ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist</option>
+        <option value='RTM_ens38_case_3'>RTM_ens38_case_3</option>
       </select>
       </div>
         <center>
@@ -270,6 +275,21 @@
                <td></td>
                <td></td>
                <td></td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist</td>
+               <td onclick="highlightRowMeanState(this)"><a href="GlobalCarbon_ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">613.</td>
+               <td onclick="highlightRowMeanState(this)">602.</td>
+               <td onclick="highlightRowMeanState(this)">363.</td>
+               <td onclick="highlightRowMeanState(this)">11.8</td>
+               <td onclick="highlightRowMeanState(this)">4.62</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">2.60</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.510</td>
+               <td onclick="highlightRowMeanState(this)">0.671</td>
+               <td onclick="highlightRowMeanState(this)">0.591</td>
              </tr>
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">RTM_ens38_case_3</td>
@@ -364,6 +384,13 @@
           <center>Benchmark</center>
           <img src="" id="Benchmark" alt="Data not available" ></img>
           <center><img src="legend_Benchmark.png" id="Benchmark_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist_div">
+          <div class="child">
+          <center>ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist</center>
+          <img src="" id="ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist" alt="Data not available" ></img>
+          <center><img src="legend_ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist.png" id="ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
         <div class="container" id="RTM_ens38_case_3_div">

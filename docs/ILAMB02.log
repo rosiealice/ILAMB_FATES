@@ -1,0 +1,322 @@
+[INFO][0][<module>] Linux dec1835 5.14.21-150400.24.46_12.0.73-cray_shasta_c #1 SMP Thu May 18 23:03:34 UTC 2023 (9c4698c) x86_64 x86_64
+[INFO][0][<module>] /glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB (2.7)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/numpy (1.23.5)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/matplotlib (3.6.3)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/netCDF4 (1.6.2)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/cf_units (3.1.1)
+[INFO][0][<module>] /glade/u/home/rfisher/.local/lib/python3.9/site-packages/sympy (1.12)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/mpi4py (3.1.4)
+[INFO][0][<module>] 2023-09-15 05:38:25.601062
+[DEBUG][12][extractTimeSeries][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Could not find [FATES_FRACTION] in the model results
+[DEBUG][8][extractTimeSeries][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Could not find [FATES_FRACTION] in the model results
+[DEBUG][12][WorkConfront][NetEcosystemExchange/FLUXNET2015][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/.local/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 413, in extractTimeSeries
+    v = self.derivedVariable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 499, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 437, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][6][extractTimeSeries][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Could not find [FATES_FRACTION] in the model results
+[DEBUG][7][extractTimeSeries][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Could not find [FATES_FRACTION] in the model results
+[DEBUG][8][WorkConfront][GrossPrimaryProductivity/FLUXNET2015][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/.local/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 413, in extractTimeSeries
+    v = self.derivedVariable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 499, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 437, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Could not find [FATES_FRACTION] in the model results
+[DEBUG][6][WorkConfront][Biomass/Thurner][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/.local/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 413, in extractTimeSeries
+    v = self.derivedVariable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 499, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 437, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][7][WorkConfront][Biomass/ESACCI][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/.local/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 413, in extractTimeSeries
+    v = self.derivedVariable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 499, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 437, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][WorkConfront][Biomass/Tropical][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/.local/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 413, in extractTimeSeries
+    v = self.derivedVariable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 499, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 437, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][3][extractTimeSeries][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Could not find [FATES_VEGC] in the model results
+[DEBUG][1][extractTimeSeries][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Could not find [FATES_FRACTION] in the model results
+[DEBUG][4][extractTimeSeries][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Could not find [FATES_FRACTION] in the model results
+[DEBUG][3][WorkConfront][Biomass/NBCD2000][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/.local/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 413, in extractTimeSeries
+    v = self.derivedVariable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 499, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 437, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][1][WorkConfront][Biomass/GlobalCarbon][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/.local/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 413, in extractTimeSeries
+    v = self.derivedVariable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 499, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 437, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][4][WorkConfront][Biomass/USForest][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/.local/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 413, in extractTimeSeries
+    v = self.derivedVariable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 499, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 437, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][14][extractTimeSeries][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Could not find [FATES_AUTORESP] in the model results
+[DEBUG][14][WorkConfront][EcosystemRespiration/FLUXNET2015][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/.local/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 413, in extractTimeSeries
+    v = self.derivedVariable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 499, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 437, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][11][extractTimeSeries][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Could not find [FATES_GPP] in the model results
+[DEBUG][11][WorkConfront][GrossPrimaryProductivity/WECANN][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/.local/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 413, in extractTimeSeries
+    v = self.derivedVariable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 499, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 437, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][9][extractTimeSeries][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Could not find [FATES_FRACTION] in the model results
+[DEBUG][9][WorkConfront][GrossPrimaryProductivity/FLUXCOM][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/.local/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 413, in extractTimeSeries
+    v = self.derivedVariable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 499, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 437, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][15][extractTimeSeries][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Could not find [FATES_AUTORESP] in the model results
+[DEBUG][15][WorkConfront][EcosystemRespiration/FLUXCOM][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/.local/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 413, in extractTimeSeries
+    v = self.derivedVariable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 499, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 437, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][15][modelPlots][SurfaceNetRadiation/WRMC.BSRN][RTM_ens38_case_3] Success
+[INFO][14][modelPlots][SurfaceNetLWRadiation/WRMC.BSRN][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][10][modelPlots][SurfaceUpwardSWRadiation/WRMC.BSRN][RTM_ens38_case_3] Success
+[INFO][12][modelPlots][SurfaceUpwardLWRadiation/FLUXNET2015][RTM_ens38_case_3] Success
+[INFO][4][modelPlots][EcosystemRespiration/FLUXNET2015][RTM_ens38_case_3] Success
+[INFO][0][modelPlots][Biomass/Tropical][RTM_ens38_case_3] Success
+[INFO][7][modelPlots][LatentHeat/WECANN][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][15][modelPlots][SurfaceNetRadiation/WRMC.BSRN][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][5][modelPlots][Evapotranspiration/MODIS][RTM_ens38_case_3] Success
+[INFO][1][modelPlots][Biomass/USForest][RTM_ens38_case_3] Success
+[INFO][10][modelPlots][SurfaceUpwardSWRadiation/WRMC.BSRN][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][12][modelPlots][SurfaceUpwardLWRadiation/FLUXNET2015][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][2][modelPlots][GrossPrimaryProductivity/FLUXCOM][RTM_ens38_case_3] Success
+[INFO][6][modelPlots][LatentHeat/FLUXCOM][RTM_ens38_case_3] Success
+[INFO][13][modelPlots][SurfaceNetLWRadiation/CERESed4.1][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][11][modelPlots][SurfaceNetSWRadiation/GEWEX.SRB][RTM_ens38_case_3] Success
+[INFO][9][modelPlots][Albedo/GEWEX.SRB][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][8][modelPlots][SensibleHeat/CLASS][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][0][modelPlots][Biomass/GlobalCarbon][RTM_ens38_case_3] Success
+[INFO][7][modelPlots][SensibleHeat/FLUXNET2015][RTM_ens38_case_3] Success
+[INFO][3][modelPlots][LeafAreaIndex/AVHRR][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][1][modelPlots][Biomass/Thurner][RTM_ens38_case_3] Success
+[INFO][14][modelPlots][SurfaceNetRadiation/CERESed4.1][RTM_ens38_case_3] Success
+[INFO][13][modelPlots][SurfaceNetLWRadiation/FLUXNET2015][RTM_ens38_case_3] Success
+[INFO][4][modelPlots][EcosystemRespiration/FLUXCOM][RTM_ens38_case_3] Success
+[INFO][7][modelPlots][SensibleHeat/FLUXNET2015][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][1][modelPlots][Biomass/ESACCI][RTM_ens38_case_3] Success
+[INFO][2][modelPlots][GrossPrimaryProductivity/WECANN][RTM_ens38_case_3] Success
+[INFO][8][modelPlots][SensibleHeat/WECANN][RTM_ens38_case_3] Success
+[INFO][15][modelPlots][SurfaceNetRadiation/CLASS][RTM_ens38_case_3] Success
+[INFO][13][modelPlots][SurfaceNetLWRadiation/FLUXNET2015][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][10][modelPlots][SurfaceNetSWRadiation/CERESed4.1][RTM_ens38_case_3] Success
+[INFO][0][modelPlots][Biomass/NBCD2000][RTM_ens38_case_3] Success
+[INFO][12][modelPlots][SurfaceUpwardLWRadiation/GEWEX.SRB][RTM_ens38_case_3] Success
+[INFO][1][modelPlots][GrossPrimaryProductivity/FLUXNET2015][RTM_ens38_case_3] Success
+[INFO][9][modelPlots][SurfaceUpwardSWRadiation/CERESed4.1][RTM_ens38_case_3] Success
+[INFO][3][modelPlots][LeafAreaIndex/AVH15C1][RTM_ens38_case_3] Success
+[INFO][5][modelPlots][Evapotranspiration/MODIS][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][6][modelPlots][LatentHeat/FLUXCOM][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][4][modelPlots][Evapotranspiration/GLEAMv3.3a][RTM_ens38_case_3] Success
+[INFO][8][modelPlots][SensibleHeat/WECANN][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][11][modelPlots][SurfaceNetSWRadiation/GEWEX.SRB][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][2][modelPlots][LeafAreaIndex/AVHRR][RTM_ens38_case_3] Success
+[INFO][7][modelPlots][SensibleHeat/FLUXCOM][RTM_ens38_case_3] Success
+[INFO][13][modelPlots][SurfaceNetLWRadiation/GEWEX.SRB][RTM_ens38_case_3] Success
+[INFO][14][modelPlots][SurfaceNetRadiation/CERESed4.1][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][11][modelPlots][SurfaceNetSWRadiation/WRMC.BSRN][RTM_ens38_case_3] Success
+[INFO][5][modelPlots][Evapotranspiration/MOD16A2][RTM_ens38_case_3] Success
+[INFO][15][modelPlots][SurfaceNetRadiation/CLASS][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][14][modelPlots][SurfaceNetRadiation/FLUXNET2015][RTM_ens38_case_3] Success
+[INFO][11][modelPlots][SurfaceNetSWRadiation/WRMC.BSRN][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][6][modelPlots][LatentHeat/DOLCE][RTM_ens38_case_3] Success
+[INFO][10][modelPlots][SurfaceNetSWRadiation/CERESed4.1][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][12][modelPlots][SurfaceUpwardLWRadiation/GEWEX.SRB][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][8][modelPlots][Albedo/CERES][RTM_ens38_case_3] Success
+[INFO][9][modelPlots][SurfaceUpwardSWRadiation/CERESed4.1][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][3][modelPlots][LeafAreaIndex/AVH15C1][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][14][modelPlots][SurfaceNetRadiation/FLUXNET2015][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][10][modelPlots][SurfaceNetSWRadiation/FLUXNET2015][RTM_ens38_case_3] Success
+[INFO][12][modelPlots][SurfaceUpwardLWRadiation/WRMC.BSRN][RTM_ens38_case_3] Success
+[INFO][9][modelPlots][SurfaceUpwardSWRadiation/FLUXNET2015][RTM_ens38_case_3] Success
+[INFO][4][modelPlots][Evapotranspiration/GLEAMv3.3a][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][15][modelPlots][GroundHeatFlux/CLASS][RTM_ens38_case_3] Success
+[INFO][7][modelPlots][SensibleHeat/FLUXCOM][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][10][modelPlots][SurfaceNetSWRadiation/FLUXNET2015][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][13][modelPlots][SurfaceNetLWRadiation/GEWEX.SRB][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][12][modelPlots][SurfaceUpwardLWRadiation/WRMC.BSRN][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][11][modelPlots][SurfaceUpwardLWRadiation/CERESed4.1][RTM_ens38_case_3] Success
+[INFO][9][modelPlots][SurfaceUpwardSWRadiation/FLUXNET2015][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][3][modelPlots][LeafAreaIndex/MODIS][RTM_ens38_case_3] Success
+[INFO][13][modelPlots][SurfaceNetLWRadiation/WRMC.BSRN][RTM_ens38_case_3] Success
+[INFO][5][modelPlots][Evapotranspiration/MOD16A2][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][14][modelPlots][SurfaceNetRadiation/GEWEX.SRB][RTM_ens38_case_3] Success
+[INFO][6][modelPlots][LatentHeat/DOLCE][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][8][modelPlots][Albedo/CERES][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][5][modelPlots][LatentHeat/FLUXNET2015][RTM_ens38_case_3] Success
+[INFO][7][modelPlots][SensibleHeat/CLASS][RTM_ens38_case_3] Success
+[INFO][12][modelPlots][SurfaceNetLWRadiation/CERESed4.1][RTM_ens38_case_3] Success
+[INFO][9][modelPlots][SurfaceUpwardSWRadiation/GEWEX.SRB][RTM_ens38_case_3] Success
+[INFO][5][modelPlots][LatentHeat/FLUXNET2015][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][15][modelPlots][GroundHeatFlux/CLASS][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][11][modelPlots][SurfaceUpwardLWRadiation/CERESed4.1][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][6][modelPlots][LatentHeat/CLASS][RTM_ens38_case_3] Success
+[INFO][3][modelPlots][LeafAreaIndex/MODIS][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][8][modelPlots][Albedo/GEWEX.SRB][RTM_ens38_case_3] Success
+[INFO][14][modelPlots][SurfaceNetRadiation/GEWEX.SRB][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][3][modelPlots][NetEcosystemExchange/FLUXNET2015][RTM_ens38_case_3] Success
+[INFO][9][modelPlots][SurfaceUpwardSWRadiation/GEWEX.SRB][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][6][modelPlots][LatentHeat/CLASS][ctsm51_cesm23a02cPPEn08ctsm51d030_1deg_GSWP3V1_hist] Success
+[INFO][6][modelPlots][LatentHeat/WECANN][RTM_ens38_case_3] Success
+[INFO][7][<module>][process time] 24.1 s
+[INFO][5][<module>][process time] 25.3 s
+[INFO][1][<module>][process time] 10.9 s
+[INFO][11][<module>][process time] 26.9 s
+[INFO][8][<module>][process time] 28.0 s
+[INFO][14][<module>][process time] 28.5 s
+[INFO][6][<module>][process time] 35.8 s
+[INFO][2][<module>][process time] 13.4 s
+[INFO][13][<module>][process time] 21.9 s
+[INFO][15][<module>][process time] 26.3 s
+[INFO][0][<module>][process time] 10.7 s
+[INFO][9][<module>][process time] 31.2 s
+[INFO][12][<module>][process time] 24.6 s
+[INFO][10][<module>][process time] 20.2 s
+[INFO][3][<module>][process time] 29.6 s
+[INFO][4][<module>][process time] 19.2 s
+[INFO][0][<module>][total time] 76.5 s
+[INFO][0][<module>][process balance] 3.35
+[INFO][0][<module>][parallel efficiency] 31%
