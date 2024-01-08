@@ -1,0 +1,30 @@
+[INFO][0][<module>] Linux derecho3 5.14.21-150400.24.18-default #1 SMP PREEMPT_DYNAMIC Thu Aug 4 14:17:48 UTC 2022 (e9f7bfc) x86_64 x86_64
+[INFO][0][<module>] /glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB (2.7)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/numpy (1.23.5)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/matplotlib (3.6.3)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/netCDF4 (1.6.2)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/cf_units (3.1.1)
+[INFO][0][<module>] /glade/u/home/rfisher/.local/lib/python3.9/site-packages/sympy (1.12)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/mpi4py (3.1.4)
+[INFO][0][<module>] 2024-01-08 12:13:03.769548
+[INFO][2][MakeComparable][GrossPrimaryProductivity/GBAF][RTM_ens36_case_0] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 360 711]
+[INFO][5][MakeComparable][GrossPrimaryProductivity/GBAF][RTM_ens36_case_1] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 360 711]
+[INFO][2][AnalysisMeanStateSpace][FPSN] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][FPSN] RMSE scored using Collier2018
+[INFO][2][confront][GrossPrimaryProductivity/GBAF][RTM_ens36_case_0] Success
+[INFO][5][AnalysisMeanStateSpace][FPSN] Bias scored using Collier2018
+[INFO][5][AnalysisMeanStateSpace][FPSN] RMSE scored using Collier2018
+[INFO][5][confront][GrossPrimaryProductivity/GBAF][RTM_ens36_case_1] Success
+[INFO][5][modelPlots][GrossPrimaryProductivity/GBAF][RTM_ens36_case_1] Success
+[INFO][2][modelPlots][GrossPrimaryProductivity/GBAF][RTM_ens36_case_0] Success
+[INFO][2][<module>][process time] 38.3 s
+[INFO][5][<module>][process time] 42.7 s
+[INFO][0][<module>][process time] 0.0 s
+[INFO][3][<module>][process time] 0.0 s
+[INFO][0][<module>][total time] 76.5 s
+[INFO][7][<module>][process time] 0.0 s
+[INFO][1][<module>][process time] 0.0 s
+[INFO][6][<module>][process time] 0.0 s
+[INFO][4][<module>][process time] 0.0 s
+[INFO][0][<module>][process balance] nan
+[INFO][0][<module>][parallel efficiency] 13%

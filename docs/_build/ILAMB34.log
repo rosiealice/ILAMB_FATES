@@ -1,0 +1,66 @@
+[INFO][0][<module>] Linux derecho3 5.14.21-150400.24.18-default #1 SMP PREEMPT_DYNAMIC Thu Aug 4 14:17:48 UTC 2022 (e9f7bfc) x86_64 x86_64
+[INFO][0][<module>] /glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB (2.7)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl/lib/python3.9/site-packages/numpy (1.23.5)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl/lib/python3.9/site-packages/matplotlib (3.6.3)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl/lib/python3.9/site-packages/netCDF4 (1.6.2)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl/lib/python3.9/site-packages/cf_units (3.1.1)
+[INFO][0][<module>] /glade/u/home/rfisher/.local/lib/python3.9/site-packages/sympy (1.12)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl/lib/python3.9/site-packages/mpi4py (3.1.4)
+[INFO][0][<module>] 2024-01-08 12:46:37.209529
+[INFO][1][MakeComparable][GrossPrimaryProductivity/GBAF][ctsm51fates_derecho_norman_nocomp] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 360 711]
+[DEBUG][6][extractTimeSeries][RTM_ens36_case_1] Could not find [QVEGE] in the model results
+[DEBUG][6][WorkConfront][Evapotranspiration/MODIS][RTM_ens36_case_1]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/fates-global-cal/ilamb_scripts/./ilamb-run", line 385, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 413, in extractTimeSeries
+    v = self.derivedVariable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 499, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 437, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][2][MakeComparable][Evapotranspiration/MODIS][ctsm51fates_derecho_norman_nocomp] Spatial data was clipped from the reference:  before: [168 360 720] after: [168 360 711]
+[DEBUG][5][extractTimeSeries][RTM_ens36_case_0] Could not find [QSOIL] in the model results
+[DEBUG][5][WorkConfront][Evapotranspiration/MODIS][RTM_ens36_case_0]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/fates-global-cal/ilamb_scripts/./ilamb-run", line 385, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 413, in extractTimeSeries
+    v = self.derivedVariable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 499, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 437, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][1][AnalysisMeanStateSpace][FPSN] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][FPSN] RMSE scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][1][confront][GrossPrimaryProductivity/GBAF][ctsm51fates_derecho_norman_nocomp] Success
+[INFO][2][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][2][confront][Evapotranspiration/MODIS][ctsm51fates_derecho_norman_nocomp] Success
+[INFO][1][modelPlots][GrossPrimaryProductivity/GBAF][RTM_ens36_case_0] Success
+[INFO][3][modelPlots][GrossPrimaryProductivity/GBAF][RTM_ens36_case_1] Success
+[INFO][4][modelPlots][Evapotranspiration/MODIS][ctsm51fates_derecho_norman_nocomp] Success
+[INFO][0][modelPlots][GrossPrimaryProductivity/GBAF][ctsm51fates_derecho_norman_nocomp] Success
+[INFO][1][<module>][process time] 37.4 s
+[INFO][0][<module>][process time] 7.9 s
+[INFO][4][<module>][process time] 6.7 s
+[INFO][3][<module>][process time] 6.6 s
+[INFO][6][<module>][process time] 0.0 s
+[INFO][2][<module>][process time] 34.7 s
+[INFO][5][<module>][process time] 0.0 s
+[INFO][0][<module>][total time] 77.5 s
+[INFO][7][<module>][process time] 0.0 s
+[INFO][0][<module>][process balance] nan
+[INFO][0][<module>][parallel efficiency] 15%
