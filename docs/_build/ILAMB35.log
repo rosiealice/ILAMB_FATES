@@ -1,0 +1,26 @@
+[INFO][0][<module>] Linux derecho3 5.14.21-150400.24.18-default #1 SMP PREEMPT_DYNAMIC Thu Aug 4 14:17:48 UTC 2022 (e9f7bfc) x86_64 x86_64
+[INFO][0][<module>] /glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB (2.7)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl/lib/python3.9/site-packages/numpy (1.23.5)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl/lib/python3.9/site-packages/matplotlib (3.6.3)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl/lib/python3.9/site-packages/netCDF4 (1.6.2)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl/lib/python3.9/site-packages/cf_units (3.1.1)
+[INFO][0][<module>] /glade/u/home/rfisher/.local/lib/python3.9/site-packages/sympy (1.12)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl/lib/python3.9/site-packages/mpi4py (3.1.4)
+[INFO][0][<module>] 2024-01-08 12:59:13.376625
+[DEBUG][4][extractTimeSeries][RTM_ens36_case_0] Could not find [QSOIL] in the model results
+[DEBUG][4][WorkConfront][Evapotranspiration/MODIS][RTM_ens36_case_0]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/fates-global-cal/ilamb_scripts/./ilamb-run", line 385, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 413, in extractTimeSeries
+    v = self.derivedVariable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 499, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 437, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+

@@ -1,0 +1,58 @@
+[INFO][0][<module>] Linux dec2437 5.14.21-150400.24.46_12.0.73-cray_shasta_c #1 SMP Thu May 18 23:03:34 UTC 2023 (9c4698c) x86_64 x86_64
+[INFO][0][<module>] /glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB (2.7)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/numpy (1.23.5)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/matplotlib (3.6.3)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/netCDF4 (1.6.2)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/cf_units (3.1.1)
+[INFO][0][<module>] /glade/u/home/rfisher/.local/lib/python3.9/site-packages/sympy (1.12)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/mpi4py (3.1.4)
+[INFO][0][<module>] 2023-09-12 05:50:51.627172
+[INFO][2][MakeComparable][GrossPrimaryProductivity/GBAF][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [324 360 720] after: [324 360 711]
+[INFO][1][MakeComparable][GrossPrimaryProductivity/GBAF][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [324 360 720] after: [324 360 711]
+[INFO][6][MakeComparable][Evapotranspiration/MODIS][RTM_ens37_case_1] Spatial data was clipped from the reference:  before: [168 360 720] after: [168 360 711]
+[DEBUG][6][MakeComparable][Evapotranspiration/MODIS][RTM_ens37_case_1] Datasets are defined at different times
+[DEBUG][6][WorkConfront][Evapotranspiration/MODIS][RTM_ens37_case_1]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/.local/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 378, in stageData
+    obs, mod = il.MakeComparable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2561, in MakeComparable
+    raise VarsNotComparable()
+ILAMB.ilamblib.VarsNotComparable: VarNotComparable
+
+[INFO][5][MakeComparable][Evapotranspiration/MODIS][RTM_ens37_case_0] Spatial data was clipped from the reference:  before: [168 360 720] after: [168 360 711]
+[DEBUG][5][MakeComparable][Evapotranspiration/MODIS][RTM_ens37_case_0] Datasets are defined at different times
+[DEBUG][5][WorkConfront][Evapotranspiration/MODIS][RTM_ens37_case_0]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/.local/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 378, in stageData
+    obs, mod = il.MakeComparable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 2561, in MakeComparable
+    raise VarsNotComparable()
+ILAMB.ilamblib.VarsNotComparable: VarNotComparable
+
+[INFO][1][AnalysisMeanStateSpace][FPSN] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSpace][FPSN] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][FPSN] RMSE scored using Collier2018
+[INFO][1][confront][GrossPrimaryProductivity/GBAF][RTM_ens37_case_0] Success
+[INFO][2][AnalysisMeanStateSpace][FPSN] RMSE scored using Collier2018
+[INFO][2][confront][GrossPrimaryProductivity/GBAF][RTM_ens37_case_1] Success
+[INFO][2][modelPlots][GrossPrimaryProductivity/GBAF][RTM_ens37_case_1] Success
+[INFO][1][modelPlots][GrossPrimaryProductivity/GBAF][RTM_ens37_case_0] Success
+[INFO][1][<module>][process time] 31.6 s
+[INFO][2][<module>][process time] 31.1 s
+[INFO][5][<module>][process time] 0.0 s
+[INFO][0][<module>][process time] 0.0 s
+[INFO][6][<module>][process time] 0.0 s
+[INFO][3][<module>][process time] 0.0 s
+[INFO][7][<module>][process time] 0.0 s
+[INFO][4][<module>][process time] 0.0 s
+[INFO][0][<module>][total time] 64.1 s
+[INFO][0][<module>][process balance] nan
+[INFO][0][<module>][parallel efficiency] 12%

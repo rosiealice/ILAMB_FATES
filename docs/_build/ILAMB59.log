@@ -1,0 +1,468 @@
+[INFO][0][<module>] Linux derecho6 5.14.21-150400.24.18-default #1 SMP PREEMPT_DYNAMIC Thu Aug 4 14:17:48 UTC 2022 (e9f7bfc) x86_64 x86_64
+[INFO][0][<module>] /glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB (2.7)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl/lib/python3.9/site-packages/numpy (1.23.5)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl/lib/python3.9/site-packages/matplotlib (3.6.3)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl/lib/python3.9/site-packages/netCDF4 (1.6.2)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl/lib/python3.9/site-packages/cf_units (3.1.1)
+[INFO][0][<module>] /glade/u/home/rfisher/.local/lib/python3.9/site-packages/sympy (1.12)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl/lib/python3.9/site-packages/mpi4py (3.1.4)
+[INFO][0][<module>] 2024-01-09 08:34:12.690638
+[DEBUG][0][extractTimeSeries][ctsm51fates_derecho_2s_nocomp_detsort] Could not find [FATES_VEGC] in the model results
+[DEBUG][0][WorkConfront][Biomass/NBCD2000][ctsm51fates_derecho_2s_nocomp_detsort]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/fates-global-cal/ilamb_scripts/./ilamb-run", line 385, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 413, in extractTimeSeries
+    v = self.derivedVariable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 499, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 437, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][5][extractTimeSeries][ctsm51fates_derecho_2s_nocomp_detsort] Could not find [hfls,le,EFLX_LH_TOT] in the model results
+[DEBUG][5][WorkConfront][LatentHeat/WECANN][ctsm51fates_derecho_2s_nocomp_detsort]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/fates-global-cal/ilamb_scripts/./ilamb-run", line 385, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 437, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][6][MakeComparable][SensibleHeat/Fluxcom][ctsm51fates_derecho_norman_nocomp] Spatial data was clipped from the reference:  before: [420 360 720] after: [420 360 711]
+[INFO][4][MakeComparable][GrossPrimaryProductivity/GBAF][ctsm51fates_derecho_2s_nocomp] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 360 711]
+[INFO][5][MakeComparable][LatentHeat/WECANN][ctsm51fates_derecho_2s_nocomp] Spatial data was clipped from the reference:  before: [108 180 360] after: [108 180 356]
+[INFO][0][MakeComparable][Biomass/NBCD2000][ctsm51fates_derecho_2s_nocomp] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 360 711]
+[INFO][1][MakeComparable][Biomass/Thurner][ctsm51fates_derecho_norman_nocomp] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 360 711]
+[INFO][3][AnalysisMeanStateSites][reco] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSites][nee] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSites][reco] RMSE scored using Collier2018
+[INFO][2][AnalysisMeanStateSites][nee] RMSE scored using Collier2018
+[INFO][3][confront][EcosystemRespiration/FLUXNET2015][ctsm51fates_derecho_norman_nocomp] Success
+[INFO][2][confront][NetEcosystemExchange/FLUXNET2015][ctsm51fates_derecho_2s_nocomp] Success
+[INFO][2][AnalysisMeanStateSites][nee] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSites][nee] RMSE scored using Collier2018
+[INFO][2][confront][NetEcosystemExchange/FLUXNET2015][ctsm51fates_derecho_norman_nocomp] Success
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/NBCD2000][ctsm51fates_derecho_2s_nocomp] Success
+[INFO][5][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][1][confront][Biomass/Thurner][ctsm51fates_derecho_norman_nocomp] Success
+[DEBUG][7][WorkConfront][Albedo/CERES][ctsm51fates_derecho_2s_nocomp_detsort]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/fates-global-cal/ilamb_scripts/./ilamb-run", line 385, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ConfAlbedo.py", line 157, in confront
+    obs, mod, obs_timeint, mod_timeint = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ConfAlbedo.py", line 44, in stageData
+    dn_obs = Variable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 724, in FromNetCDF4
+    dset = Dataset(filename, mode="r")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: b'/glade/work/rfisher/ILAMB_data/DATA/rsds/CERESed4.2/rsds.nc'
+
+[DEBUG][7][WorkConfront][Albedo/CERES][ctsm51fates_derecho_2s_nocomp]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/fates-global-cal/ilamb_scripts/./ilamb-run", line 385, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ConfAlbedo.py", line 157, in confront
+    obs, mod, obs_timeint, mod_timeint = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ConfAlbedo.py", line 44, in stageData
+    dn_obs = Variable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 724, in FromNetCDF4
+    dset = Dataset(filename, mode="r")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: b'/glade/work/rfisher/ILAMB_data/DATA/rsds/CERESed4.2/rsds.nc'
+
+[DEBUG][7][WorkConfront][Albedo/CERES][ctsm51fates_derecho_norman_nocomp]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/fates-global-cal/ilamb_scripts/./ilamb-run", line 385, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ConfAlbedo.py", line 157, in confront
+    obs, mod, obs_timeint, mod_timeint = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ConfAlbedo.py", line 44, in stageData
+    dn_obs = Variable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 724, in FromNetCDF4
+    dset = Dataset(filename, mode="r")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: b'/glade/work/rfisher/ILAMB_data/DATA/rsds/CERESed4.2/rsds.nc'
+
+[DEBUG][7][WorkConfront][Albedo/CERES][ctsm51fates_derecho_norman_nocomp]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/fates-global-cal/ilamb_scripts/./ilamb-run", line 385, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ConfAlbedo.py", line 157, in confront
+    obs, mod, obs_timeint, mod_timeint = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ConfAlbedo.py", line 44, in stageData
+    dn_obs = Variable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 724, in FromNetCDF4
+    dset = Dataset(filename, mode="r")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: b'/glade/work/rfisher/ILAMB_data/DATA/rsds/CERESed4.2/rsds.nc'
+
+[DEBUG][7][WorkConfront][Albedo/CERES][RTM_ens36_case_0]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/fates-global-cal/ilamb_scripts/./ilamb-run", line 385, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ConfAlbedo.py", line 157, in confront
+    obs, mod, obs_timeint, mod_timeint = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ConfAlbedo.py", line 44, in stageData
+    dn_obs = Variable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 724, in FromNetCDF4
+    dset = Dataset(filename, mode="r")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: b'/glade/work/rfisher/ILAMB_data/DATA/rsds/CERESed4.2/rsds.nc'
+
+[INFO][5][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][5][confront][LatentHeat/WECANN][ctsm51fates_derecho_2s_nocomp] Success
+[INFO][0][MakeComparable][Biomass/NBCD2000][ctsm51fates_derecho_norman_nocomp] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 360 711]
+[INFO][5][MakeComparable][LatentHeat/WECANN][ctsm51fates_derecho_norman_nocomp] Spatial data was clipped from the reference:  before: [108 180 360] after: [108 180 356]
+[DEBUG][3][extractTimeSeries][RTM_ens36_case_0] Could not find [FATES_FRACTION] in the model results
+[DEBUG][3][WorkConfront][EcosystemRespiration/FLUXNET2015][RTM_ens36_case_0]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/fates-global-cal/ilamb_scripts/./ilamb-run", line 385, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 413, in extractTimeSeries
+    v = self.derivedVariable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 499, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 437, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][2][AnalysisMeanStateSites][nee] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSites][nee] RMSE scored using Collier2018
+[INFO][2][confront][NetEcosystemExchange/FLUXNET2015][ctsm51fates_derecho_norman_nocomp] Success
+[DEBUG][2][extractTimeSeries][RTM_ens36_case_0] Could not find [FATES_NEP] in the model results
+[DEBUG][2][WorkConfront][NetEcosystemExchange/FLUXNET2015][RTM_ens36_case_0]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/fates-global-cal/ilamb_scripts/./ilamb-run", line 385, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 413, in extractTimeSeries
+    v = self.derivedVariable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 499, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 437, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][1][MakeComparable][Biomass/Thurner][RTM_ens36_case_0] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 360 711]
+[DEBUG][2][extractTimeSeries][ctsm51fates_derecho_2s_nocomp_detsort] Could not find [FATES_AUTORESP] in the model results
+[DEBUG][2][WorkConfront][EcosystemRespiration/FLUXNET2015][ctsm51fates_derecho_2s_nocomp_detsort]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/fates-global-cal/ilamb_scripts/./ilamb-run", line 385, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 413, in extractTimeSeries
+    v = self.derivedVariable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 499, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 437, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][3][extractTimeSeries][ctsm51fates_derecho_2s_nocomp_detsort] Could not find [FATES_FRACTION] in the model results
+[DEBUG][3][WorkConfront][EcosystemRespiration/FLUXCOM][ctsm51fates_derecho_2s_nocomp_detsort]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/fates-global-cal/ilamb_scripts/./ilamb-run", line 385, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 413, in extractTimeSeries
+    v = self.derivedVariable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 499, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 437, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][5][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/NBCD2000][ctsm51fates_derecho_norman_nocomp] Success
+[INFO][5][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][5][confront][LatentHeat/WECANN][ctsm51fates_derecho_norman_nocomp] Success
+[INFO][1][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][1][confront][Biomass/Thurner][RTM_ens36_case_0] Success
+[DEBUG][1][extractTimeSeries][ctsm51fates_derecho_2s_nocomp_detsort] Could not find [FATES_FRACTION] in the model results
+[DEBUG][1][WorkConfront][Biomass/ESACCI][ctsm51fates_derecho_2s_nocomp_detsort]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/fates-global-cal/ilamb_scripts/./ilamb-run", line 385, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 413, in extractTimeSeries
+    v = self.derivedVariable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 499, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 437, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][5][MakeComparable][LatentHeat/WECANN][ctsm51fates_derecho_norman_nocomp] Spatial data was clipped from the reference:  before: [108 180 360] after: [108 180 356]
+[INFO][2][AnalysisMeanStateSites][reco] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSites][reco] RMSE scored using Collier2018
+[INFO][2][confront][EcosystemRespiration/FLUXNET2015][ctsm51fates_derecho_2s_nocomp] Success
+[INFO][0][MakeComparable][Biomass/NBCD2000][ctsm51fates_derecho_norman_nocomp] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 360 711]
+[INFO][4][AnalysisMeanStateSpace][FPSN] Bias scored using Collier2018
+[DEBUG][1][WorkConfront][Biomass/ESACCI][ctsm51fates_derecho_2s_nocomp]
+ValueError: Error from parse_expr with transformed code: 'FATES_FRACTION *FATES_VEGC '
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/fates-global-cal/ilamb_scripts/./ilamb-run", line 385, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 413, in extractTimeSeries
+    v = self.derivedVariable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 553, in derivedVariable
+    result, unit = il.SympifyWithArgsUnits(expression, args, units)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 632, in SympifyWithArgsUnits
+    return sympify(str(expression), locals=args), units[ekey]
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/sympy/core/sympify.py", line 495, in sympify
+    expr = parse_expr(a, local_dict=locals, transformations=transformations, evaluate=evaluate)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/sympy/parsing/sympy_parser.py", line 1087, in parse_expr
+    raise e from ValueError(f"Error from parse_expr with transformed code: {code!r}")
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/sympy/parsing/sympy_parser.py", line 1078, in parse_expr
+    rv = eval_expr(code, local_dict, global_dict)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/sympy/parsing/sympy_parser.py", line 906, in eval_expr
+    expr = eval(
+  File "<string>", line 1, in <module>
+FloatingPointError: overflow encountered in multiply
+
+[INFO][3][MakeComparable][EcosystemRespiration/FLUXCOM][ctsm51fates_derecho_2s_nocomp] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 360 711]
+[INFO][6][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][4][AnalysisMeanStateSpace][FPSN] RMSE scored using Collier2018
+[INFO][4][confront][GrossPrimaryProductivity/GBAF][ctsm51fates_derecho_2s_nocomp] Success
+[DEBUG][1][WorkConfront][Biomass/ESACCI][ctsm51fates_derecho_norman_nocomp]
+ValueError: Error from parse_expr with transformed code: 'FATES_FRACTION *FATES_VEGC '
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/fates-global-cal/ilamb_scripts/./ilamb-run", line 385, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 413, in extractTimeSeries
+    v = self.derivedVariable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 553, in derivedVariable
+    result, unit = il.SympifyWithArgsUnits(expression, args, units)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 632, in SympifyWithArgsUnits
+    return sympify(str(expression), locals=args), units[ekey]
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/sympy/core/sympify.py", line 495, in sympify
+    expr = parse_expr(a, local_dict=locals, transformations=transformations, evaluate=evaluate)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/sympy/parsing/sympy_parser.py", line 1087, in parse_expr
+    raise e from ValueError(f"Error from parse_expr with transformed code: {code!r}")
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/sympy/parsing/sympy_parser.py", line 1078, in parse_expr
+    rv = eval_expr(code, local_dict, global_dict)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/sympy/parsing/sympy_parser.py", line 906, in eval_expr
+    expr = eval(
+  File "<string>", line 1, in <module>
+FloatingPointError: overflow encountered in multiply
+
+[INFO][5][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[DEBUG][4][extractTimeSeries][ctsm51fates_derecho_2s_nocomp_detsort] Could not find [QSOIL] in the model results
+[DEBUG][4][WorkConfront][Evapotranspiration/MODIS][ctsm51fates_derecho_2s_nocomp_detsort]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/fates-global-cal/ilamb_scripts/./ilamb-run", line 385, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 413, in extractTimeSeries
+    v = self.derivedVariable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 499, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 437, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/NBCD2000][ctsm51fates_derecho_norman_nocomp] Success
+[INFO][5][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][5][confront][LatentHeat/WECANN][ctsm51fates_derecho_norman_nocomp] Success
+[INFO][2][AnalysisMeanStateSites][reco] Bias scored using Collier2018
+[INFO][2][AnalysisMeanStateSites][reco] RMSE scored using Collier2018
+[INFO][2][confront][EcosystemRespiration/FLUXNET2015][ctsm51fates_derecho_norman_nocomp] Success
+[DEBUG][1][WorkConfront][Biomass/ESACCI][ctsm51fates_derecho_norman_nocomp]
+ValueError: Error from parse_expr with transformed code: 'FATES_FRACTION *FATES_VEGC '
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/fates-global-cal/ilamb_scripts/./ilamb-run", line 385, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 413, in extractTimeSeries
+    v = self.derivedVariable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 553, in derivedVariable
+    result, unit = il.SympifyWithArgsUnits(expression, args, units)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 632, in SympifyWithArgsUnits
+    return sympify(str(expression), locals=args), units[ekey]
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/sympy/core/sympify.py", line 495, in sympify
+    expr = parse_expr(a, local_dict=locals, transformations=transformations, evaluate=evaluate)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/sympy/parsing/sympy_parser.py", line 1087, in parse_expr
+    raise e from ValueError(f"Error from parse_expr with transformed code: {code!r}")
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/sympy/parsing/sympy_parser.py", line 1078, in parse_expr
+    rv = eval_expr(code, local_dict, global_dict)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/sympy/parsing/sympy_parser.py", line 906, in eval_expr
+    expr = eval(
+  File "<string>", line 1, in <module>
+FloatingPointError: overflow encountered in multiply
+
+[INFO][6][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][6][confront][SensibleHeat/Fluxcom][ctsm51fates_derecho_norman_nocomp] Success
+[DEBUG][0][extractTimeSeries][RTM_ens36_case_0] Could not find [FATES_VEGC] in the model results
+[DEBUG][5][extractTimeSeries][RTM_ens36_case_0] Could not find [hfls,le,EFLX_LH_TOT] in the model results
+[DEBUG][1][extractTimeSeries][RTM_ens36_case_0] Could not find [FATES_FRACTION] in the model results
+[DEBUG][0][WorkConfront][Biomass/NBCD2000][RTM_ens36_case_0]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/fates-global-cal/ilamb_scripts/./ilamb-run", line 385, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 413, in extractTimeSeries
+    v = self.derivedVariable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 499, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 437, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][5][WorkConfront][LatentHeat/WECANN][RTM_ens36_case_0]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/fates-global-cal/ilamb_scripts/./ilamb-run", line 385, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 437, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][1][WorkConfront][Biomass/ESACCI][RTM_ens36_case_0]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/fates-global-cal/ilamb_scripts/./ilamb-run", line 385, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 413, in extractTimeSeries
+    v = self.derivedVariable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 499, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 437, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][1][extractTimeSeries][ctsm51fates_derecho_2s_nocomp_detsort] Could not find [FATES_FRACTION] in the model results
+[DEBUG][1][WorkConfront][NetEcosystemExchange/FLUXNET2015][ctsm51fates_derecho_2s_nocomp_detsort]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/fates-global-cal/ilamb_scripts/./ilamb-run", line 385, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 413, in extractTimeSeries
+    v = self.derivedVariable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 499, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 437, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][ctsm51fates_derecho_2s_nocomp_detsort] Could not find [FATES_VEGC] in the model results
+[DEBUG][0][WorkConfront][Biomass/Thurner][ctsm51fates_derecho_2s_nocomp_detsort]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/fates-global-cal/ilamb_scripts/./ilamb-run", line 385, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 413, in extractTimeSeries
+    v = self.derivedVariable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 499, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 437, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][5][extractTimeSeries][ctsm51fates_derecho_2s_nocomp_detsort] Could not find [hfss,sh,FSH] in the model results
+[DEBUG][5][WorkConfront][SensibleHeat/Fluxcom][ctsm51fates_derecho_2s_nocomp_detsort]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/fates-global-cal/ilamb_scripts/./ilamb-run", line 385, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 437, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][6][MakeComparable][SensibleHeat/Fluxcom][ctsm51fates_derecho_norman_nocomp] Spatial data was clipped from the reference:  before: [420 360 720] after: [420 360 711]
+[INFO][5][MakeComparable][SensibleHeat/Fluxcom][ctsm51fates_derecho_2s_nocomp] Spatial data was clipped from the reference:  before: [420 360 720] after: [420 360 711]
+[INFO][0][MakeComparable][Biomass/Thurner][ctsm51fates_derecho_2s_nocomp] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 360 711]
+[INFO][4][MakeComparable][Evapotranspiration/MODIS][ctsm51fates_derecho_2s_nocomp] Spatial data was clipped from the reference:  before: [168 360 720] after: [168 360 711]
+[INFO][3][AnalysisMeanStateSpace][reco] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/Thurner][ctsm51fates_derecho_2s_nocomp] Success
+[INFO][3][AnalysisMeanStateSpace][reco] RMSE scored using Collier2018
+[INFO][3][confront][EcosystemRespiration/FLUXCOM][ctsm51fates_derecho_2s_nocomp] Success
+[INFO][0][MakeComparable][Biomass/Thurner][ctsm51fates_derecho_norman_nocomp] Spatial data was clipped from the reference:  before: [  1 360 720] after: [  1 360 711]
+[INFO][0][AnalysisMeanStateSpace][biomass] Bias scored using Collier2018
+[INFO][0][confront][Biomass/Thurner][ctsm51fates_derecho_norman_nocomp] Success
