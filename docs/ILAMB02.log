@@ -1,4 +1,4 @@
-[INFO][0][<module>] Linux derecho1 5.14.21-150400.24.18-default #1 SMP PREEMPT_DYNAMIC Thu Aug 4 14:17:48 UTC 2022 (e9f7bfc) x86_64 x86_64
+[INFO][0][<module>] Linux derecho6 5.14.21-150400.24.18-default #1 SMP PREEMPT_DYNAMIC Thu Aug 4 14:17:48 UTC 2022 (e9f7bfc) x86_64 x86_64
 [INFO][0][<module>] /glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB (2.7)
 [INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/numpy (1.23.5)
 [INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/matplotlib (3.6.3)
@@ -6,15 +6,101 @@
 [INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/cf_units (3.1.1)
 [INFO][0][<module>] /glade/u/home/rfisher/.local/lib/python3.9/site-packages/sympy (1.12)
 [INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/mpi4py (3.1.4)
-[INFO][0][<module>] 2024-01-03 14:02:05.509547
-[INFO][3][<module>][process time] 0.0 s
-[INFO][2][<module>][process time] 0.0 s
-[INFO][6][<module>][process time] 0.0 s
-[INFO][5][<module>][process time] 0.0 s
-[INFO][0][<module>][process time] 0.0 s
-[INFO][4][<module>][process time] 0.0 s
-[INFO][7][<module>][process time] 0.0 s
-[INFO][1][<module>][process time] 0.0 s
-[INFO][0][<module>][total time] 0.4 s
-[INFO][0][<module>][process balance] nan
-[INFO][0][<module>][parallel efficiency] 0%
+[INFO][0][<module>] 2024-01-10 05:58:28.386980
+[DEBUG][7][WorkConfront][Albedo/CERES][ctsm51fates_derecho_2s_sp]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/.local/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ConfAlbedo.py", line 157, in confront
+    obs, mod, obs_timeint, mod_timeint = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ConfAlbedo.py", line 44, in stageData
+    dn_obs = Variable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 724, in FromNetCDF4
+    dset = Dataset(filename, mode="r")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: b'/glade/work/rfisher/ILAMB_data/DATA/rsds/CERESed4.2/rsds.nc'
+
+[DEBUG][7][WorkConfront][Albedo/CERES][ctsm51fates_derecho_norman_sp]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/.local/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ConfAlbedo.py", line 157, in confront
+    obs, mod, obs_timeint, mod_timeint = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ConfAlbedo.py", line 44, in stageData
+    dn_obs = Variable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 724, in FromNetCDF4
+    dset = Dataset(filename, mode="r")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: b'/glade/work/rfisher/ILAMB_data/DATA/rsds/CERESed4.2/rsds.nc'
+
+[DEBUG][7][WorkConfront][Albedo/CERES][RTM_ens36_case_0]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/.local/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ConfAlbedo.py", line 157, in confront
+    obs, mod, obs_timeint, mod_timeint = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ConfAlbedo.py", line 44, in stageData
+    dn_obs = Variable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Variable.py", line 140, in __init__
+    out = il.FromNetCDF4(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ilamblib.py", line 724, in FromNetCDF4
+    dset = Dataset(filename, mode="r")
+  File "src/netCDF4/_netCDF4.pyx", line 2463, in netCDF4._netCDF4.Dataset.__init__
+  File "src/netCDF4/_netCDF4.pyx", line 2026, in netCDF4._netCDF4._ensure_nc_success
+FileNotFoundError: [Errno 2] No such file or directory: b'/glade/work/rfisher/ILAMB_data/DATA/rsds/CERESed4.2/rsds.nc'
+
+[DEBUG][1][extractTimeSeries][ctsm51fates_derecho_2s_sp] Could not find [QVEGT] in the model results
+[DEBUG][1][WorkConfront][Evapotranspiration/MODIS][ctsm51fates_derecho_2s_sp]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/.local/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 413, in extractTimeSeries
+    v = self.derivedVariable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 499, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 437, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][ctsm51fates_derecho_2s_sp] Could not find [FPSN,gpp,FATES_GPP] in the model results
+[DEBUG][0][WorkConfront][GrossPrimaryProductivity/GBAF][ctsm51fates_derecho_2s_sp]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/.local/bin/ilamb-run", line 561, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 437, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][4][MakeComparable][LatentHeat/WECANN][ctsm51fates_derecho_norman_sp] Spatial data was clipped from the reference:  before: [108 180 360] after: [108 180 356]
+[INFO][0][MakeComparable][GrossPrimaryProductivity/GBAF][ctsm51fates_derecho_norman_sp] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 360 711]
+[INFO][5][MakeComparable][SensibleHeat/Fluxcom][ctsm51fates_derecho_norman_sp] Spatial data was clipped from the reference:  before: [420 360 720] after: [420 360 711]
+[INFO][6][MakeComparable][SensibleHeat/WECANN][ctsm51fates_derecho_norman_sp] Spatial data was clipped from the reference:  before: [108 180 360] after: [108 180 356]
+[INFO][1][MakeComparable][Evapotranspiration/MODIS][ctsm51fates_derecho_norman_sp] Spatial data was clipped from the reference:  before: [168 360 720] after: [168 360 711]
+[INFO][4][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][3][MakeComparable][LatentHeat/Fluxcom][RTM_ens36_case_0] Spatial data was clipped from the reference:  before: [420 360 720] after: [420 360 711]
+[INFO][6][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][4][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][4][confront][LatentHeat/WECANN][ctsm51fates_derecho_norman_sp] Success
+[INFO][6][AnalysisMeanStateSpace][hfss] RMSE scored using Collier2018
+[INFO][6][confront][SensibleHeat/WECANN][ctsm51fates_derecho_norman_sp] Success
+[INFO][4][MakeComparable][LatentHeat/WECANN][RTM_ens36_case_0] Spatial data was clipped from the reference:  before: [108 180 360] after: [108 180 356]
+[INFO][6][MakeComparable][SensibleHeat/WECANN][RTM_ens36_case_0] Spatial data was clipped from the reference:  before: [108 180 360] after: [108 180 356]
+[INFO][4][AnalysisMeanStateSpace][hfls] Bias scored using Collier2018
+[INFO][4][AnalysisMeanStateSpace][hfls] RMSE scored using Collier2018
+[INFO][4][confront][LatentHeat/WECANN][RTM_ens36_case_0] Success
+[INFO][6][AnalysisMeanStateSpace][hfss] Bias scored using Collier2018
+[INFO][0][AnalysisMeanStateSpace][FPSN] Bias scored using Collier2018

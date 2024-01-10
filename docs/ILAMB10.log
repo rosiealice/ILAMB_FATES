@@ -1,20 +1,70 @@
-[INFO][0][<module>] Linux derecho1 5.14.21-150400.24.18-default #1 SMP PREEMPT_DYNAMIC Thu Aug 4 14:17:48 UTC 2022 (e9f7bfc) x86_64 x86_64
+[INFO][0][<module>] Linux derecho6 5.14.21-150400.24.18-default #1 SMP PREEMPT_DYNAMIC Thu Aug 4 14:17:48 UTC 2022 (e9f7bfc) x86_64 x86_64
 [INFO][0][<module>] /glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB (2.7)
-[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/numpy (1.23.5)
-[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/matplotlib (3.6.3)
-[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/netCDF4 (1.6.2)
-[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/cf_units (3.1.1)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl/lib/python3.9/site-packages/numpy (1.23.5)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl/lib/python3.9/site-packages/matplotlib (3.6.3)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl/lib/python3.9/site-packages/netCDF4 (1.6.2)
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl/lib/python3.9/site-packages/cf_units (3.1.1)
 [INFO][0][<module>] /glade/u/home/rfisher/.local/lib/python3.9/site-packages/sympy (1.12)
-[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl-2023a/lib/python3.9/site-packages/mpi4py (3.1.4)
-[INFO][0][<module>] 2024-01-03 14:44:13.982710
+[INFO][0][<module>] /glade/u/apps/opt/conda/envs/npl/lib/python3.9/site-packages/mpi4py (3.1.4)
+[INFO][0][<module>] 2024-01-10 06:30:23.880401
+[DEBUG][4][extractTimeSeries][ctsm51fates_derecho_2s_sp] Could not find [QSOIL] in the model results
+[DEBUG][4][WorkConfront][Evapotranspiration/MODIS][ctsm51fates_derecho_2s_sp]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/fates-global-cal/ilamb_scripts/./ilamb-run", line 385, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 413, in extractTimeSeries
+    v = self.derivedVariable(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 499, in derivedVariable
+    Vs[arg] = self.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 437, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[DEBUG][0][extractTimeSeries][ctsm51fates_derecho_2s_sp] Could not find [FPSN,gpp,FATES_GPP] in the model results
+[DEBUG][0][WorkConfront][GrossPrimaryProductivity/GBAF][ctsm51fates_derecho_2s_sp]
+Traceback (most recent call last):
+  File "/glade/u/home/rfisher/fates-global-cal/ilamb_scripts/./ilamb-run", line 385, in WorkConfront
+    c.confront(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 431, in confront
+    obs, mod = self.stageData(m)
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/Confrontation.py", line 369, in stageData
+    mod = m.extractTimeSeries(
+  File "/glade/u/home/rfisher/.local/lib/python3.9/site-packages/ILAMB/ModelResult.py", line 437, in extractTimeSeries
+    raise il.VarNotInModel()
+ILAMB.ilamblib.VarNotInModel: VarNotInModel
+
+[INFO][1][MakeComparable][GrossPrimaryProductivity/GBAF][ctsm51fates_derecho_norman_sp] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 360 711]
+[INFO][6][MakeComparable][Evapotranspiration/MODIS][ctsm51fates_derecho_norman_sp] Spatial data was clipped from the reference:  before: [168 360 720] after: [168 360 711]
+[INFO][3][MakeComparable][GrossPrimaryProductivity/GBAF][RTM_ens36_case_0] Spatial data was clipped from the reference:  before: [408 360 720] after: [408 360 711]
+[INFO][1][AnalysisMeanStateSpace][FPSN] Bias scored using Collier2018
+[INFO][1][AnalysisMeanStateSpace][FPSN] RMSE scored using Collier2018
+[INFO][1][confront][GrossPrimaryProductivity/GBAF][ctsm51fates_derecho_norman_sp] Success
+[INFO][6][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][6][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][6][confront][Evapotranspiration/MODIS][ctsm51fates_derecho_norman_sp] Success
+[INFO][3][AnalysisMeanStateSpace][FPSN] Bias scored using Collier2018
+[INFO][3][AnalysisMeanStateSpace][FPSN] RMSE scored using Collier2018
+[INFO][3][confront][GrossPrimaryProductivity/GBAF][RTM_ens36_case_0] Success
+[INFO][7][MakeComparable][Evapotranspiration/MODIS][RTM_ens36_case_0] Spatial data was clipped from the reference:  before: [168 360 720] after: [168 360 711]
+[INFO][7][AnalysisMeanStateSpace][et] Bias scored using Collier2018
+[INFO][7][AnalysisMeanStateSpace][et] RMSE scored using Collier2018
+[INFO][7][confront][Evapotranspiration/MODIS][RTM_ens36_case_0] Success
+[INFO][7][modelPlots][Evapotranspiration/MODIS][RTM_ens36_case_0] Success
+[INFO][6][modelPlots][Evapotranspiration/MODIS][ctsm51fates_derecho_norman_sp] Success
+[INFO][3][modelPlots][GrossPrimaryProductivity/GBAF][RTM_ens36_case_0] Success
+[INFO][1][modelPlots][GrossPrimaryProductivity/GBAF][ctsm51fates_derecho_norman_sp] Success
+[INFO][7][<module>][process time] 90.1 s
+[INFO][3][<module>][process time] 51.2 s
+[INFO][6][<module>][process time] 37.4 s
 [INFO][0][<module>][process time] 0.0 s
-[INFO][4][<module>][process time] 0.0 s
-[INFO][6][<module>][process time] 0.0 s
-[INFO][1][<module>][process time] 0.0 s
-[INFO][7][<module>][process time] 0.0 s
-[INFO][0][<module>][total time] 0.5 s
+[INFO][1][<module>][process time] 34.7 s
+[INFO][0][<module>][total time] 117.1 s
 [INFO][5][<module>][process time] 0.0 s
-[INFO][3][<module>][process time] 0.0 s
-[INFO][2][<module>][process time] 0.0 s
 [INFO][0][<module>][process balance] nan
-[INFO][0][<module>][parallel efficiency] 0%
+[INFO][4][<module>][process time] 0.0 s
+[INFO][2][<module>][process time] 0.0 s
+[INFO][0][<module>][parallel efficiency] 23%
