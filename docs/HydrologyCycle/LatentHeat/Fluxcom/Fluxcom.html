@@ -164,19 +164,27 @@
         }
         if(PNAME == "cycle" || PNAME == "dtcycle" || PNAME == "spaceint"){
           document.getElementById("Benchmark_legend").style.display = 'none';
+          document.getElementById("ctsm51fates_derecho_2s_nocomp_legend").style.display = 'none';
           document.getElementById("ctsm51fates_derecho_2s_sp_legend").style.display = 'none';
+          document.getElementById("ctsm51fates_derecho_norman_nocomp_legend").style.display = 'none';
           document.getElementById("ctsm51fates_derecho_norman_sp_legend").style.display = 'none';
           document.getElementById("RTM_ens36_case_0_legend").style.display = 'none';
         }else{
           document.getElementById("Benchmark_legend").style.display = 'inline';
+          document.getElementById("ctsm51fates_derecho_2s_nocomp_legend").style.display = 'inline';
           document.getElementById("ctsm51fates_derecho_2s_sp_legend").style.display = 'inline';
+          document.getElementById("ctsm51fates_derecho_norman_nocomp_legend").style.display = 'inline';
           document.getElementById("ctsm51fates_derecho_norman_sp_legend").style.display = 'inline';
           document.getElementById("RTM_ens36_case_0_legend").style.display = 'inline';
         }
         document.getElementById('Benchmark').src = 'Benchmark_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('Benchmark_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('ctsm51fates_derecho_2s_nocomp').src = 'ctsm51fates_derecho_2s_nocomp_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('ctsm51fates_derecho_2s_nocomp_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('ctsm51fates_derecho_2s_sp').src = 'ctsm51fates_derecho_2s_sp_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('ctsm51fates_derecho_2s_sp_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('ctsm51fates_derecho_norman_nocomp').src = 'ctsm51fates_derecho_norman_nocomp_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('ctsm51fates_derecho_norman_nocomp_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('ctsm51fates_derecho_norman_sp').src = 'ctsm51fates_derecho_norman_sp_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('ctsm51fates_derecho_norman_sp_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('RTM_ens36_case_0').src = 'RTM_ens36_case_0_' + RNAME + '_' + PNAME + '.png';
@@ -251,7 +259,9 @@
       <div style="display:none">
       <select id="MeanStateModel">
         <option value='Benchmark'>Benchmark</option>
-        <option value='ctsm51fates_derecho_2s_sp' selected="selected">ctsm51fates_derecho_2s_sp</option>
+        <option value='ctsm51fates_derecho_2s_nocomp' selected="selected">ctsm51fates_derecho_2s_nocomp</option>
+        <option value='ctsm51fates_derecho_2s_sp'>ctsm51fates_derecho_2s_sp</option>
+        <option value='ctsm51fates_derecho_norman_nocomp'>ctsm51fates_derecho_norman_nocomp</option>
         <option value='ctsm51fates_derecho_norman_sp'>ctsm51fates_derecho_norman_sp</option>
         <option value='RTM_ens36_case_0'>RTM_ens36_case_0</option>
       </select>
@@ -300,6 +310,25 @@
                <td></td>
              </tr>
              <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ctsm51fates_derecho_2s_nocomp</td>
+               <td onclick="highlightRowMeanState(this)"><a href="Fluxcom_ctsm51fates_derecho_2s_nocomp.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">30.0</td>
+               <td onclick="highlightRowMeanState(this)">35.4</td>
+               <td onclick="highlightRowMeanState(this)">48.8</td>
+               <td onclick="highlightRowMeanState(this)">17.3</td>
+               <td onclick="highlightRowMeanState(this)">64.9</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-12.7</td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)">1.03</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.495</td>
+               <td onclick="highlightRowMeanState(this)"></td>
+               <td onclick="highlightRowMeanState(this)">0.817</td>
+               <td onclick="highlightRowMeanState(this)">0.943</td>
+               <td onclick="highlightRowMeanState(this)"></td>
+             </tr>
+             <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">ctsm51fates_derecho_2s_sp</td>
                <td onclick="highlightRowMeanState(this)"><a href="Fluxcom_ctsm51fates_derecho_2s_sp.nc" download>[-]</a></td>
                <td onclick="highlightRowMeanState(this)">33.9</td>
@@ -317,6 +346,25 @@
                <td onclick="highlightRowMeanState(this)">0.876</td>
                <td onclick="highlightRowMeanState(this)">0.985</td>
                <td onclick="highlightRowMeanState(this)">0.746</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ctsm51fates_derecho_norman_nocomp</td>
+               <td onclick="highlightRowMeanState(this)"><a href="Fluxcom_ctsm51fates_derecho_norman_nocomp.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">29.8</td>
+               <td onclick="highlightRowMeanState(this)">35.1</td>
+               <td onclick="highlightRowMeanState(this)">48.8</td>
+               <td onclick="highlightRowMeanState(this)">17.2</td>
+               <td onclick="highlightRowMeanState(this)">64.9</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">-13.0</td>
+               <td onclick="highlightRowMeanState(this)">19.5</td>
+               <td onclick="highlightRowMeanState(this)">1.03</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.489</td>
+               <td onclick="highlightRowMeanState(this)">0.584</td>
+               <td onclick="highlightRowMeanState(this)">0.814</td>
+               <td onclick="highlightRowMeanState(this)">0.938</td>
+               <td onclick="highlightRowMeanState(this)"></td>
              </tr>
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">ctsm51fates_derecho_norman_sp</td>
@@ -510,11 +558,25 @@
           <center><img src="legend_Benchmark.png" id="Benchmark_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
+        <div class="container" id="ctsm51fates_derecho_2s_nocomp_div">
+          <div class="child">
+          <center>ctsm51fates_derecho_2s_nocomp</center>
+          <img src="" id="ctsm51fates_derecho_2s_nocomp" alt="Data not available" ></img>
+          <center><img src="legend_ctsm51fates_derecho_2s_nocomp.png" id="ctsm51fates_derecho_2s_nocomp_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
         <div class="container" id="ctsm51fates_derecho_2s_sp_div">
           <div class="child">
           <center>ctsm51fates_derecho_2s_sp</center>
           <img src="" id="ctsm51fates_derecho_2s_sp" alt="Data not available" ></img>
           <center><img src="legend_ctsm51fates_derecho_2s_sp.png" id="ctsm51fates_derecho_2s_sp_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="ctsm51fates_derecho_norman_nocomp_div">
+          <div class="child">
+          <center>ctsm51fates_derecho_norman_nocomp</center>
+          <img src="" id="ctsm51fates_derecho_norman_nocomp" alt="Data not available" ></img>
+          <center><img src="legend_ctsm51fates_derecho_norman_nocomp.png" id="ctsm51fates_derecho_norman_nocomp_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
         <div class="container" id="ctsm51fates_derecho_norman_sp_div">

@@ -1,10 +1,7 @@
-Variables,ctsm51fates_derecho_2s_nocomp_detsort,ctsm51fates_derecho_2s_nocomp,ctsm51fates_derecho_norman_nocomp,RTM_ens36_case_0
-Biomass ,--,--,--,--
-Leaf Area Index,~,~,~,~
-Net Ecosystem Exchange,--,0.21660496090180104,0.21268288619383957,--
-Ecosystem Respiration,--,0.45896744216359925,0.46288179399635787,--
-Gross Primary Productivity,--,0.5755702064701744,0.5756502788232915,0.5101114401513638
-Evapotranspiration,--,0.6311972879568339,0.628351003248366,--
-Latent Heat,--,0.6903125070569373,0.6894092764716827,--
-Sensible Heat,--,0.7183791566541101,0.7136565418637438,--
-Albedo,~,~,~,~
+Variables,ctsm51fates_derecho_2s_sp,ctsm51fates_derecho_norman_sp,RTM_ens36_case_0
+Gross Primary Productivity,0.6715229576662473,0.6706502615774877,0.5101114401513638
+Evapotranspiration,0.6795052537241137,0.6740960096924253,--
+Latent Heat,0.7441567303862812,0.7420700366404622,--
+Sensible Heat,0.7319272607773644,0.7136881394949585,--
+Runoff,0.652840855459398,0.6544826972901535,0.6709395559135817
+Albedo,~,~,~

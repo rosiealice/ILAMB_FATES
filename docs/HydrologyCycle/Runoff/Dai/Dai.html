@@ -203,19 +203,27 @@
         }
         if(PNAME == "amazon" || PNAME == "ob" || PNAME == "lena" || PNAME == "yenisey" || PNAME == "mississippi" || PNAME == "congo" || PNAME == "mackenzie" || PNAME == "parana" || PNAME == "nile" || PNAME == "amur" || PNAME == "niger" || PNAME == "changjiang" || PNAME == "yukon" || PNAME == "nelson" || PNAME == "stlawrence" || PNAME == "kolyma" || PNAME == "murray" || PNAME == "danube" || PNAME == "indus" || PNAME == "orange" || PNAME == "ganges" || PNAME == "columbia" || PNAME == "huanghe" || PNAME == "indigirka" || PNAME == "orinoco" || PNAME == "tocantins" || PNAME == "mekong" || PNAME == "severnayadvina" || PNAME == "dnepr" || PNAME == "colorado" || PNAME == "pechora" || PNAME == "brahmaputra" || PNAME == "riogrande" || PNAME == "coruripe" || PNAME == "don" || PNAME == "olenek" || PNAME == "yana" || PNAME == "churchill" || PNAME == "xijiang" || PNAME == "senegal" || PNAME == "irrawaddy" || PNAME == "volta" || PNAME == "fraser" || PNAME == "taz" || PNAME == "rhine" || PNAME == "vistula" || PNAME == "parnaiba" || PNAME == "huai" || PNAME == "liao" || PNAME == "kuskokwim"){
           document.getElementById("Benchmark_legend").style.display = 'none';
+          document.getElementById("ctsm51fates_derecho_2s_nocomp_legend").style.display = 'none';
           document.getElementById("ctsm51fates_derecho_2s_sp_legend").style.display = 'none';
+          document.getElementById("ctsm51fates_derecho_norman_nocomp_legend").style.display = 'none';
           document.getElementById("ctsm51fates_derecho_norman_sp_legend").style.display = 'none';
           document.getElementById("RTM_ens36_case_0_legend").style.display = 'none';
         }else{
           document.getElementById("Benchmark_legend").style.display = 'inline';
+          document.getElementById("ctsm51fates_derecho_2s_nocomp_legend").style.display = 'inline';
           document.getElementById("ctsm51fates_derecho_2s_sp_legend").style.display = 'inline';
+          document.getElementById("ctsm51fates_derecho_norman_nocomp_legend").style.display = 'inline';
           document.getElementById("ctsm51fates_derecho_norman_sp_legend").style.display = 'inline';
           document.getElementById("RTM_ens36_case_0_legend").style.display = 'inline';
         }
         document.getElementById('Benchmark').src = 'Benchmark_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('Benchmark_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('ctsm51fates_derecho_2s_nocomp').src = 'ctsm51fates_derecho_2s_nocomp_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('ctsm51fates_derecho_2s_nocomp_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('ctsm51fates_derecho_2s_sp').src = 'ctsm51fates_derecho_2s_sp_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('ctsm51fates_derecho_2s_sp_legend').src = 'legend_' + PNAME + '.png';
+        document.getElementById('ctsm51fates_derecho_norman_nocomp').src = 'ctsm51fates_derecho_norman_nocomp_' + RNAME + '_' + PNAME + '.png';
+        document.getElementById('ctsm51fates_derecho_norman_nocomp_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('ctsm51fates_derecho_norman_sp').src = 'ctsm51fates_derecho_norman_sp_' + RNAME + '_' + PNAME + '.png';
         document.getElementById('ctsm51fates_derecho_norman_sp_legend').src = 'legend_' + PNAME + '.png';
         document.getElementById('RTM_ens36_case_0').src = 'RTM_ens36_case_0_' + RNAME + '_' + PNAME + '.png';
@@ -290,7 +298,9 @@
       <div style="display:none">
       <select id="MeanStateModel">
         <option value='Benchmark'>Benchmark</option>
-        <option value='ctsm51fates_derecho_2s_sp' selected="selected">ctsm51fates_derecho_2s_sp</option>
+        <option value='ctsm51fates_derecho_2s_nocomp' selected="selected">ctsm51fates_derecho_2s_nocomp</option>
+        <option value='ctsm51fates_derecho_2s_sp'>ctsm51fates_derecho_2s_sp</option>
+        <option value='ctsm51fates_derecho_norman_nocomp'>ctsm51fates_derecho_norman_nocomp</option>
         <option value='ctsm51fates_derecho_norman_sp'>ctsm51fates_derecho_norman_sp</option>
         <option value='RTM_ens36_case_0'>RTM_ens36_case_0</option>
       </select>
@@ -325,6 +335,18 @@
                <td></td>
              </tr>
              <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ctsm51fates_derecho_2s_nocomp</td>
+               <td onclick="highlightRowMeanState(this)"><a href="Dai_ctsm51fates_derecho_2s_nocomp.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">1.11</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.299</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.713</td>
+               <td onclick="highlightRowMeanState(this)">0.712</td>
+               <td onclick="highlightRowMeanState(this)">0.468</td>
+               <td onclick="highlightRowMeanState(this)"></td>
+             </tr>
+             <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">ctsm51fates_derecho_2s_sp</td>
                <td onclick="highlightRowMeanState(this)"><a href="Dai_ctsm51fates_derecho_2s_sp.nc" download>[-]</a></td>
                <td onclick="highlightRowMeanState(this)">0.949</td>
@@ -335,6 +357,18 @@
                <td onclick="highlightRowMeanState(this)">0.682</td>
                <td onclick="highlightRowMeanState(this)">0.526</td>
                <td onclick="highlightRowMeanState(this)">0.653</td>
+             </tr>
+             <tr>
+               <td onclick="highlightRowMeanState(this)" class="row-header">ctsm51fates_derecho_norman_nocomp</td>
+               <td onclick="highlightRowMeanState(this)"><a href="Dai_ctsm51fates_derecho_norman_nocomp.nc" download>[-]</a></td>
+               <td onclick="highlightRowMeanState(this)">1.12</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.309</td>
+               <td onclick="highlightRowMeanState(this)" class="divider"></td>
+               <td onclick="highlightRowMeanState(this)">0.708</td>
+               <td onclick="highlightRowMeanState(this)">0.713</td>
+               <td onclick="highlightRowMeanState(this)">0.468</td>
+               <td onclick="highlightRowMeanState(this)"></td>
              </tr>
              <tr>
                <td onclick="highlightRowMeanState(this)" class="row-header">ctsm51fates_derecho_norman_sp</td>
@@ -782,11 +816,25 @@
           <center><img src="legend_Benchmark.png" id="Benchmark_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
+        <div class="container" id="ctsm51fates_derecho_2s_nocomp_div">
+          <div class="child">
+          <center>ctsm51fates_derecho_2s_nocomp</center>
+          <img src="" id="ctsm51fates_derecho_2s_nocomp" alt="Data not available" ></img>
+          <center><img src="legend_ctsm51fates_derecho_2s_nocomp.png" id="ctsm51fates_derecho_2s_nocomp_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
         <div class="container" id="ctsm51fates_derecho_2s_sp_div">
           <div class="child">
           <center>ctsm51fates_derecho_2s_sp</center>
           <img src="" id="ctsm51fates_derecho_2s_sp" alt="Data not available" ></img>
           <center><img src="legend_ctsm51fates_derecho_2s_sp.png" id="ctsm51fates_derecho_2s_sp_legend"  alt="Data not available" ></img></center>
+          </div>
+        </div>
+        <div class="container" id="ctsm51fates_derecho_norman_nocomp_div">
+          <div class="child">
+          <center>ctsm51fates_derecho_norman_nocomp</center>
+          <img src="" id="ctsm51fates_derecho_norman_nocomp" alt="Data not available" ></img>
+          <center><img src="legend_ctsm51fates_derecho_norman_nocomp.png" id="ctsm51fates_derecho_norman_nocomp_legend"  alt="Data not available" ></img></center>
           </div>
         </div>
         <div class="container" id="ctsm51fates_derecho_norman_sp_div">
